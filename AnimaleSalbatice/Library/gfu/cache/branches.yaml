@@ -13,47 +13,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-11-29T19:07:23.326+02:00
-  initializedAtString: 2020-11-29T19:07:23.294+02:00
+  lastUpdatedAtString: 2020-11-29T19:55:11.489+02:00
+  initializedAtString: 2020-11-29T19:46:17.435+02:00
   localBranches:
-  - name: Lab1
-    tracking: 
-  - name: MonicaVladareanCurs9
-    tracking: 
-  - name: Monica_Vladarean
-    tracking: origin/Monica_Vladarean
+  - name: main
+    tracking: origin/main
   remoteBranches:
-  - name: origin/BiancaIrimia
+  - name: origin/HEAD
     tracking: '[None]'
-  - name: origin/DanielRoiu
-    tracking: '[None]'
-  - name: origin/dinugarbuz-curs5
-    tracking: '[None]'
-  - name: origin/DragosTataru
-    tracking: '[None]'
-  - name: origin/elenastroie-curs-5
-    tracking: '[None]'
-  - name: origin/GarbuzDinu-curs6
-    tracking: '[None]'
-  - name: origin/GarbuzDinu-curs7
-    tracking: '[None]'
-  - name: origin/master
-    tracking: '[None]'
-  - name: origin/MateiSirbu
-    tracking: '[None]'
-  - name: origin/MateiSirbu-Curs5
-    tracking: '[None]'
-  - name: origin/Monica_Vladarean
-    tracking: '[None]'
-  - name: origin/Radu-Virgil-Andrei
-    tracking: '[None]'
-  - name: origin/RalucaBorcea-branch
-    tracking: '[None]'
-  - name: origin/Teodor_Nicorescu
+  - name: origin/main
     tracking: '[None]'
   remotes:
   - name: origin
-    url: https://github.com/cursunitwaters/angular.git
+    url: https://github.com/monicavladarean/PowerpufUnicorns.git
     login: 
     user: 
     host: 
@@ -61,119 +33,35 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - Lab1
-    - MonicaVladareanCurs9
-    - Monica_Vladarean
+    - main
     values:
-    - name: Lab1
-      remote:
-        name: 
-        url: 
-      trackingBranch: 
-    - name: MonicaVladareanCurs9
-      remote:
-        name: 
-        url: 
-      trackingBranch: 
-    - name: Monica_Vladarean
+    - name: main
       remote:
         name: origin
-        url: https://github.com/cursunitwaters/angular.git
-      trackingBranch: Monica_Vladarean
+        url: https://github.com/monicavladarean/PowerpufUnicorns.git
+      trackingBranch: main
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - BiancaIrimia
-      - DanielRoiu
-      - dinugarbuz-curs5
-      - DragosTataru
-      - elenastroie-curs-5
-      - GarbuzDinu-curs6
-      - GarbuzDinu-curs7
-      - master
-      - MateiSirbu
-      - MateiSirbu-Curs5
-      - Monica_Vladarean
-      - Radu-Virgil-Andrei
-      - RalucaBorcea-branch
-      - Teodor_Nicorescu
+      - HEAD
+      - main
     subKeyValues:
     - Values:
-      - name: BiancaIrimia
+      - name: HEAD
         remote:
           name: origin
-          url: https://github.com/cursunitwaters/angular.git
+          url: https://github.com/monicavladarean/PowerpufUnicorns.git
         trackingBranch: 
-      - name: DanielRoiu
+      - name: main
         remote:
           name: origin
-          url: https://github.com/cursunitwaters/angular.git
-        trackingBranch: 
-      - name: dinugarbuz-curs5
-        remote:
-          name: origin
-          url: https://github.com/cursunitwaters/angular.git
-        trackingBranch: 
-      - name: DragosTataru
-        remote:
-          name: origin
-          url: https://github.com/cursunitwaters/angular.git
-        trackingBranch: 
-      - name: elenastroie-curs-5
-        remote:
-          name: origin
-          url: https://github.com/cursunitwaters/angular.git
-        trackingBranch: 
-      - name: GarbuzDinu-curs6
-        remote:
-          name: origin
-          url: https://github.com/cursunitwaters/angular.git
-        trackingBranch: 
-      - name: GarbuzDinu-curs7
-        remote:
-          name: origin
-          url: https://github.com/cursunitwaters/angular.git
-        trackingBranch: 
-      - name: master
-        remote:
-          name: origin
-          url: https://github.com/cursunitwaters/angular.git
-        trackingBranch: 
-      - name: MateiSirbu
-        remote:
-          name: origin
-          url: https://github.com/cursunitwaters/angular.git
-        trackingBranch: 
-      - name: MateiSirbu-Curs5
-        remote:
-          name: origin
-          url: https://github.com/cursunitwaters/angular.git
-        trackingBranch: 
-      - name: Monica_Vladarean
-        remote:
-          name: origin
-          url: https://github.com/cursunitwaters/angular.git
-        trackingBranch: 
-      - name: Radu-Virgil-Andrei
-        remote:
-          name: origin
-          url: https://github.com/cursunitwaters/angular.git
-        trackingBranch: 
-      - name: RalucaBorcea-branch
-        remote:
-          name: origin
-          url: https://github.com/cursunitwaters/angular.git
-        trackingBranch: 
-      - name: Teodor_Nicorescu
-        remote:
-          name: origin
-          url: https://github.com/cursunitwaters/angular.git
+          url: https://github.com/monicavladarean/PowerpufUnicorns.git
         trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: https://github.com/cursunitwaters/angular.git
+      url: https://github.com/monicavladarean/PowerpufUnicorns.git
