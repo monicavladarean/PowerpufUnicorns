@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-12-01T20:03:17.699+02:00
+  lastUpdatedAtString: 2020-12-01T20:04:32.641+02:00
   initializedAtString: 2020-12-01T11:17:00.905+02:00
   entries:
-  - path: AnimaleSalbatice\Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
+  - path: AnimaleSalbatice\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
