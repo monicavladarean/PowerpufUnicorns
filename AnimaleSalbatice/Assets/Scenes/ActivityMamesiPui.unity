@@ -319,7 +319,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aad07124ec1ad5241a6c60a9b211562c, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bd042a89b026fc4ab69e55bb0e397c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!20 &519420031
@@ -536,7 +536,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1115455980}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.008, y: -0.017, z: 0}
+  m_LocalPosition: {x: -0.07, y: 0.01, z: 0}
   m_LocalScale: {x: 2.2749064, y: 1.7676435, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -554,6 +554,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad07124ec1ad5241a6c60a9b211562c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lup: {fileID: 0}
+  veverita: {fileID: 0}
+  urs: {fileID: 0}
+  vulpe: {fileID: 0}
+  caprioara: {fileID: 0}
+  caprioaraBebe: {fileID: 0}
+  lupBebe: {fileID: 0}
+  ursBebe: {fileID: 0}
+  vulpeBebe: {fileID: 0}
+  veveritaBebe: {fileID: 0}
+  count: 0
 --- !u!1 &1346211601
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,7 +993,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686393064}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.24, y: -0.41, z: 0}
+  m_LocalPosition: {x: -9.32, y: -0.71, z: -2}
   m_LocalScale: {x: 0.88157886, y: 0.88157886, z: 0.88157886}
   m_Children: []
   m_Father: {fileID: 0}
