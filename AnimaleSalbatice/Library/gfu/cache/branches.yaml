@@ -13,12 +13,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-11-29T19:55:11.489+02:00
-  initializedAtString: 2020-11-29T19:46:17.435+02:00
+  lastUpdatedAtString: 2020-12-01T20:02:44.313+02:00
+  initializedAtString: 2020-12-01T19:57:10.766+02:00
   localBranches:
+  - name: activity-mameSiPui
+    tracking: origin/activity-mameSiPui
   - name: main
     tracking: origin/main
   remoteBranches:
+  - name: origin/activity-mameSiPui
+    tracking: '[None]'
+  - name: origin/activity-undeDorm
+    tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/main
@@ -33,8 +39,14 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - activity-mameSiPui
     - main
     values:
+    - name: activity-mameSiPui
+      remote:
+        name: origin
+        url: https://github.com/monicavladarean/PowerpufUnicorns.git
+      trackingBranch: activity-mameSiPui
     - name: main
       remote:
         name: origin
@@ -45,10 +57,22 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
+      - activity-mameSiPui
+      - activity-undeDorm
       - HEAD
       - main
     subKeyValues:
     - Values:
+      - name: activity-mameSiPui
+        remote:
+          name: origin
+          url: https://github.com/monicavladarean/PowerpufUnicorns.git
+        trackingBranch: 
+      - name: activity-undeDorm
+        remote:
+          name: origin
+          url: https://github.com/monicavladarean/PowerpufUnicorns.git
+        trackingBranch: 
       - name: HEAD
         remote:
           name: origin
