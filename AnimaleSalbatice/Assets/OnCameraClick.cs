@@ -6,6 +6,7 @@ public class OnCameraClick : MonoBehaviour
 {
 
     private GameObject bebeCaprioara,parinteCaprioara, casaCaprioaraH,bebeVulpe,casaVulpeH,bebeLup,parinteLup,casaLupH,bebeVeverita,parinteVeverita,casaVeveritaH,bebeUrs,casaUrsH,bebeVeveInCasa;
+    private GameObject border;
     private AudioSource successAudio;
     private AudioSource warningAudio;
     private AudioSource helpAudio;
@@ -33,6 +34,9 @@ public class OnCameraClick : MonoBehaviour
         parinteLup = GameObject.Find("parinteLup");
         bebeUrs = GameObject.Find("bebeUrs");
         casaUrsH = GameObject.Find("casaUrsH");
+
+        border = GameObject.Find("border");
+        border.GetComponent<Renderer>().enabled = false;
 
         lastTagClicked = "";
         successAudio = GameObject.Find("successAudio").GetComponent<AudioSource>();
@@ -70,42 +74,12 @@ public class OnCameraClick : MonoBehaviour
             faceJoculParteaPtAnimalulDat();
             helpAudio.Play(0);
             lastTagClicked = "";
+            border.GetComponent<Renderer>().enabled = false;
             errorCount[key] = 0;
         }
     }
 
-    //void adaugaEroareErrorCount() {
-    //    if (this.lastTagClicked == "bebeCaprioara")
-    //    {
-    //        casaCaprioaraH.GetComponent<Renderer>().enabled = false;
-    //        bebeCaprioara.transform.position = new Vector3(-9.53f, -1.18f, 0f);
-    //        bebeCaprioara.transform.localScale = new Vector3(0.4869357f, 0.388387f, 0f);
-    //        parinteCaprioara.transform.position = new Vector3(-8.63f, -0.97f, 0f);
-    //        parinteCaprioara.transform.localScale = new Vector3(0.8036403f, 0.7283679f, 0f);
-    //    }
-    //    else if (this.lastTagClicked == "bebeVulpe")
-    //    {
-    //        casaVulpeH.GetComponent<Renderer>().enabled = false;
-    //        bebeVulpe.transform.position = new Vector3(-10.02f, -4.35f, 0f);
-    //    }
-    //    else if (this.lastTagClicked == "bebeUrs")
-    //    {
-    //        casaUrsH.GetComponent<Renderer>().enabled = false;
-    //        bebeUrs.transform.position = new Vector3(-3.27f, 0.96f, 0f);
-    //        bebeUrs.transform.localScale = new Vector3(0.2929426f, 0.2998285f, 1f);
-    //    }
-    //    else if (this.lastTagClicked == "bebeLup")
-    //    {
-    //        casaLupH.GetComponent<Renderer>().enabled = false;
-    //        bebeLup.transform.position = new Vector3(2.76f, -0.68f, 0f);
-    //        bebeLup.transform.localScale = new Vector3(0.2698921f, 0.2041328f, 1f);
-    //        parinteLup.transform.position = new Vector3(3.56f, -0.43f, 0f);
-    //        parinteLup.transform.localScale = new Vector3(0.07892895f, 0.08191492f, 1f);
-    //    }
-    //    else if (this.lastTagClicked == "bebeVeverita") {
-
-    //    }
-    //}
+   
 
 
     void faceJoculParteaPtAnimalulDat() {
@@ -163,6 +137,10 @@ public class OnCameraClick : MonoBehaviour
                 {
                     lastTagClicked = "bebeVeverita";
                     Debug.Log("bebeVeverita clicked ");
+                    border.GetComponent<Renderer>().enabled = true;
+                    border.transform.position = new Vector3(4.57f, -3.34f, 0f);
+                    border.transform.localScale = new Vector3(0.2176717f, 0.2309851f, 1f);
+
                 }
                 else if (hit.collider.tag == "casaVeveritaH")
                 {
@@ -172,6 +150,7 @@ public class OnCameraClick : MonoBehaviour
                         successAudio.Play(0);
                         faceJoculParteaPtAnimalulDat();
                         lastTagClicked = "";
+                        border.GetComponent<Renderer>().enabled = false;
                     }
                     else
                     {
@@ -197,13 +176,16 @@ public class OnCameraClick : MonoBehaviour
                 {
                     Debug.Log("bebeCaprioara clicked");
                     lastTagClicked = "bebeCaprioara";
+                    border.GetComponent<Renderer>().enabled = true;
+                    border.transform.position = new Vector3(-0.52f, -1.398f, 0f);
+                    border.transform.localScale = new Vector3(0.5362512f, 0.6111318f, 1f);
                 }
                 else if (hit.collider.tag == "casaCaprioaraH") {
                     if (lastTagClicked == "bebeCaprioara")
                     {
                         Debug.Log("casaCaprioara clicked");
                         successAudio.Play(0);
-                        
+                        border.GetComponent<Renderer>().enabled = false ;
                         faceJoculParteaPtAnimalulDat();
                         lastTagClicked = "";
                     }
@@ -228,6 +210,9 @@ public class OnCameraClick : MonoBehaviour
                 {
                     Debug.Log("bebeLup clicked");
                     lastTagClicked = "bebeLup";
+                    border.GetComponent<Renderer>().enabled = true;
+                    border.transform.position = new Vector3(-3.6136f, -1.7674f, 0f);
+                    border.transform.localScale = new Vector3(0.5362512f, 0.4330884f, 1f);
                 }
                 else if (hit.collider.tag == "casaLupH")
                 {
@@ -235,7 +220,7 @@ public class OnCameraClick : MonoBehaviour
                     {
                         Debug.Log("casaLup clicked");
                         successAudio.Play(0);
-
+                        border.GetComponent<Renderer>().enabled = false;
                         faceJoculParteaPtAnimalulDat();
                         lastTagClicked = "";
                     }
@@ -261,6 +246,9 @@ public class OnCameraClick : MonoBehaviour
                 {
                     Debug.Log("bebeVulpe clicked");
                     lastTagClicked = "bebeVulpe";
+                    border.GetComponent<Renderer>().enabled = true;
+                    border.transform.position = new Vector3(-1.89f, -3.866f, 0f);
+                    border.transform.localScale = new Vector3(0.2436024f, 0.3224128f, 1f);
                 }
                 else if (hit.collider.tag == "casaVulpeH")
                 {
@@ -268,7 +256,7 @@ public class OnCameraClick : MonoBehaviour
                     {
                         Debug.Log("casaVulpe clicked");
                         successAudio.Play(0);
-
+                        border.GetComponent<Renderer>().enabled = false;
                         faceJoculParteaPtAnimalulDat();
                         lastTagClicked = "";
                     }
@@ -294,6 +282,9 @@ public class OnCameraClick : MonoBehaviour
                 {
                     Debug.Log("bebeUrs clicked");
                     lastTagClicked = "bebeUrs";
+                    border.GetComponent<Renderer>().enabled = true;
+                    border.transform.position = new Vector3(2.24f, -3.58f, 0f);
+                    border.transform.localScale = new Vector3(0.6881319f, 0.6688757f, 1f);
                 }
                 else if (hit.collider.tag == "casaUrsH")
                 {
@@ -301,7 +292,7 @@ public class OnCameraClick : MonoBehaviour
                     {
                         Debug.Log("casaUrs clicked");
                         successAudio.Play(0);
-
+                        border.GetComponent<Renderer>().enabled = false;
                         faceJoculParteaPtAnimalulDat();
                         lastTagClicked = "";
                     }
