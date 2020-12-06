@@ -129,12 +129,19 @@ public class OnCameraClick : MonoBehaviour
             bebeUrs.transform.position = new Vector3(-3.27f, 0.96f, 0f);
             bebeUrs.transform.localScale = new Vector3(0.2929426f, 0.2998285f, 1f);
         }
-        else if (this.lastTagClicked == "bebeLup") {
+        else if (this.lastTagClicked == "bebeLup")
+        {
             casaLupH.GetComponent<Renderer>().enabled = false;
             bebeLup.transform.position = new Vector3(2.76f, -0.68f, 0f);
             bebeLup.transform.localScale = new Vector3(0.2698921f, 0.2041328f, 1f);
             parinteLup.transform.position = new Vector3(3.56f, -0.43f, 0f);
             parinteLup.transform.localScale = new Vector3(0.07892895f, 0.08191492f, 1f);
+        }
+        else if (this.lastTagClicked == "bebeVeverita") {
+            bebeVeveInCasa.GetComponent<Renderer>().enabled = true;
+            casaVeveritaH.GetComponent<Renderer>().enabled = false;
+            bebeVeverita.GetComponent<Renderer>().enabled = false;
+            parinteVeverita.GetComponent<Renderer>().enabled = false;
         }
 
     }
@@ -163,10 +170,7 @@ public class OnCameraClick : MonoBehaviour
                     {
                         Debug.Log("casaVeverita clicked");
                         successAudio.Play(0);
-                        bebeVeveInCasa.GetComponent<Renderer>().enabled = true;
-                        casaVeveritaH.GetComponent<Renderer>().enabled = false;
-                        bebeVeverita.GetComponent<Renderer>().enabled = false;
-                        parinteVeverita.GetComponent<Renderer>().enabled = false;
+                        faceJoculParteaPtAnimalulDat();
                         lastTagClicked = "";
                     }
                     else
