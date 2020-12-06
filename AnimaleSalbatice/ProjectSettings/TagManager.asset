@@ -3,7 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - casaVeveritaH
+  - bebeVeverita
+  - parinteVeverita
+  - bebeVeveritaInCasa
+  - bebeLup
+  - parinteLup
+  - bebeCaprioara
+  - parinteCaprioara
+  - bebeUrs
+  - casaUrsH
+  - casaCaprioaraH
+  - casaLupH
+  - casaVulpeH
+  - bebeVulpe
   layers:
   - Default
   - TransparentFX
@@ -40,4 +54,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 2429648501
     locked: 0
