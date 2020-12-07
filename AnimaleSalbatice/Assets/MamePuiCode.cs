@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ActivityCodeMameSiPui : MonoBehaviour
+public class MamePuiCode : MonoBehaviour
 {
     GameObject lup, veverita, urs, vulpe, caprioara;
     GameObject caprioaraBebe, lupBebe, ursBebe, vulpeBebe, veveritaBebe;
