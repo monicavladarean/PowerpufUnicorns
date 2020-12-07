@@ -13,9 +13,57 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-12-07T17:10:06.378+02:00
+  lastUpdatedAtString: 2020-12-07T17:13:59.407+02:00
   initializedAtString: 2020-12-07T17:10:06.168+02:00
   log:
+  - commitID: ec7bd114643b4e4d5a2a11a391278485d26f6418
+    mergeA: 
+    mergeB: 
+    authorName: BacrauAna
+    authorEmail: 51128973+BacrauAna@users.noreply.github.com
+    commitEmail: 51128973+BacrauAna@users.noreply.github.com
+    commitName: BacrauAna
+    summary: 2
+    description: 
+    timeString: 2020-12-07T17:10:32.000+02:00
+    commitTimeString: 2020-12-07T17:10:32.000+02:00
+    changes:
+    - path: AnimaleSalbatice\Assets\Scenes\Numara_Activity.unity
+      fullPath: D:\an3\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\Numara_Activity.unity
+      projectPath: Assets\Scenes\Numara_Activity.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: AnimaleSalbatice\Library\SourceAssetDB
+      fullPath: D:\an3\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: AnimaleSalbatice\Library\gfu\cache\branches.yaml
+      fullPath: D:\an3\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: AnimaleSalbatice\Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\an3\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: AnimaleSalbatice\Library\gfu\cache\gitlog.yaml
+      fullPath: D:\an3\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: AnimaleSalbatice\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\an3\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 36ed390bdcacc2647f711361639629e0727f24c3
     mergeA: 
     mergeB: 

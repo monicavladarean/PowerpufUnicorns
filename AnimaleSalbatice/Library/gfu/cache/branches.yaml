@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-12-07T17:10:02.880+02:00
+  lastUpdatedAtString: 2020-12-07T17:13:50.314+02:00
   initializedAtString: 2020-12-07T17:10:02.851+02:00
   localBranches:
   - name: activity-numara
