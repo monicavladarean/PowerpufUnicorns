@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class startScript : MonoBehaviour
 {
@@ -26,6 +27,7 @@ public class startScript : MonoBehaviour
                 if (hit.collider.name == "startButon")
                 {
                     Debug.Log("game starts");
+                    SceneManager.LoadScene("ActivityMamesiPui");
                 }
             }
         }
