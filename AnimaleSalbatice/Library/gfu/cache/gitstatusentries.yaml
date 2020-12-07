@@ -13,33 +13,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-12-07T19:37:31.397+02:00
-  initializedAtString: 2020-12-07T19:29:08.809+02:00
+  lastUpdatedAtString: 2020-12-07T20:13:30.257+02:00
+  initializedAtString: 2020-12-07T20:10:31.725+02:00
   entries:
-  - path: AnimaleSalbatice\Assets\MamePuiCode.cs
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\MamePuiCode.cs
-    projectPath: Assets\MamePuiCode.cs
+  - path: AnimaleSalbatice\Assets\Script_Numara.cs
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Script_Numara.cs
+    projectPath: Assets\Script_Numara.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: AnimaleSalbatice\Assets\Scenes\ActivityCode.cs
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\ActivityCode.cs
-    projectPath: Assets\Scenes\ActivityCode.cs
+  - path: AnimaleSalbatice\Assets\Urs.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Urs.png
+    projectPath: Assets\Urs.png
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: AnimaleSalbatice\Assets\Scenes\ActivityCode.cs.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\ActivityCode.cs.meta
-    projectPath: Assets\Scenes\ActivityCode.cs.meta
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\Assets\Urs.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Urs.png.meta
+    projectPath: Assets\Urs.png.meta
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: AnimaleSalbatice\Assets\Scenes\ActivityMamesiPui.unity.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\ActivityMamesiPui.unity.meta
-    projectPath: Assets\Scenes\ActivityMamesiPui.unity.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    workTreeStatus: 3
   - path: AnimaleSalbatice\Library\APIUpdater\project-dependencies.graph
     fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\APIUpdater\project-dependencies.graph
     projectPath: Library\APIUpdater\project-dependencies.graph
@@ -256,12 +250,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: AnimaleSalbatice\Library\ShaderCache\EditorEncounteredVariants
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\ShaderCache\EditorEncounteredVariants
-    projectPath: Library\ShaderCache\EditorEncounteredVariants
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: AnimaleSalbatice\Library\SourceAssetDB
     fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
@@ -271,6 +259,12 @@ MonoBehaviour:
   - path: AnimaleSalbatice\Library\StateCache\Hierarchy\6a784e-mainStage.json
     fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\StateCache\Hierarchy\6a784e-mainStage.json
     projectPath: Library\StateCache\Hierarchy\6a784e-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\Packages\packages-lock.json
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Packages\packages-lock.json
+    projectPath: Packages\packages-lock.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

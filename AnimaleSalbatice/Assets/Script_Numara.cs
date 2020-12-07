@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Script_Numara : MonoBehaviour
 {
@@ -106,7 +107,7 @@ public class Script_Numara : MonoBehaviour
                         count++;
                         pic.transform.position = new Vector3(0.62f, -0.1f, -2f);
                         Debug.Log("Picnicul e gata!!!");
-
+                        SceneManager.LoadScene("Activity4");
                     }
                 }
             }
