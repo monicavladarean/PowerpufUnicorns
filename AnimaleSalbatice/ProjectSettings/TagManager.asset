@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - unu
+  - doi
+  - trei
+  - carnuri
+  - ghinde
+  - iarba
+  - miere
+  - pesti
+  - picnic
   layers:
   - Default
   - TransparentFX
