@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MamePuiCode : MonoBehaviour
 {
@@ -100,6 +101,7 @@ public class MamePuiCode : MonoBehaviour
                         veverita.SetActive(false);
                         count++;
                         veveritaBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                        SceneManager.LoadScene("Numara_Activity");
                     }
                 }
             }
