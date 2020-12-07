@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32daaa41-3205-4e0c-9459-c859436af2d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/AnimaleSalbatice/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/AnimaleSalbatice/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimaleSalbatice/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/AnimaleSalbatice/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimaleSalbatice/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AnimaleSalbatice/Library/LastSceneManagerSetup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimaleSalbatice/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/AnimaleSalbatice/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimaleSalbatice/Library/gfu/cache/gitlocks.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/AnimaleSalbatice/Library/gfu/cache/gitlocks.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimaleSalbatice/Library/gfu/cache/gitstatusentries.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/AnimaleSalbatice/Library/gfu/cache/gitstatusentries.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimaleSalbatice/Library/gfu/cache/repoinfo.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/AnimaleSalbatice/Library/gfu/cache/repoinfo.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimaleSalbatice/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/AnimaleSalbatice/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +45,7 @@
       <updated>1607372655415</updated>
       <workItem from="1607372656842" duration="240000" />
       <workItem from="1607372956365" duration="690000" />
-      <workItem from="1607375332023" duration="1080000" />
+      <workItem from="1607375332023" duration="1702000" />
     </task>
     <servers />
   </component>
