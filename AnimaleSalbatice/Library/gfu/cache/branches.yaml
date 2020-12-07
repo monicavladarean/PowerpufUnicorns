@@ -13,27 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-12-07T17:20:58.179+02:00
-  initializedAtString: 2020-12-07T17:10:02.851+02:00
+  lastUpdatedAtString: 2020-12-05T15:22:54.807+02:00
+  initializedAtString: 2020-12-05T00:21:51.265+02:00
   localBranches:
-  - name: activity-numara
-    tracking: origin/activity-numara
-  - name: activity-numarat
-    tracking: origin/activity-numarat
   - name: main
     tracking: origin/main
+  - name: feature/puzzle
+    tracking: 
   remoteBranches:
-  - name: origin/activity-mameSiPui
-    tracking: '[None]'
-  - name: origin/activity-numara
-    tracking: '[None]'
-  - name: origin/activity-numarat
-    tracking: '[None]'
-  - name: origin/activity-undeDorm
-    tracking: '[None]'
   - name: origin/HEAD
-    tracking: '[None]'
-  - name: origin/Mancare
     tracking: '[None]'
   remotes:
   - name: origin
@@ -45,64 +33,28 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - activity-numara
-    - activity-numarat
     - main
+    - feature/puzzle
     values:
-    - name: activity-numara
-      remote:
-        name: origin
-        url: https://github.com/monicavladarean/PowerpufUnicorns.git
-      trackingBranch: activity-numara
-    - name: activity-numarat
-      remote:
-        name: origin
-        url: https://github.com/monicavladarean/PowerpufUnicorns.git
-      trackingBranch: activity-numarat
     - name: main
       remote:
         name: origin
         url: https://github.com/monicavladarean/PowerpufUnicorns.git
       trackingBranch: main
+    - name: feature/puzzle
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - activity-mameSiPui
-      - activity-numara
-      - activity-numarat
-      - activity-undeDorm
       - HEAD
-      - Mancare
     subKeyValues:
     - Values:
-      - name: activity-mameSiPui
-        remote:
-          name: origin
-          url: https://github.com/monicavladarean/PowerpufUnicorns.git
-        trackingBranch: 
-      - name: activity-numara
-        remote:
-          name: origin
-          url: https://github.com/monicavladarean/PowerpufUnicorns.git
-        trackingBranch: 
-      - name: activity-numarat
-        remote:
-          name: origin
-          url: https://github.com/monicavladarean/PowerpufUnicorns.git
-        trackingBranch: 
-      - name: activity-undeDorm
-        remote:
-          name: origin
-          url: https://github.com/monicavladarean/PowerpufUnicorns.git
-        trackingBranch: 
       - name: HEAD
-        remote:
-          name: origin
-          url: https://github.com/monicavladarean/PowerpufUnicorns.git
-        trackingBranch: 
-      - name: Mancare
         remote:
           name: origin
           url: https://github.com/monicavladarean/PowerpufUnicorns.git
