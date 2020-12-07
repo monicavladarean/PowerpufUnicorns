@@ -554,17 +554,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad07124ec1ad5241a6c60a9b211562c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lup: {fileID: 0}
-  veverita: {fileID: 0}
-  urs: {fileID: 0}
-  vulpe: {fileID: 0}
-  caprioara: {fileID: 0}
-  caprioaraBebe: {fileID: 0}
-  lupBebe: {fileID: 0}
-  ursBebe: {fileID: 0}
-  vulpeBebe: {fileID: 0}
-  veveritaBebe: {fileID: 0}
-  count: 0
 --- !u!1 &1346211601
 GameObject:
   m_ObjectHideFlags: 0

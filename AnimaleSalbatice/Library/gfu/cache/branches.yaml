@@ -13,15 +13,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-11-29T19:55:11.489+02:00
-  initializedAtString: 2020-11-29T19:46:17.435+02:00
+  lastUpdatedAtString: 2020-12-07T11:54:17.156+02:00
+  initializedAtString: 2020-12-07T11:54:17.101+02:00
   localBranches:
+  - name: activity-mameSiPui
+    tracking: origin/activity-mameSiPui
+  - name: activity-undeDorm
+    tracking: origin/activity-undeDorm
   - name: main
     tracking: origin/main
+  - name: feature/puzzle
+    tracking: origin/feature/puzzle
   remoteBranches:
+  - name: origin/activity-mameSiPui
+    tracking: '[None]'
+  - name: origin/activity-numarat
+    tracking: '[None]'
+  - name: origin/activity-undeDorm
+    tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/main
+    tracking: '[None]'
+  - name: origin/feature/puzzle
     tracking: '[None]'
   remotes:
   - name: origin
@@ -33,28 +47,70 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - activity-mameSiPui
+    - activity-undeDorm
     - main
+    - feature/puzzle
     values:
+    - name: activity-mameSiPui
+      remote:
+        name: origin
+        url: https://github.com/monicavladarean/PowerpufUnicorns.git
+      trackingBranch: activity-mameSiPui
+    - name: activity-undeDorm
+      remote:
+        name: origin
+        url: https://github.com/monicavladarean/PowerpufUnicorns.git
+      trackingBranch: activity-undeDorm
     - name: main
       remote:
         name: origin
         url: https://github.com/monicavladarean/PowerpufUnicorns.git
       trackingBranch: main
+    - name: feature/puzzle
+      remote:
+        name: origin
+        url: https://github.com/monicavladarean/PowerpufUnicorns.git
+      trackingBranch: feature/puzzle
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
+      - activity-mameSiPui
+      - activity-numarat
+      - activity-undeDorm
       - HEAD
       - main
+      - feature/puzzle
     subKeyValues:
     - Values:
+      - name: activity-mameSiPui
+        remote:
+          name: origin
+          url: https://github.com/monicavladarean/PowerpufUnicorns.git
+        trackingBranch: 
+      - name: activity-numarat
+        remote:
+          name: origin
+          url: https://github.com/monicavladarean/PowerpufUnicorns.git
+        trackingBranch: 
+      - name: activity-undeDorm
+        remote:
+          name: origin
+          url: https://github.com/monicavladarean/PowerpufUnicorns.git
+        trackingBranch: 
       - name: HEAD
         remote:
           name: origin
           url: https://github.com/monicavladarean/PowerpufUnicorns.git
         trackingBranch: 
       - name: main
+        remote:
+          name: origin
+          url: https://github.com/monicavladarean/PowerpufUnicorns.git
+        trackingBranch: 
+      - name: feature/puzzle
         remote:
           name: origin
           url: https://github.com/monicavladarean/PowerpufUnicorns.git
