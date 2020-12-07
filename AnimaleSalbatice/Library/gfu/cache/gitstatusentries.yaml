@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-12-07T17:19:20.617+02:00
+  lastUpdatedAtString: 2020-12-07T17:21:33.913+02:00
   initializedAtString: 2020-12-07T16:45:07.857+02:00
   entries:
   - path: AnimaleSalbatice\Assets\Scenes\Numara_Activity.unity
