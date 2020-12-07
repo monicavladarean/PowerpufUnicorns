@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class OnCameraClick : MonoBehaviour
 {
+    int count = 0;
 
     private GameObject bebeCaprioara,parinteCaprioara, casaCaprioaraH,bebeVulpe,casaVulpeH,bebeLup,parinteLup,casaLupH,bebeVeverita,parinteVeverita,casaVeveritaH,bebeUrs,casaUrsH,bebeVeveInCasa;
     private GameObject border;
@@ -91,17 +93,20 @@ public class OnCameraClick : MonoBehaviour
             bebeCaprioara.transform.localScale = new Vector3(0.4869357f, 0.388387f, 0f);
             parinteCaprioara.transform.position = new Vector3(-8.63f, -0.97f, 0f);
             parinteCaprioara.transform.localScale = new Vector3(0.8036403f, 0.7283679f, 0f);
+            count++;
         }
         else if (this.lastTagClicked == "bebeVulpe")
         {
             casaVulpeH.GetComponent<Renderer>().enabled = false;
             bebeVulpe.transform.position = new Vector3(-10.02f, -4.35f, 0f);
+            count++;
         }
         else if (this.lastTagClicked == "bebeUrs")
         {
             casaUrsH.GetComponent<Renderer>().enabled = false;
             bebeUrs.transform.position = new Vector3(-3.27f, 0.96f, 0f);
             bebeUrs.transform.localScale = new Vector3(0.2929426f, 0.2998285f, 1f);
+            count++;
         }
         else if (this.lastTagClicked == "bebeLup")
         {
@@ -110,12 +115,14 @@ public class OnCameraClick : MonoBehaviour
             bebeLup.transform.localScale = new Vector3(0.2698921f, 0.2041328f, 1f);
             parinteLup.transform.position = new Vector3(3.56f, -0.43f, 0f);
             parinteLup.transform.localScale = new Vector3(0.07892895f, 0.08191492f, 1f);
+            count++;
         }
         else if (this.lastTagClicked == "bebeVeverita") {
             bebeVeveInCasa.GetComponent<Renderer>().enabled = true;
             casaVeveritaH.GetComponent<Renderer>().enabled = false;
             bebeVeverita.GetComponent<Renderer>().enabled = false;
             parinteVeverita.GetComponent<Renderer>().enabled = false;
+            count++;
         }
 
     }
@@ -313,7 +320,11 @@ public class OnCameraClick : MonoBehaviour
                         }
                     }
                 }
-
+                if (count == 5)
+                {
+                    Debug.Log("dsa");
+                    SceneManager.LoadScene("Puzzle");
+                }
 
             }
         }
