@@ -4,16 +4,15 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Urs
-  - Caprioara
-  - Vulpe
-  - Veverita
-  - Lup
-  - CaprioaraBebe
-  - LupBebe
-  - UrsBebe
-  - VeveritaBebe
-  - VulpeBebe
+  - unu
+  - doi
+  - trei
+  - carnuri
+  - ghinde
+  - iarba
+  - miere
+  - pesti
+  - picnic
   layers:
   - Default
   - TransparentFX
