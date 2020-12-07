@@ -13,39 +13,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-12-07T22:45:24.243+02:00
-  initializedAtString: 2020-12-07T22:45:24.184+02:00
+  lastUpdatedAtString: 2020-12-07T17:20:58.179+02:00
+  initializedAtString: 2020-12-07T17:10:02.851+02:00
   localBranches:
-  - name: activity-mameSiPui
-    tracking: origin/activity-mameSiPui
   - name: activity-numara
     tracking: origin/activity-numara
-  - name: activity-undeDorm
-    tracking: origin/activity-undeDorm
-  - name: Prototip
-    tracking: origin/Prototip
-  - name: StartGame
-    tracking: origin/StartGame
-  - name: feature/puzzle
-    tracking: origin/feature/puzzle
+  - name: activity-numarat
+    tracking: origin/activity-numarat
+  - name: main
+    tracking: origin/main
   remoteBranches:
   - name: origin/activity-mameSiPui
     tracking: '[None]'
   - name: origin/activity-numara
     tracking: '[None]'
-  - name: origin/activity-undeDorm
+  - name: origin/activity-numarat
     tracking: '[None]'
-  - name: origin/final
+  - name: origin/activity-undeDorm
     tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
-  - name: origin/main
-    tracking: '[None]'
-  - name: origin/Prototip
-    tracking: '[None]'
-  - name: origin/StartGame
-    tracking: '[None]'
-  - name: origin/feature/puzzle
+  - name: origin/Mancare
     tracking: '[None]'
   remotes:
   - name: origin
@@ -57,43 +45,25 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - activity-mameSiPui
     - activity-numara
-    - activity-undeDorm
-    - Prototip
-    - StartGame
-    - feature/puzzle
+    - activity-numarat
+    - main
     values:
-    - name: activity-mameSiPui
-      remote:
-        name: origin
-        url: https://github.com/monicavladarean/PowerpufUnicorns.git
-      trackingBranch: activity-mameSiPui
     - name: activity-numara
       remote:
         name: origin
         url: https://github.com/monicavladarean/PowerpufUnicorns.git
       trackingBranch: activity-numara
-    - name: activity-undeDorm
+    - name: activity-numarat
       remote:
         name: origin
         url: https://github.com/monicavladarean/PowerpufUnicorns.git
-      trackingBranch: activity-undeDorm
-    - name: Prototip
+      trackingBranch: activity-numarat
+    - name: main
       remote:
         name: origin
         url: https://github.com/monicavladarean/PowerpufUnicorns.git
-      trackingBranch: Prototip
-    - name: StartGame
-      remote:
-        name: origin
-        url: https://github.com/monicavladarean/PowerpufUnicorns.git
-      trackingBranch: StartGame
-    - name: feature/puzzle
-      remote:
-        name: origin
-        url: https://github.com/monicavladarean/PowerpufUnicorns.git
-      trackingBranch: feature/puzzle
+      trackingBranch: main
   remoteConfigBranches:
     keys:
     - origin
@@ -101,13 +71,10 @@ MonoBehaviour:
     - Values:
       - activity-mameSiPui
       - activity-numara
+      - activity-numarat
       - activity-undeDorm
-      - final
       - HEAD
-      - main
-      - Prototip
-      - StartGame
-      - feature/puzzle
+      - Mancare
     subKeyValues:
     - Values:
       - name: activity-mameSiPui
@@ -120,12 +87,12 @@ MonoBehaviour:
           name: origin
           url: https://github.com/monicavladarean/PowerpufUnicorns.git
         trackingBranch: 
-      - name: activity-undeDorm
+      - name: activity-numarat
         remote:
           name: origin
           url: https://github.com/monicavladarean/PowerpufUnicorns.git
         trackingBranch: 
-      - name: final
+      - name: activity-undeDorm
         remote:
           name: origin
           url: https://github.com/monicavladarean/PowerpufUnicorns.git
@@ -135,22 +102,7 @@ MonoBehaviour:
           name: origin
           url: https://github.com/monicavladarean/PowerpufUnicorns.git
         trackingBranch: 
-      - name: main
-        remote:
-          name: origin
-          url: https://github.com/monicavladarean/PowerpufUnicorns.git
-        trackingBranch: 
-      - name: Prototip
-        remote:
-          name: origin
-          url: https://github.com/monicavladarean/PowerpufUnicorns.git
-        trackingBranch: 
-      - name: StartGame
-        remote:
-          name: origin
-          url: https://github.com/monicavladarean/PowerpufUnicorns.git
-        trackingBranch: 
-      - name: feature/puzzle
+      - name: Mancare
         remote:
           name: origin
           url: https://github.com/monicavladarean/PowerpufUnicorns.git
