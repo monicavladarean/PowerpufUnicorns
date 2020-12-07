@@ -13,24 +13,80 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-12-07T20:13:30.257+02:00
-  initializedAtString: 2020-12-07T20:10:31.725+02:00
+  lastUpdatedAtString: 2020-12-07T21:20:44.594+02:00
+  initializedAtString: 2020-12-07T20:52:06.054+02:00
   entries:
-  - path: AnimaleSalbatice\Assets\Script_Numara.cs
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Script_Numara.cs
-    projectPath: Assets\Script_Numara.cs
+  - path: AnimaleSalbatice\Assets\MainCamera.cs
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\MainCamera.cs
+    projectPath: Assets\MainCamera.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: AnimaleSalbatice\Assets\Urs.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Urs.png
-    projectPath: Assets\Urs.png
+  - path: AnimaleSalbatice\Assets\padure-cu aimale.jpg
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\padure-cu
+      aimale.jpg
+    projectPath: Assets\padure-cu aimale.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\padure-cu aimale.jpg.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\padure-cu
+      aimale.jpg.meta
+    projectPath: Assets\padure-cu aimale.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\RotateImage1.cs
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\RotateImage1.cs
+    projectPath: Assets\RotateImage1.cs
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: AnimaleSalbatice\Assets\Urs.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Urs.png.meta
-    projectPath: Assets\Urs.png.meta
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\RotateImage1.cs.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\RotateImage1.cs.meta
+    projectPath: Assets\RotateImage1.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\RotateImage2.cs
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\RotateImage2.cs
+    projectPath: Assets\RotateImage2.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\RotateImage2.cs.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\RotateImage2.cs.meta
+    projectPath: Assets\RotateImage2.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\RotateImage3.cs
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\RotateImage3.cs
+    projectPath: Assets\RotateImage3.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\RotateImage3.cs.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\RotateImage3.cs.meta
+    projectPath: Assets\RotateImage3.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\RotateImage4.cs
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\RotateImage4.cs
+    projectPath: Assets\RotateImage4.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\RotateImage4.cs.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\RotateImage4.cs.meta
+    projectPath: Assets\RotateImage4.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\Scenes\Puzzle.unity
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\Puzzle.unity
+    projectPath: Assets\Scenes\Puzzle.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -46,6 +102,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: AnimaleSalbatice\Library\Artifacts\42\42dc6ac9dc72edc8a16daa6b5bb5f376
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\Artifacts\42\42dc6ac9dc72edc8a16daa6b5bb5f376
+    projectPath: Library\Artifacts\42\42dc6ac9dc72edc8a16daa6b5bb5f376
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: AnimaleSalbatice\Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
@@ -64,9 +126,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: AnimaleSalbatice\Library\SceneVisibilityState.asset
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
+  - path: AnimaleSalbatice\Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -250,6 +312,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: AnimaleSalbatice\Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: AnimaleSalbatice\Library\SourceAssetDB
     fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
@@ -268,9 +342,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: AnimaleSalbatice\ProjectSettings\EditorBuildSettings.asset
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\ProjectSettings\EditorBuildSettings.asset
-    projectPath: ProjectSettings\EditorBuildSettings.asset
+  - path: AnimaleSalbatice\ProjectSettings\TagManager.asset
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
