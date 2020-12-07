@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-12-07T23:29:10.358+02:00
-  initializedAtString: 2020-12-07T23:29:10.358+02:00
+  lastUpdatedAtString: 2020-12-07T20:10:30.447+02:00
+  initializedAtString: 2020-12-07T20:10:30.447+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/monicavladarean/PowerpufUnicorns.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: feature/puzzle
-    tracking: origin/feature/puzzle
+    name: Prototip
+    tracking: origin/Prototip
   currentConfigBranch:
-    name: feature/puzzle
+    name: Prototip
     remote:
       name: origin
       url: https://github.com/monicavladarean/PowerpufUnicorns.git
-    trackingBranch: feature/puzzle
+    trackingBranch: Prototip
   currentConfigRemote:
     name: origin
     url: https://github.com/monicavladarean/PowerpufUnicorns.git
