@@ -94,18 +94,18 @@ public class scriptLocuinta : MonoBehaviour
         if (this.lastTagClicked == "bebeCaprioara")
         {
             count++;
-            casaCaprioaraH.GetComponent<Renderer>().enabled = false;
+            //casaCaprioaraH.GetComponent<Renderer>().enabled = false;
             //Destroy(casaCaprioaraH);
-            bebeCaprioara.transform.position = new Vector3(-9.53f, -1.18f, 0f);
+            bebeCaprioara.transform.position = new Vector3(-7.5f, -1.18f, 0f);
             bebeCaprioara.transform.localScale = new Vector3(0.4869357f, 0.388387f, 0f);
-            parinteCaprioara.transform.position = new Vector3(-8.63f, -0.97f, 0f);
+            parinteCaprioara.transform.position = new Vector3(-6.5f, -0.97f, 0f);
             parinteCaprioara.transform.localScale = new Vector3(0.8036403f, 0.7283679f, 0f);
         }
         else if (this.lastTagClicked == "bebeVulpe")
         {
             count++;
-            casaVulpeH.GetComponent<Renderer>().enabled = false;
-            bebeVulpe.transform.position = new Vector3(-10.02f, -4.35f, 0f);
+            //casaVulpeH.GetComponent<Renderer>().enabled = false;
+            bebeVulpe.transform.position = new Vector3(-7.5f, -4f, 0f);
         }
         else if (this.lastTagClicked == "bebeUrs")
         {

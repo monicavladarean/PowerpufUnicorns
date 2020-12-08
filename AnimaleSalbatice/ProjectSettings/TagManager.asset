@@ -18,6 +18,12 @@ TagManager:
   - casaLupH
   - casaVulpeH
   - bebeVulpe
+  - startButon
+  - img1
+  - img2
+  - img3
+  - img4
+  - imgDone
   layers:
   - Default
   - TransparentFX

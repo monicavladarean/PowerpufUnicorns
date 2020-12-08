@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class OnCameraClicked : MonoBehaviour
 {
@@ -332,6 +333,7 @@ public class OnCameraClicked : MonoBehaviour
                 if (count == 5)
                 {
                     Debug.Log("game done");
+                    SceneManager.LoadScene("Puzzle");
                 }
 
             }

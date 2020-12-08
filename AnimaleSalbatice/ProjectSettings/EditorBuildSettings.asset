@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StartScene.unity
     guid: b66fad6a2b5b8ce4a9c7db7b109c70bf
-  - enabled: 1
-    path: Assets/Scenes/Puzzle.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/ActivityMamesiPui.unity
     guid: 75e78987f981fd740ac5371316c5a186
@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Numara_Activity.unity
     guid: 34ea3e3fa76697c44acf5b45913d5767
+  - enabled: 1
+    path: Assets/Scenes/Puzzle.unity
+    guid: 35103f0e95863f1418ebafcdd8c30dec
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: bbd0681f68596be439a1a86b2ff1b3f4
   m_configObjects: {}
