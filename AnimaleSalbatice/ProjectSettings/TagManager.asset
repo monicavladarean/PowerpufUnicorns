@@ -24,6 +24,32 @@ TagManager:
   - img3
   - img4
   - imgDone
+  - VulpeBebe
+  - LupBebe
+  - UrsBebe
+  - CaprioaraBebe
+  - Caprioara
+  - Vulpe
+  - VeveritaBebe
+  - Urs
+  - Veverita
+  - Lup
+  - ghinde
+  - picnic
+  - trei
+  - carnuri
+  - iarba
+  - miere
+  - doi
+  - pesti
+  - unu
+  - peste
+  - carne
+  - farfurie-urs
+  - farfurie-lup
+  - farfurie-veverita
+  - farfurie-caprioara
+  - farfurie-vulpe
   layers:
   - Default
   - TransparentFX
