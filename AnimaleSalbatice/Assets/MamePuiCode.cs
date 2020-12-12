@@ -12,6 +12,7 @@ public class MamePuiCode : MonoBehaviour
 
     int caprioaraAudioStarted = 0, lupAudioStarted = 0, ursAudioStarted = 0, vulpeAudioStarted = 0, veveritaAudioStarted = 0;
     private AudioSource warningAudio;
+    private AudioSource successAudio;
 
     AudioSource inceputAudio;
     AudioSource finalAudio;
@@ -56,6 +57,7 @@ public class MamePuiCode : MonoBehaviour
         caprioaraAudio = GameObject.Find("caprioara").GetComponent<AudioSource>();
 
         warningAudio = GameObject.Find("mai incearca").GetComponent<AudioSource>();
+        successAudio = GameObject.Find("bravo_scurt").GetComponent<AudioSource>();
 
     }
 
@@ -69,7 +71,7 @@ public class MamePuiCode : MonoBehaviour
             ok = 0;
         }
 
-        else if (!inceputAudio.isPlaying && !warningAudio.isPlaying && Input.GetMouseButtonDown(0))
+        else if (!inceputAudio.isPlaying && !warningAudio.isPlaying && !successAudio.isPlaying && Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -82,6 +84,7 @@ public class MamePuiCode : MonoBehaviour
                     if (count == 1)
                     {
                         Debug.Log("Caprioara is clicked by mouse");
+                        successAudio.Play(0);
                         caprioara.SetActive(false);
                         count++;
                         caprioaraBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
@@ -100,6 +103,7 @@ public class MamePuiCode : MonoBehaviour
                     if (count == 2)
                     {
                         Debug.Log("Lup is clicked by mouse");
+                        successAudio.Play(0);
                         lup.SetActive(false);
                         count++;
                         lupBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
@@ -118,6 +122,7 @@ public class MamePuiCode : MonoBehaviour
                     if (count == 3)
                     {
                         Debug.Log("Urs is clicked by mouse");
+                        successAudio.Play(0);
                         urs.SetActive(false);
                         count++;
                         ursBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
@@ -136,6 +141,7 @@ public class MamePuiCode : MonoBehaviour
                     if (count == 4)
                     {
                         Debug.Log("Vulpe is clicked by mouse");
+                        successAudio.Play(0);
                         vulpe.SetActive(false);
                         count++;
                         vulpeBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
@@ -154,6 +160,7 @@ public class MamePuiCode : MonoBehaviour
                     if (count == 5)
                     {
                         Debug.Log("Veverita is clicked by mouse");
+                        successAudio.Play(0);
                         veverita.SetActive(false);
                         count++;
                         veveritaBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);

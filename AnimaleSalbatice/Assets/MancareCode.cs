@@ -22,6 +22,7 @@ public class MancareCode : MonoBehaviour
     private AudioSource helpVulpeAudio;
 
     private AudioSource warningAudio;
+    private AudioSource successAudio;
 
     void Start()
     {
@@ -43,6 +44,7 @@ public class MancareCode : MonoBehaviour
         lastTagClicked = "";
 
         warningAudio = GameObject.Find("mai incearca").GetComponent<AudioSource>();
+        successAudio = GameObject.Find("bravo_scurt").GetComponent<AudioSource>();
 
         errorCount = new Dictionary<string, int>();
 
@@ -147,7 +149,7 @@ public class MancareCode : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!inceputAudio.isPlaying && !warningAudio.isPlaying && !helpLupAudio.isPlaying && !helpUrsAudio.isPlaying && !helpVeveritaAudio.isPlaying && !helpCaprioaraAudio.isPlaying && !helpVulpeAudio.isPlaying &&  Input.GetMouseButtonDown(0))
+        if (!inceputAudio.isPlaying && !warningAudio.isPlaying && !successAudio.isPlaying && !helpLupAudio.isPlaying && !helpUrsAudio.isPlaying && !helpVeveritaAudio.isPlaying && !helpCaprioaraAudio.isPlaying && !helpVulpeAudio.isPlaying &&  Input.GetMouseButtonDown(0))
         {
             //mouse is clicked
             RaycastHit hit;
@@ -169,6 +171,7 @@ public class MancareCode : MonoBehaviour
                     if (lastTagClicked == "peste")
                     {
                         Debug.Log("farfurie-vulpe clicked");
+                        successAudio.Play(0);
                         mancareaMergeSinguraLaFarfurie();
                         lastTagClicked = "";
                     }
@@ -205,6 +208,7 @@ public class MancareCode : MonoBehaviour
                     if (lastTagClicked == "ghinde")
                     {
                         Debug.Log("farfurie-veverita clicked");
+                        successAudio.Play(0);
                         mancareaMergeSinguraLaFarfurie();
                         lastTagClicked = "";
                     }
@@ -238,6 +242,7 @@ public class MancareCode : MonoBehaviour
                     if (lastTagClicked == "iarba")
                     {
                         Debug.Log("farfurie-caprioara clicked");
+                        successAudio.Play(0);
                         mancareaMergeSinguraLaFarfurie();
                         lastTagClicked = "";
                     }
@@ -270,7 +275,7 @@ public class MancareCode : MonoBehaviour
                     if (lastTagClicked == "miere")
                     {
                         Debug.Log("farfurie-urs clicked");
-
+                        successAudio.Play(0);
                         mancareaMergeSinguraLaFarfurie();
                         lastTagClicked = "";
                     }
@@ -304,6 +309,7 @@ public class MancareCode : MonoBehaviour
                     if (lastTagClicked == "carne")
                     {
                         Debug.Log("farfurie-lup clicked");
+                        successAudio.Play(0);
                         mancareaMergeSinguraLaFarfurie();
                         lastTagClicked = "";
                     }
@@ -334,6 +340,7 @@ public class MancareCode : MonoBehaviour
 
             }
         }
+
 
         if (finalAudioStarted == 1 && !finalAudio.isPlaying)
         {

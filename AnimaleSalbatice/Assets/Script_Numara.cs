@@ -21,6 +21,7 @@ public class Script_Numara : MonoBehaviour
     private AudioSource miereDone;
 
     private AudioSource warningAudio;
+    private AudioSource successAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -55,6 +56,7 @@ public class Script_Numara : MonoBehaviour
         iarbaDone = GameObject.Find("iarba_bravo").GetComponent<AudioSource>();
 
         warningAudio = GameObject.Find("mai incearca").GetComponent<AudioSource>();
+        successAudio = GameObject.Find("bravo_scurt").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -66,7 +68,7 @@ public class Script_Numara : MonoBehaviour
             ok = 0;
         }
 
-        else if (!inceputAudio.isPlaying &&  !warningAudio.isPlaying && Input.GetMouseButtonDown(0))
+        else if (!inceputAudio.isPlaying &&  !warningAudio.isPlaying && !successAudio.isPlaying&& Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);

@@ -369,7 +369,7 @@ public class scriptLocuinta : MonoBehaviour
                         }
                     }
                 }
-                if (count == 5 && !helpLupAudio.isPlaying && !helpUrsAudio.isPlaying && !helpVeveritaAudio.isPlaying && !helpCaprioaraAudio.isPlaying && !helpVulpeAudio.isPlaying)
+                if (count == 5 && !helpLupAudio.isPlaying && !helpUrsAudio.isPlaying && !helpVeveritaAudio.isPlaying && !helpCaprioaraAudio.isPlaying && !helpVulpeAudio.isPlaying && !warningAudio.isPlaying)
                 {
                     finalAudioStarted = 1;
                     finalAudio.Play(0);
@@ -378,7 +378,7 @@ public class scriptLocuinta : MonoBehaviour
             }
         }
 
-        if (finalAudioStarted == 1 && !finalAudio.isPlaying)
+        if (finalAudioStarted == 1 && !finalAudio.isPlaying )
         {
             SceneManager.LoadScene("Puzzle");
         }
