@@ -15,6 +15,14 @@ public class MancareCode : MonoBehaviour
     AudioSource inceputAudio;
     AudioSource finalAudio;
 
+    private AudioSource helpLupAudio;
+    private AudioSource helpUrsAudio;
+    private AudioSource helpCaprioaraAudio;
+    private AudioSource helpVeveritaAudio;
+    private AudioSource helpVulpeAudio;
+
+    private AudioSource warningAudio;
+
     void Start()
     {
         finalAudioStarted = 0;
@@ -34,6 +42,8 @@ public class MancareCode : MonoBehaviour
 
         lastTagClicked = "";
 
+        warningAudio = GameObject.Find("mai incearca").GetComponent<AudioSource>();
+
         errorCount = new Dictionary<string, int>();
 
         errorCount.Add("peste", 0);
@@ -45,6 +55,13 @@ public class MancareCode : MonoBehaviour
         inceputAudio = GameObject.Find("inceput_3").GetComponent<AudioSource>();
         inceputAudio.Play(0);
         finalAudio = GameObject.Find("final_3").GetComponent<AudioSource>();
+
+
+        helpLupAudio = GameObject.Find("carne (1)").GetComponent<AudioSource>();
+        helpUrsAudio = GameObject.Find("miere (1)").GetComponent<AudioSource>();
+        helpVulpeAudio = GameObject.Find("peste (1)").GetComponent<AudioSource>();
+        helpVeveritaAudio = GameObject.Find("ghinde (1)").GetComponent<AudioSource>();
+        helpCaprioaraAudio = GameObject.Find("iarba (1)").GetComponent<AudioSource>();
 
     }
 
@@ -64,6 +81,16 @@ public class MancareCode : MonoBehaviour
         {
             Debug.Log("ii facem partea acuma pt " + key);
             mancareaMergeSinguraLaFarfurie();
+            if (key == "iarba")
+                helpCaprioaraAudio.Play(0);
+            else if (key == "carne")
+                helpLupAudio.Play(0);
+            else if (key == "miere")
+                helpUrsAudio.Play(0);
+            else if (key == "peste")
+                helpVulpeAudio.Play(0);
+            else if (key == "ghinde")
+                helpVeveritaAudio.Play(0);
             lastTagClicked = "";
             errorCount[key] = 0;
         }
@@ -74,7 +101,8 @@ public class MancareCode : MonoBehaviour
     {
         if (this.lastTagClicked == "peste")
         {
-            // peste.GetComponent<Renderer>().enabled = false;
+            peste.layer = LayerMask.NameToLayer("Ignore Raycast");
+            farfurie_vulpe.layer = LayerMask.NameToLayer("Ignore Raycast");
             peste.transform.position = new Vector3(0.17f, -3.8f, -3f);
             peste.transform.localScale = new Vector3(0.4067419f, 0.3532811f, 1f);
             count++;
@@ -82,7 +110,8 @@ public class MancareCode : MonoBehaviour
 
         else if (this.lastTagClicked == "ghinde")
         {
-            //  farfurie_veverita.GetComponent<Renderer>().enabled = false;
+            ghinde.layer = LayerMask.NameToLayer("Ignore Raycast");
+            farfurie_veverita.layer = LayerMask.NameToLayer("Ignore Raycast");
             ghinde.transform.position = new Vector3(4.7f, -3.4f, -3f);
             ghinde.transform.localScale = new Vector3(0.5249423f, 0.5696594f, 1f);
             count++;
@@ -90,21 +119,24 @@ public class MancareCode : MonoBehaviour
 
         else if (this.lastTagClicked == "iarba")
         {
-            //  farfurie_caprioara.GetComponent<Renderer>().enabled = false;
+            iarba.layer = LayerMask.NameToLayer("Ignore Raycast");
+            farfurie_caprioara.layer = LayerMask.NameToLayer("Ignore Raycast");
             iarba.transform.position = new Vector3(1.4f, 2f, -3f);
             iarba.transform.localScale = new Vector3(0.5329899f, 0.4602287f, 1f);
             count++;
         }
         else if (this.lastTagClicked == "miere")
         {
-            // farfurie_urs.GetComponent<Renderer>().enabled = false;
+            miere.layer = LayerMask.NameToLayer("Ignore Raycast");
+            farfurie_urs.layer = LayerMask.NameToLayer("Ignore Raycast");
             miere.transform.position = new Vector3(2.29f, -1.37f, -3f);
             miere.transform.localScale = new Vector3(0.6076733f, 0.6160328f, 1f);
             count++;
         }
         else if (this.lastTagClicked == "carne")
         {
-            // farfurie_lup.GetComponent<Renderer>().enabled = false;
+            carne.layer = LayerMask.NameToLayer("Ignore Raycast");
+            farfurie_lup.layer = LayerMask.NameToLayer("Ignore Raycast");
             carne.transform.position = new Vector3(-3.4f, -3.4f, -3f);
             carne.transform.localScale = new Vector3(0.4105837f, 0.5157263f, 1f);
             count++;
@@ -115,7 +147,7 @@ public class MancareCode : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!inceputAudio.isPlaying &&  Input.GetMouseButtonDown(0))
+        if (!inceputAudio.isPlaying && !warningAudio.isPlaying && !helpLupAudio.isPlaying && !helpUrsAudio.isPlaying && !helpVeveritaAudio.isPlaying && !helpCaprioaraAudio.isPlaying && !helpVulpeAudio.isPlaying &&  Input.GetMouseButtonDown(0))
         {
             //mouse is clicked
             RaycastHit hit;
@@ -145,11 +177,14 @@ public class MancareCode : MonoBehaviour
                         //amintire sa apese pe mancare si apoi pe farfurie
                         if (lastTagClicked == "")
                         {
+                            warningAudio.Play(0);
                             Debug.Log("sunet pt amintire sa apese pe mancare si apoi pe farfurie");
                         }
                         else
                         {
                             Debug.Log("a gresit farfuria aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
+                            if (this.errorCount[lastTagClicked] == 0)
+                                warningAudio.Play(0);
                             this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
                             verificareEroriCaSaFacemJocul();
 
@@ -178,11 +213,14 @@ public class MancareCode : MonoBehaviour
                         //amintire sa apese pe mancare si apoi farfuria
                         if (lastTagClicked == "")
                         {
+                            warningAudio.Play(0);
                             Debug.Log("sunet pt amintire sa apese pe mancare si apoi pe farfurie");
                         }
                         else
                         {
                             Debug.Log("a gresit farfuria aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
+                            if (this.errorCount[lastTagClicked] == 0)
+                                warningAudio.Play(0);
                             this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
                             verificareEroriCaSaFacemJocul();
                         }
@@ -208,11 +246,14 @@ public class MancareCode : MonoBehaviour
                         //amintire sa apese pe macare si apoi pe farfurie
                         if (lastTagClicked == "")
                         {
+                            warningAudio.Play(0);
                             Debug.Log("sunet pt amintire sa apese pe mancare si apoi pe farfurie");
                         }
                         else
                         {
                             Debug.Log("a gresit farfuria aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
+                            if (this.errorCount[lastTagClicked] == 0)
+                                warningAudio.Play(0);
                             this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
                             verificareEroriCaSaFacemJocul();
                         }
@@ -238,11 +279,14 @@ public class MancareCode : MonoBehaviour
                         //amintire sa apese pe mancare si apoi pe farfurie
                         if (lastTagClicked == "")
                         {
+                            warningAudio.Play(0);
                             Debug.Log("sunet pt amintire sa apese pe mancate si apoi pe farfurie");
                         }
                         else
                         {
                             Debug.Log("a gresit farfuria aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
+                            if (this.errorCount[lastTagClicked] == 0)
+                                warningAudio.Play(0);
                             this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
                             verificareEroriCaSaFacemJocul();
                         }
@@ -268,18 +312,21 @@ public class MancareCode : MonoBehaviour
                         //amintire sa apese pe mancare si apoi pe farfurie
                         if (lastTagClicked == "")
                         {
+                            warningAudio.Play(0);
                             Debug.Log("sunet pt amintire sa apese pe mancare si apoi pe farfurie");
                         }
                         else
                         {
                             Debug.Log("a gresit farfuria aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
+                            if (this.errorCount[lastTagClicked] == 0)
+                                warningAudio.Play(0);
                             this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
                             verificareEroriCaSaFacemJocul();
                         }
                     }
                 }
 
-                if (count == 5)
+                if (count == 5 && !helpLupAudio.isPlaying && !helpUrsAudio.isPlaying && !helpVeveritaAudio.isPlaying && !helpCaprioaraAudio.isPlaying && !helpVulpeAudio.isPlaying)
                 {
                     finalAudioStarted = 1;
                     finalAudio.Play(0);

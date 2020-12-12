@@ -10,9 +10,15 @@ public class scriptLocuinta : MonoBehaviour
 
     private GameObject bebeCaprioara, parinteCaprioara, casaCaprioaraH, bebeVulpe, casaVulpeH, bebeLup, parinteLup, casaLupH, bebeVeverita, parinteVeverita, casaVeveritaH, bebeUrs, casaUrsH, bebeVeveInCasa;
     private GameObject border;
+
     private AudioSource successAudio;
     private AudioSource warningAudio;
-    private AudioSource helpAudio;
+
+    private AudioSource helpLupAudio;
+    private AudioSource helpUrsAudio;
+    private AudioSource helpCaprioaraAudio;
+    private AudioSource helpVeveritaAudio;
+    private AudioSource helpVulpeAudio;
 
     private string lastTagClicked;
 
@@ -47,9 +53,8 @@ public class scriptLocuinta : MonoBehaviour
         border.GetComponent<Renderer>().enabled = false;
 
         lastTagClicked = "";
-        successAudio = GameObject.Find("successAudio").GetComponent<AudioSource>();
-        warningAudio = GameObject.Find("warningAudio").GetComponent<AudioSource>();
-        helpAudio = GameObject.Find("helpAudio").GetComponent<AudioSource>();
+        successAudio = GameObject.Find("bravo_scurt").GetComponent<AudioSource>();
+        warningAudio = GameObject.Find("mai incearca").GetComponent<AudioSource>();
 
         errorCount = new Dictionary<string, int>();
 
@@ -64,6 +69,12 @@ public class scriptLocuinta : MonoBehaviour
         inceputAudio.Play(0);
         finalAudioStarted = 0;
         finalAudio = GameObject.Find("final_4").GetComponent<AudioSource>();
+
+        helpLupAudio = GameObject.Find("lup").GetComponent<AudioSource>();
+        helpUrsAudio = GameObject.Find("urs").GetComponent<AudioSource>();
+        helpVulpeAudio = GameObject.Find("vulpe").GetComponent<AudioSource>();
+        helpVeveritaAudio = GameObject.Find("veverita").GetComponent<AudioSource>();
+        helpCaprioaraAudio = GameObject.Find("caprioara").GetComponent<AudioSource>();
     }
 
 
@@ -84,7 +95,16 @@ public class scriptLocuinta : MonoBehaviour
         {
             Debug.Log("ii facem partea acuma pt " + key);
             faceJoculParteaPtAnimalulDat();
-            helpAudio.Play(0);
+            if (key =="bebeCaprioara")
+                helpCaprioaraAudio.Play(0);
+            else if (key =="bebeLup")
+                helpLupAudio.Play(0);
+            else if (key == "bebeUrs")
+                helpUrsAudio.Play(0);
+            else if (key == "bebeVulpe")
+                helpVulpeAudio.Play(0);
+            else if(key == "bebeVeverita")
+                helpVeveritaAudio.Play(0);
             lastTagClicked = "";
             border.GetComponent<Renderer>().enabled = false;
             errorCount[key] = 0;
@@ -99,40 +119,49 @@ public class scriptLocuinta : MonoBehaviour
         if (this.lastTagClicked == "bebeCaprioara")
         {
             count++;
-            //casaCaprioaraH.GetComponent<Renderer>().enabled = false;
+
+            casaCaprioaraH.layer = LayerMask.NameToLayer("Ignore Raycast");
             //Destroy(casaCaprioaraH);
             bebeCaprioara.transform.position = new Vector3(-7.5f, -1.18f, 0f);
             bebeCaprioara.transform.localScale = new Vector3(0.4869357f, 0.388387f, 0f);
             parinteCaprioara.transform.position = new Vector3(-6.5f, -0.97f, 0f);
             parinteCaprioara.transform.localScale = new Vector3(0.8036403f, 0.7283679f, 0f);
+            bebeCaprioara.layer = LayerMask.NameToLayer("Ignore Raycast");
+            parinteCaprioara.layer = LayerMask.NameToLayer("Ignore Raycast"); 
         }
         else if (this.lastTagClicked == "bebeVulpe")
         {
             count++;
-            //casaVulpeH.GetComponent<Renderer>().enabled = false;
+            casaVulpeH.layer = LayerMask.NameToLayer("Ignore Raycast");
             bebeVulpe.transform.position = new Vector3(-7.5f, -4f, 0f);
+            bebeVulpe.layer = LayerMask.NameToLayer("Ignore Raycast");
         }
         else if (this.lastTagClicked == "bebeUrs")
         {
             count++;
-            casaUrsH.GetComponent<Renderer>().enabled = false;
+            casaUrsH.layer = LayerMask.NameToLayer("Ignore Raycast");
             bebeUrs.transform.position = new Vector3(-3.27f, 0.96f, 0f);
             bebeUrs.transform.localScale = new Vector3(0.2929426f, 0.2998285f, 1f);
+            bebeUrs.layer = LayerMask.NameToLayer("Ignore Raycast");
         }
         else if (this.lastTagClicked == "bebeLup")
         {
             count++;
-            casaLupH.GetComponent<Renderer>().enabled = false;
+            casaLupH.layer = LayerMask.NameToLayer("Ignore Raycast");
             bebeLup.transform.position = new Vector3(2.76f, -0.68f, 0f);
             bebeLup.transform.localScale = new Vector3(0.2698921f, 0.2041328f, 1f);
             parinteLup.transform.position = new Vector3(3.56f, -0.43f, 0f);
             parinteLup.transform.localScale = new Vector3(0.07892895f, 0.08191492f, 1f);
+            bebeLup.layer = LayerMask.NameToLayer("Ignore Raycast");
+            parinteLup.layer = LayerMask.NameToLayer("Ignore Raycast");
         }
         else if (this.lastTagClicked == "bebeVeverita")
         {
             count++;
             bebeVeveInCasa.GetComponent<Renderer>().enabled = true;
             casaVeveritaH.GetComponent<Renderer>().enabled = false;
+            casaVeveritaH.layer = LayerMask.NameToLayer("Ignore Raycast");
+            bebeVeveInCasa.layer = LayerMask.NameToLayer("Ignore Raycast");
             bebeVeverita.GetComponent<Renderer>().enabled = false;
             parinteVeverita.GetComponent<Renderer>().enabled = false;
         }
@@ -144,7 +173,7 @@ public class scriptLocuinta : MonoBehaviour
     void Update()
     {
 
-        if (!inceputAudio.isPlaying &&  Input.GetMouseButtonDown(0))
+        if (!inceputAudio.isPlaying && !successAudio.isPlaying && !warningAudio.isPlaying && !helpLupAudio.isPlaying && !helpUrsAudio.isPlaying && !helpVeveritaAudio.isPlaying && !helpCaprioaraAudio.isPlaying && !helpVulpeAudio.isPlaying && Input.GetMouseButtonDown(0))
         {
             //mouse is clicked
             RaycastHit hit;
@@ -174,7 +203,7 @@ public class scriptLocuinta : MonoBehaviour
                     else
                     {
                         //amintire sa apese pe animal si apoi pe casa
-                        if (lastTagClicked == "")
+                        if (lastTagClicked == "" )
                         {
                             warningAudio.Play(0);
                             Debug.Log("sunet pt amintire sa apese pe animal si apoi pe casa");
@@ -182,7 +211,8 @@ public class scriptLocuinta : MonoBehaviour
                         else
                         {
                             Debug.Log("a gresit casa aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
-                            warningAudio.Play(0);
+                            if(this.errorCount[lastTagClicked]==0)
+                                warningAudio.Play(0);
                             this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
                             verificareEroriCaSaFacemJocul();
 
@@ -220,7 +250,8 @@ public class scriptLocuinta : MonoBehaviour
                         else
                         {
                             Debug.Log("a gresit casa aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
-                            warningAudio.Play(0);
+                            if (this.errorCount[lastTagClicked] == 0)
+                                warningAudio.Play(0);
 
                             this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
                             verificareEroriCaSaFacemJocul();
@@ -257,7 +288,8 @@ public class scriptLocuinta : MonoBehaviour
                         else
                         {
                             Debug.Log("a gresit casa aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
-                            warningAudio.Play(0);
+                            if (this.errorCount[lastTagClicked] == 0)
+                                warningAudio.Play(0);
                             this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
                             verificareEroriCaSaFacemJocul();
                         }
@@ -293,7 +325,8 @@ public class scriptLocuinta : MonoBehaviour
                         else
                         {
                             Debug.Log("a gresit casa aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
-                            warningAudio.Play(0);
+                            if (this.errorCount[lastTagClicked] == 0)
+                                warningAudio.Play(0);
                             this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
                             verificareEroriCaSaFacemJocul();
                         }
@@ -329,13 +362,14 @@ public class scriptLocuinta : MonoBehaviour
                         else
                         {
                             Debug.Log("a gresit casa aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
-                            warningAudio.Play(0);
+                            if (this.errorCount[lastTagClicked] == 0)
+                                warningAudio.Play(0);
                             this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
                             verificareEroriCaSaFacemJocul();
                         }
                     }
                 }
-                if (count == 5)
+                if (count == 5 && !helpLupAudio.isPlaying && !helpUrsAudio.isPlaying && !helpVeveritaAudio.isPlaying && !helpCaprioaraAudio.isPlaying && !helpVulpeAudio.isPlaying)
                 {
                     finalAudioStarted = 1;
                     finalAudio.Play(0);
@@ -343,6 +377,7 @@ public class scriptLocuinta : MonoBehaviour
 
             }
         }
+
         if (finalAudioStarted == 1 && !finalAudio.isPlaying)
         {
             SceneManager.LoadScene("Puzzle");

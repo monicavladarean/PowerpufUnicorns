@@ -6,11 +6,21 @@ using UnityEngine.SceneManagement;
 public class Script_Numara : MonoBehaviour
 {
     GameObject nr_1, nr_2, nr_3, peste, mie, ghind, iarb, carne, pic;
-    int count;
+    int count,ok=1;
     int finalAudioStarted;
+    int iarbaDoneStarted=0, carneDoneStarted=0, pesteDoneStarted=0, ghindeDoneStarted=0, miereDoneStarted=0;
 
     AudioSource inceputAudio;
     AudioSource finalAudio;
+
+    private AudioSource startCerinte;
+    private AudioSource iarbaDone;
+    private AudioSource carneDone;
+    private AudioSource pesteDone;
+    private AudioSource ghindeDone;
+    private AudioSource miereDone;
+
+    private AudioSource warningAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -36,19 +46,34 @@ public class Script_Numara : MonoBehaviour
         inceputAudio = GameObject.Find("inceput_2").GetComponent<AudioSource>();
         inceputAudio.Play(0);
         finalAudio = GameObject.Find("final_joc (1)").GetComponent<AudioSource>();
+
+        startCerinte = GameObject.Find("iarba (1)").GetComponent<AudioSource>();
+        miereDone = GameObject.Find("miere_bravo").GetComponent<AudioSource>();
+        ghindeDone = GameObject.Find("ghinde_bravo").GetComponent<AudioSource>();
+        pesteDone = GameObject.Find("pesti_bravo").GetComponent<AudioSource>();
+        carneDone = GameObject.Find("carne_bravo").GetComponent<AudioSource>();
+        iarbaDone = GameObject.Find("iarba_bravo").GetComponent<AudioSource>();
+
+        warningAudio = GameObject.Find("mai incearca").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!inceputAudio.isPlaying &&  Input.GetMouseButtonDown(0))
+        if (!inceputAudio.isPlaying && ok == 1)
+        {
+            startCerinte.Play(0);
+            ok = 0;
+        }
+
+        else if (!inceputAudio.isPlaying &&  !warningAudio.isPlaying && Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.collider.name == "iarba")
+                if (hit.collider.name == "iarba" && !startCerinte.isPlaying)
                 {
                     if (count == 1)
                     {
@@ -58,9 +83,15 @@ public class Script_Numara : MonoBehaviour
                         Debug.Log("1 a aparut");
                         iarb.transform.position = new Vector3(-1000f, -1000f, -1000f);
                         Debug.Log("iarba a disparut");
+                        iarbaDoneStarted = 1;
+                        iarbaDone.Play(0);
+                    }
+                    else if (count!=1 && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying)
+                    {
+                        warningAudio.Play(0);
                     }
                 }
-                else if (hit.collider.name == "pesti")
+                else if (hit.collider.name == "pesti" && !iarbaDone.isPlaying)
                 {
                     if (count == 2)
                     {
@@ -70,9 +101,15 @@ public class Script_Numara : MonoBehaviour
                         nr_3.transform.position = new Vector3(-0.10139f, -0.16f, -2f);
                         Debug.Log("3 a aparut");
                         peste.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                        pesteDoneStarted = 1;
+                        pesteDone.Play(0);
+                    }
+                    else if (count != 2 && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying)
+                    {
+                        warningAudio.Play(0);
                     }
                 }
-                else if (hit.collider.name == "ghinde")
+                else if (hit.collider.name == "ghinde" && !pesteDone.isPlaying)
                 {
                     if (count == 3)
                     {
@@ -82,9 +119,15 @@ public class Script_Numara : MonoBehaviour
                         nr_2.transform.position = new Vector3(-0.10139f, -0.16f, -2f);
                         Debug.Log("2 a aparut");
                         ghind.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                        ghindeDoneStarted = 1;
+                        ghindeDone.Play(0);
+                    }
+                    else if (count != 3 && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying)
+                    {
+                        warningAudio.Play(0);
                     }
                 }
-                else if (hit.collider.name == "miere")
+                else if (hit.collider.name == "miere" && !ghindeDone.isPlaying)
                 {
                     if (count == 4)
                     {
@@ -94,9 +137,15 @@ public class Script_Numara : MonoBehaviour
                         nr_1.transform.position = new Vector3(-0.10139f, -0.16f, -2f);
                         Debug.Log("1 a aparut");
                         mie.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                        miereDoneStarted = 1;
+                        miereDone.Play(0);
+                    }
+                    else if (count != 4 && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying)
+                    {
+                        warningAudio.Play(0);
                     }
                 }
-                else if (hit.collider.name == "carnuri")
+                else if (hit.collider.name == "carnuri" && !miereDone.isPlaying)
                 {
                     if (count == 5)
                     {
@@ -106,26 +155,59 @@ public class Script_Numara : MonoBehaviour
                         nr_2.transform.position = new Vector3(-0.10139f, -0.16f, -2f);
                         Debug.Log("2 a aparut");
                         carne.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                        carneDoneStarted = 1;
+                        carneDone.Play(0);
+                    }
+                    else if (count != 5 && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying)
+                    {
+                        warningAudio.Play(0);
                     }
                 }
-                else if (hit.collider.name == "doi")
+                else if (count == 6 && !carneDone.isPlaying)
                 {
-                    if (count == 6)
-                    {
-                        Debug.Log("vreau ca 2 sa dispara");
-                        nr_2.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        count++;
-                        pic.transform.position = new Vector3(0.62f, -0.1f, -2f);
-                        Debug.Log("Picnicul e gata!!!");
-                        finalAudioStarted = 1;
-                        finalAudio.Play(0);
-                    }
+                    Debug.Log("vreau ca 2 sa dispara");
+                    nr_2.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                    count++;
+                    Debug.Log("Picnicul e gata!!!");
                 }
             }
         }
-        if (finalAudioStarted == 1 && !finalAudio.isPlaying)
+        if (!warningAudio.isPlaying)
         {
-            SceneManager.LoadScene("Mancare");
+            if (iarbaDoneStarted == 1 && !iarbaDone.isPlaying)
+            {
+                nr_1.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                iarbaDoneStarted = 0;
+            }
+
+            if (miereDoneStarted == 1 && !miereDone.isPlaying)
+            {
+                nr_1.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                miereDoneStarted = 0;
+            }
+            if (carneDoneStarted == 1 && !carneDone.isPlaying)
+            {
+                nr_2.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                carneDoneStarted = 0;
+                finalAudioStarted = 1;
+                finalAudio.Play(0);
+                pic.transform.position = new Vector3(0.62f, -0.1f, -2f);
+            }
+            if (pesteDoneStarted == 1 && !pesteDone.isPlaying)
+            {
+                nr_3.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                pesteDoneStarted = 0;
+            }
+            if (ghindeDoneStarted == 1 && !ghindeDone.isPlaying)
+            {
+                nr_1.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                ghindeDoneStarted = 0;
+            }
+
+            if (finalAudioStarted == 1 && !finalAudio.isPlaying)
+            {
+                SceneManager.LoadScene("Mancare");
+            }
         }
     }
 }

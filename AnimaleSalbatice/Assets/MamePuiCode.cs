@@ -8,10 +8,19 @@ public class MamePuiCode : MonoBehaviour
     GameObject lup, veverita, urs, vulpe, caprioara;
     GameObject caprioaraBebe, lupBebe, ursBebe, vulpeBebe, veveritaBebe;
     int count;
-    int finalAudioStarted;
+    int finalAudioStarted,ok=1;
+
+    int caprioaraAudioStarted = 0, lupAudioStarted = 0, ursAudioStarted = 0, vulpeAudioStarted = 0, veveritaAudioStarted = 0;
+    private AudioSource warningAudio;
 
     AudioSource inceputAudio;
     AudioSource finalAudio;
+
+    AudioSource lupAudio;
+    AudioSource ursAudio;
+    AudioSource vulpeAudio;
+    AudioSource veveritaAudio;
+    AudioSource caprioaraAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -40,13 +49,27 @@ public class MamePuiCode : MonoBehaviour
         inceputAudio = GameObject.Find("inceput_joc").GetComponent<AudioSource>();
         inceputAudio.Play(0);
         finalAudio = GameObject.Find("final_joc").GetComponent<AudioSource>();
+        lupAudio = GameObject.Find("lup").GetComponent<AudioSource>();
+        ursAudio = GameObject.Find("urs").GetComponent<AudioSource>();
+        vulpeAudio = GameObject.Find("vulpe").GetComponent<AudioSource>();
+        veveritaAudio = GameObject.Find("veverita").GetComponent<AudioSource>();
+        caprioaraAudio = GameObject.Find("caprioara").GetComponent<AudioSource>();
+
+        warningAudio = GameObject.Find("mai incearca").GetComponent<AudioSource>();
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!inceputAudio.isPlaying && Input.GetMouseButtonDown(0))
+        if (!inceputAudio.isPlaying && ok==1)
+        {
+            caprioaraAudio.Play(0);
+            caprioaraAudioStarted = 1;
+            ok = 0;
+        }
+
+        else if (!inceputAudio.isPlaying && !warningAudio.isPlaying && Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -54,7 +77,7 @@ public class MamePuiCode : MonoBehaviour
             if (Physics.Raycast(ray, out hit))
             {
 
-                if (hit.collider.name == "Caprioara")
+                if (hit.collider.name == "Caprioara" && !caprioaraAudio.isPlaying)
                 {
                     if (count == 1)
                     {
@@ -63,10 +86,16 @@ public class MamePuiCode : MonoBehaviour
                         count++;
                         caprioaraBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
                         lupBebe.transform.position = new Vector3(0.41f, -3.09f, -2f);
+                        lupAudio.Play(0);
+                        lupAudioStarted = 1;
+                    }
+                    else if (count != 1 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
+                    {
+                        warningAudio.Play(0);
                     }
                 }
 
-                else if (hit.collider.name == "Lup")
+                else if (hit.collider.name == "Lup" && !lupAudio.isPlaying)
                 {
                     if (count == 2)
                     {
@@ -75,10 +104,16 @@ public class MamePuiCode : MonoBehaviour
                         count++;
                         lupBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
                         ursBebe.transform.position = new Vector3(0.41f, -3.09f, -2f);
+                        ursAudio.Play(0);
+                        ursAudioStarted = 1;
+                    }
+                    else if (count != 2 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
+                    {
+                        warningAudio.Play(0);
                     }
                 }
 
-                else if (hit.collider.name == "Urs")
+                else if (hit.collider.name == "Urs" && !ursAudio.isPlaying)
                 {
                     if (count == 3)
                     {
@@ -87,10 +122,16 @@ public class MamePuiCode : MonoBehaviour
                         count++;
                         ursBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
                         vulpeBebe.transform.position = new Vector3(0.41f, -3.09f, -2f);
+                        vulpeAudio.Play(0);
+                        vulpeAudioStarted = 1;
+                    }
+                    else if (count != 3 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
+                    {
+                        warningAudio.Play(0);
                     }
                 }
 
-                else if (hit.collider.name == "Vulpe")
+                else if (hit.collider.name == "Vulpe" && !vulpeAudio.isPlaying)
                 {
                     if (count == 4)
                     {
@@ -99,10 +140,16 @@ public class MamePuiCode : MonoBehaviour
                         count++;
                         vulpeBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
                         veveritaBebe.transform.position = new Vector3(0.41f, -3.09f, -2f);
+                        veveritaAudio.Play(0);
+                        veveritaAudioStarted = 1;
+                    }
+                    else if (count != 4 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
+                    {
+                        warningAudio.Play(0);
                     }
                 }
 
-                else if (hit.collider.name == "Veverita")
+                else if (hit.collider.name == "Veverita" && !veveritaAudio.isPlaying)
                 {
                     if (count == 5)
                     {
@@ -110,17 +157,43 @@ public class MamePuiCode : MonoBehaviour
                         veverita.SetActive(false);
                         count++;
                         veveritaBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
-
-                        finalAudioStarted = 1;
-                        finalAudio.Play(0);
+                    }
+                    else if (count != 5 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
+                    {
+                        warningAudio.Play(0);
                     }
                 }
             }
         }
-
-        if (finalAudioStarted == 1 && !finalAudio.isPlaying)
+        if (!warningAudio.isPlaying)
         {
-            SceneManager.LoadScene("Numara_Activity");
+            if (caprioaraAudioStarted == 1 && !caprioaraAudio.isPlaying)
+            {
+                caprioaraAudioStarted = 0;
+            }
+
+            if (ursAudioStarted == 1 && !ursAudio.isPlaying)
+            {
+               ursAudioStarted = 0;
+            }
+            if (lupAudioStarted == 1 && !lupAudio.isPlaying)
+            {
+                lupAudioStarted = 0;
+            }
+            if (vulpeAudioStarted == 1 && !vulpeAudio.isPlaying)
+            {
+                vulpeAudioStarted = 0;
+            }
+            if (veveritaAudioStarted == 1 && !veveritaAudio.isPlaying)
+            {
+                veveritaAudioStarted = 0;
+                finalAudioStarted = 1;
+                finalAudio.Play(0);
+            }
+            if (finalAudioStarted == 1 && !finalAudio.isPlaying)
+            {
+                SceneManager.LoadScene("Numara_Activity");
+            }
         }
     }
 }
