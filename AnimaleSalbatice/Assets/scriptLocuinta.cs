@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class scriptLocuinta : MonoBehaviour
 {
     private int count;
+    int finalAudioStarted;
+
     private GameObject bebeCaprioara, parinteCaprioara, casaCaprioaraH, bebeVulpe, casaVulpeH, bebeLup, parinteLup, casaLupH, bebeVeverita, parinteVeverita, casaVeveritaH, bebeUrs, casaUrsH, bebeVeveInCasa;
     private GameObject border;
     private AudioSource successAudio;
@@ -14,6 +16,8 @@ public class scriptLocuinta : MonoBehaviour
 
     private string lastTagClicked;
 
+    AudioSource inceputAudio;
+    AudioSource finalAudio;
 
     private Dictionary<string, int> errorCount;
 
@@ -47,9 +51,6 @@ public class scriptLocuinta : MonoBehaviour
         warningAudio = GameObject.Find("warningAudio").GetComponent<AudioSource>();
         helpAudio = GameObject.Find("helpAudio").GetComponent<AudioSource>();
 
-
-
-
         errorCount = new Dictionary<string, int>();
 
 
@@ -59,6 +60,10 @@ public class scriptLocuinta : MonoBehaviour
         errorCount.Add("bebeLup", 0);
         errorCount.Add("bebeVeverita", 0);
 
+        inceputAudio = GameObject.Find("inceput_4").GetComponent<AudioSource>();
+        inceputAudio.Play(0);
+        finalAudioStarted = 0;
+        finalAudio = GameObject.Find("final_4").GetComponent<AudioSource>();
     }
 
 
@@ -139,7 +144,7 @@ public class scriptLocuinta : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetMouseButtonDown(0))
+        if (!inceputAudio.isPlaying &&  Input.GetMouseButtonDown(0))
         {
             //mouse is clicked
             RaycastHit hit;
@@ -332,15 +337,15 @@ public class scriptLocuinta : MonoBehaviour
                 }
                 if (count == 5)
                 {
-                    SceneManager.LoadScene("Puzzle");
-                    Debug.Log("game done");
+                    finalAudioStarted = 1;
+                    finalAudio.Play(0);
                 }
 
             }
         }
+        if (finalAudioStarted == 1 && !finalAudio.isPlaying)
+        {
+            SceneManager.LoadScene("Puzzle");
+        }
     }
-
-
-
-
 }

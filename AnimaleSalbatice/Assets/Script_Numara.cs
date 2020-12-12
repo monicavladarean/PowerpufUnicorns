@@ -7,9 +7,15 @@ public class Script_Numara : MonoBehaviour
 {
     GameObject nr_1, nr_2, nr_3, peste, mie, ghind, iarb, carne, pic;
     int count;
+    int finalAudioStarted;
+
+    AudioSource inceputAudio;
+    AudioSource finalAudio;
+
     // Start is called before the first frame update
     void Start()
     {
+        finalAudioStarted = 0;
         count = 1;
 
         nr_1 = GameObject.Find("unu");
@@ -26,12 +32,16 @@ public class Script_Numara : MonoBehaviour
         nr_2.transform.position = new Vector3(-1000f, -1000f, -1000f);
         nr_3.transform.position = new Vector3(-1000f, -1000f, -1000f);
         pic.transform.position = new Vector3(-1000f, -1000f, -1000f);
+
+        inceputAudio = GameObject.Find("inceput_2").GetComponent<AudioSource>();
+        inceputAudio.Play(0);
+        finalAudio = GameObject.Find("final_joc (1)").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (!inceputAudio.isPlaying &&  Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -107,10 +117,15 @@ public class Script_Numara : MonoBehaviour
                         count++;
                         pic.transform.position = new Vector3(0.62f, -0.1f, -2f);
                         Debug.Log("Picnicul e gata!!!");
-                        SceneManager.LoadScene("Mancare");
+                        finalAudioStarted = 1;
+                        finalAudio.Play(0);
                     }
                 }
             }
+        }
+        if (finalAudioStarted == 1 && !finalAudio.isPlaying)
+        {
+            SceneManager.LoadScene("Mancare");
         }
     }
 }

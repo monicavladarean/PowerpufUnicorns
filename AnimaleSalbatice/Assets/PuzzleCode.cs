@@ -7,6 +7,10 @@ public class PuzzleCode : MonoBehaviour
 {
     GameObject img1, img2, img3, img4, imgDone;
     int countRotationsImg1, countRotationsImg2, countRotationsImg3, countRotationsImg4;
+    int finalAudioStarted;
+
+    AudioSource inceputAudio;
+    AudioSource finalAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -21,12 +25,18 @@ public class PuzzleCode : MonoBehaviour
         countRotationsImg2 = 0;
         countRotationsImg3 = 0;
         countRotationsImg4 = 0;
+
+        inceputAudio = GameObject.Find("inceput_5").GetComponent<AudioSource>();
+        inceputAudio.Play(0);
+        finalAudio = GameObject.Find("final_5").GetComponent<AudioSource>();
+
+        finalAudioStarted=0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (!inceputAudio.isPlaying && Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -62,9 +72,14 @@ public class PuzzleCode : MonoBehaviour
                 {
                     Debug.Log("game done");
                     imgDone.transform.position = new Vector3(0.16f, -0.028f, -2);
-                    SceneManager.LoadScene("Final");
+                    finalAudioStarted = 1;
+                    finalAudio.Play(0);
                 }
             }
+        }
+        if (finalAudioStarted == 1 && !finalAudio.isPlaying)
+        {
+            SceneManager.LoadScene("Final");
         }
     }
 }

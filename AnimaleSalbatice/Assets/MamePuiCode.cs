@@ -8,10 +8,15 @@ public class MamePuiCode : MonoBehaviour
     GameObject lup, veverita, urs, vulpe, caprioara;
     GameObject caprioaraBebe, lupBebe, ursBebe, vulpeBebe, veveritaBebe;
     int count;
+    int finalAudioStarted;
+
+    AudioSource inceputAudio;
+    AudioSource finalAudio;
 
     // Start is called before the first frame update
     void Start()
     {
+        finalAudioStarted = 0;
         count = 1;
 
         caprioara = GameObject.Find("Caprioara"); //1
@@ -32,12 +37,16 @@ public class MamePuiCode : MonoBehaviour
         veveritaBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
         vulpeBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
 
+        inceputAudio = GameObject.Find("inceput_joc").GetComponent<AudioSource>();
+        inceputAudio.Play(0);
+        finalAudio = GameObject.Find("final_joc").GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (!inceputAudio.isPlaying && Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -101,10 +110,17 @@ public class MamePuiCode : MonoBehaviour
                         veverita.SetActive(false);
                         count++;
                         veveritaBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        SceneManager.LoadScene("Numara_Activity");
+
+                        finalAudioStarted = 1;
+                        finalAudio.Play(0);
                     }
                 }
             }
+        }
+
+        if (finalAudioStarted == 1 && !finalAudio.isPlaying)
+        {
+            SceneManager.LoadScene("Numara_Activity");
         }
     }
 }

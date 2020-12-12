@@ -6,13 +6,18 @@ using UnityEngine.SceneManagement;
 public class MancareCode : MonoBehaviour
 {
     private int count;
+    int finalAudioStarted;
     private GameObject farfurie_lup, farfurie_vulpe, farfurie_caprioara, farfurie_urs, farfurie_veverita, peste, miere, iarba, ghinde, carne, carneLaLup;
     private string lastTagClicked;
 
     private Dictionary<string, int> errorCount;
 
+    AudioSource inceputAudio;
+    AudioSource finalAudio;
+
     void Start()
     {
+        finalAudioStarted = 0;
         count = 0;
         farfurie_lup = GameObject.Find("farfurie-lup");
         farfurie_caprioara = GameObject.Find("farfurie-caprioara");
@@ -36,6 +41,10 @@ public class MancareCode : MonoBehaviour
         errorCount.Add("miere", 0);
         errorCount.Add("ghinde", 0);
         errorCount.Add("iarba", 0);
+
+        inceputAudio = GameObject.Find("inceput_3").GetComponent<AudioSource>();
+        inceputAudio.Play(0);
+        finalAudio = GameObject.Find("final_3").GetComponent<AudioSource>();
 
     }
 
@@ -106,7 +115,7 @@ public class MancareCode : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (!inceputAudio.isPlaying &&  Input.GetMouseButtonDown(0))
         {
             //mouse is clicked
             RaycastHit hit;
@@ -272,10 +281,16 @@ public class MancareCode : MonoBehaviour
 
                 if (count == 5)
                 {
-                    SceneManager.LoadScene("Activity4");
+                    finalAudioStarted = 1;
+                    finalAudio.Play(0);
                 }
 
             }
+        }
+
+        if (finalAudioStarted == 1 && !finalAudio.isPlaying)
+        {
+            SceneManager.LoadScene("Activity4");
         }
     }
 
