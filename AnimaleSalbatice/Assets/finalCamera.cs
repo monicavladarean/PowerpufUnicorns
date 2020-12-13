@@ -43,6 +43,14 @@ public class finalCamera : MonoBehaviour
 
         audioFinal = GameObject.Find("final_poveste").GetComponent<AudioSource>();
         audioFinal.Play(0);
+
+        finalFundal.GetComponent<Renderer>().sortingOrder = 0;
+        nor.GetComponent<Renderer>().sortingOrder = 1;
+        bebeCaprioara.GetComponent<Renderer>().sortingOrder = 3;
+        bebeLup.GetComponent<Renderer>().sortingOrder = 3;
+        bebeVeverita.GetComponent<Renderer>().sortingOrder = 3;
+        bebeVulpe.GetComponent<Renderer>().sortingOrder = 2;
+        bebeUrs.GetComponent<Renderer>().sortingOrder = 2;
     }
 
     // Update is called once per frame
