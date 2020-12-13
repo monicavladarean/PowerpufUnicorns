@@ -29,4 +29,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mancare.unity
     guid: 2ca434e4ffa965442a1e41dda408813a
+  - enabled: 1
+    path: Assets/Scenes/caprioaraInvatare.unity
+    guid: 69ee90528db3e6b448f91bd9ae05948d
+  - enabled: 1
+    path: Assets/Scenes/lupInvatare.unity
+    guid: 7f822838dc165574aad1fa2f60b77e30
+  - enabled: 1
+    path: Assets/Scenes/veveritaInvatare.unity
+    guid: 77c5d7fbd2bcfea489177a8867935160
+  - enabled: 1
+    path: Assets/Scenes/vulpeInvatare.unity
+    guid: 689eff870c5a8c840a709283421ef13f
+  - enabled: 1
+    path: Assets/Scenes/ursInvatare.unity
+    guid: c6d1b1ada173f324c8d064505a328b6f
+  - enabled: 1
+    path: Assets/Scenes/finalInvatare.unity
+    guid: 7d26f355c677dc0418404b8efbaeec6e
   m_configObjects: {}

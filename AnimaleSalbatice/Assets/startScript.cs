@@ -30,7 +30,7 @@ public class startScript : MonoBehaviour
                 if (hit.collider.name == "startButon")
                 {
                     Debug.Log("game starts");
-                    SceneManager.LoadScene("ActivityMamesiPui");
+                    SceneManager.LoadScene("CaprioaraInvatare");
                 }
             }
         }
