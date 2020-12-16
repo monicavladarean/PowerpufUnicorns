@@ -3,6 +3,30 @@ sceneSetups:
   isLoaded: 1
   isActive: 1
   isSubScene: 0
+- path: Assets/Scenes/caprioaraInvatare.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/lupInvatare.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/veveritaInvatare.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/vulpeInvatare.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/ursInvatare.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/finalInvatare.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
 - path: Assets/Scenes/ActivityMamesiPui.unity
   isLoaded: 0
   isActive: 0
@@ -11,7 +35,19 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
   isSubScene: 0
+- path: Assets/Scenes/Mancare.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
 - path: Assets/Scenes/Activity4.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Puzzle.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Final.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0

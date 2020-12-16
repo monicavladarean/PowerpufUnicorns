@@ -171,8 +171,9 @@ public class MancareCode : MonoBehaviour
                     if (lastTagClicked == "peste")
                     {
                         Debug.Log("farfurie-vulpe clicked");
-                        successAudio.Play(0);
                         mancareaMergeSinguraLaFarfurie();
+                        if (count != 5)
+                            successAudio.Play(0);    
                         lastTagClicked = "";
                     }
                     else
@@ -208,8 +209,9 @@ public class MancareCode : MonoBehaviour
                     if (lastTagClicked == "ghinde")
                     {
                         Debug.Log("farfurie-veverita clicked");
-                        successAudio.Play(0);
                         mancareaMergeSinguraLaFarfurie();
+                        if (count != 5)
+                            successAudio.Play(0);
                         lastTagClicked = "";
                     }
                     else
@@ -242,8 +244,9 @@ public class MancareCode : MonoBehaviour
                     if (lastTagClicked == "iarba")
                     {
                         Debug.Log("farfurie-caprioara clicked");
-                        successAudio.Play(0);
                         mancareaMergeSinguraLaFarfurie();
+                        if (count != 5)
+                            successAudio.Play(0);
                         lastTagClicked = "";
                     }
                     else
@@ -275,8 +278,9 @@ public class MancareCode : MonoBehaviour
                     if (lastTagClicked == "miere")
                     {
                         Debug.Log("farfurie-urs clicked");
-                        successAudio.Play(0);
                         mancareaMergeSinguraLaFarfurie();
+                        if (count != 5)
+                            successAudio.Play(0);
                         lastTagClicked = "";
                     }
                     else
@@ -309,8 +313,9 @@ public class MancareCode : MonoBehaviour
                     if (lastTagClicked == "carne")
                     {
                         Debug.Log("farfurie-lup clicked");
-                        successAudio.Play(0);
                         mancareaMergeSinguraLaFarfurie();
+                        if (count!=5)
+                            successAudio.Play(0);
                         lastTagClicked = "";
                     }
                     else

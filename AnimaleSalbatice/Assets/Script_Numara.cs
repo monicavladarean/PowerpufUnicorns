@@ -202,7 +202,7 @@ public class Script_Numara : MonoBehaviour
             }
             if (ghindeDoneStarted == 1 && !ghindeDone.isPlaying)
             {
-                nr_1.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                nr_2.transform.position = new Vector3(-1000f, -1000f, -1000f);
                 ghindeDoneStarted = 0;
             }
 

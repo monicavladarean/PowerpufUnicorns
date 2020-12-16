@@ -195,8 +195,9 @@ public class scriptLocuinta : MonoBehaviour
                     if (lastTagClicked == "bebeVeverita")
                     {
                         Debug.Log("casaVeverita clicked");
-                        successAudio.Play(0);
                         faceJoculParteaPtAnimalulDat();
+                        if (count != 5)
+                            successAudio.Play(0);
                         lastTagClicked = "";
                         border.GetComponent<Renderer>().enabled = false;
                     }
@@ -234,9 +235,10 @@ public class scriptLocuinta : MonoBehaviour
                     if (lastTagClicked == "bebeCaprioara")
                     {
                         Debug.Log("casaCaprioara clicked");
-                        successAudio.Play(0);
-                        border.GetComponent<Renderer>().enabled = false;
                         faceJoculParteaPtAnimalulDat();
+                        if (count != 5)
+                            successAudio.Play(0);
+                        border.GetComponent<Renderer>().enabled = false;
                         lastTagClicked = "";
                     }
                     else
@@ -272,9 +274,10 @@ public class scriptLocuinta : MonoBehaviour
                     if (lastTagClicked == "bebeLup")
                     {
                         Debug.Log("casaLup clicked");
-                        successAudio.Play(0);
-                        border.GetComponent<Renderer>().enabled = false;
                         faceJoculParteaPtAnimalulDat();
+                        if (count != 5)
+                            successAudio.Play(0);
+                        border.GetComponent<Renderer>().enabled = false;
                         lastTagClicked = "";
                     }
                     else
@@ -309,9 +312,10 @@ public class scriptLocuinta : MonoBehaviour
                     if (lastTagClicked == "bebeVulpe")
                     {
                         Debug.Log("casaVulpe clicked");
-                        successAudio.Play(0);
-                        border.GetComponent<Renderer>().enabled = false;
                         faceJoculParteaPtAnimalulDat();
+                        if (count != 5)
+                            successAudio.Play(0);
+                        border.GetComponent<Renderer>().enabled = false;
                         lastTagClicked = "";
                     }
                     else
@@ -346,9 +350,10 @@ public class scriptLocuinta : MonoBehaviour
                     if (lastTagClicked == "bebeUrs")
                     {
                         Debug.Log("casaUrs clicked");
-                        successAudio.Play(0);
-                        border.GetComponent<Renderer>().enabled = false;
                         faceJoculParteaPtAnimalulDat();
+                        if (count != 5)
+                            successAudio.Play(0);
+                        border.GetComponent<Renderer>().enabled = false;
                         lastTagClicked = "";
                     }
                     else

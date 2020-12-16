@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class finalCode : MonoBehaviour
 {
+    int finalAudioStarted = 0;
     AudioSource finalAudio;
 
     // Start is called before the first frame update
@@ -11,11 +12,15 @@ public class finalCode : MonoBehaviour
     {
         finalAudio = GameObject.Find("iesire_joc").GetComponent<AudioSource>();
         finalAudio.Play(0);
+        finalAudioStarted = 1;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (!finalAudio.isPlaying && finalAudioStarted==1)
+        {
+            Application.Quit();
+        }
     }
 }

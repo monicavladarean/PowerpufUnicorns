@@ -89,8 +89,7 @@ public class MamePuiCode : MonoBehaviour
                         count++;
                         caprioaraBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
                         lupBebe.transform.position = new Vector3(0.41f, -3.09f, -2f);
-                        lupAudio.Play(0);
-                        lupAudioStarted = 1;
+
                     }
                     else if (count != 1 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
                     {
@@ -108,8 +107,6 @@ public class MamePuiCode : MonoBehaviour
                         count++;
                         lupBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
                         ursBebe.transform.position = new Vector3(0.41f, -3.09f, -2f);
-                        ursAudio.Play(0);
-                        ursAudioStarted = 1;
                     }
                     else if (count != 2 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
                     {
@@ -127,8 +124,6 @@ public class MamePuiCode : MonoBehaviour
                         count++;
                         ursBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
                         vulpeBebe.transform.position = new Vector3(0.41f, -3.09f, -2f);
-                        vulpeAudio.Play(0);
-                        vulpeAudioStarted = 1;
                     }
                     else if (count != 3 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
                     {
@@ -146,8 +141,6 @@ public class MamePuiCode : MonoBehaviour
                         count++;
                         vulpeBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
                         veveritaBebe.transform.position = new Vector3(0.41f, -3.09f, -2f);
-                        veveritaAudio.Play(0);
-                        veveritaAudioStarted = 1;
                     }
                     else if (count != 4 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
                     {
@@ -174,24 +167,32 @@ public class MamePuiCode : MonoBehaviour
         }
         if (!warningAudio.isPlaying)
         {
-            if (caprioaraAudioStarted == 1 && !caprioaraAudio.isPlaying)
+            if (caprioaraAudioStarted == 1 && !caprioaraAudio.isPlaying && count==2 && !successAudio.isPlaying)
             {
+                lupAudio.Play(0);
+                lupAudioStarted = 1;
                 caprioaraAudioStarted = 0;
             }
 
-            if (ursAudioStarted == 1 && !ursAudio.isPlaying)
+            if (ursAudioStarted == 1 && !ursAudio.isPlaying && count == 4 && !successAudio.isPlaying)
             {
-               ursAudioStarted = 0;
+                vulpeAudio.Play(0);
+                vulpeAudioStarted = 1;
+                ursAudioStarted = 0;
             }
-            if (lupAudioStarted == 1 && !lupAudio.isPlaying)
+            if (lupAudioStarted == 1 && !lupAudio.isPlaying && count == 3 && !successAudio.isPlaying)
             {
+                ursAudio.Play(0);
+                ursAudioStarted = 1;
                 lupAudioStarted = 0;
             }
-            if (vulpeAudioStarted == 1 && !vulpeAudio.isPlaying)
+            if (vulpeAudioStarted == 1 && !vulpeAudio.isPlaying && count == 5 && !successAudio.isPlaying)
             {
+                veveritaAudio.Play(0);
+                veveritaAudioStarted = 1;
                 vulpeAudioStarted = 0;
             }
-            if (veveritaAudioStarted == 1 && !veveritaAudio.isPlaying)
+            if (veveritaAudioStarted == 1 && !veveritaAudio.isPlaying && count==6 && !successAudio.isPlaying)
             {
                 veveritaAudioStarted = 0;
                 finalAudioStarted = 1;
