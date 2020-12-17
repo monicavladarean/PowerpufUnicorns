@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/finalInvatare.unity
     guid: 7d26f355c677dc0418404b8efbaeec6e
+  - enabled: 1
+    path: Assets/Scenes/Numarat2.unity
+    guid: a5c55303b44675b459196a75ff0fbed0
   m_configObjects: {}

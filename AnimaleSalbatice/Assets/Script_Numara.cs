@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Script_Numara : MonoBehaviour
 {
-    GameObject nr_1, nr_2, nr_3, peste, mie, ghind, iarb, carne, pic;
-    int count,ok=1;
+    GameObject nr_1, nr_2, nr_3, peste, mie, ghind, iarb, carne;
+    int count, ok = 1;
     int finalAudioStarted;
-    int iarbaDoneStarted=0, carneDoneStarted=0, pesteDoneStarted=0, ghindeDoneStarted=0, miereDoneStarted=0;
+    int iarbaDoneStarted = 0, carneDoneStarted = 0, pesteDoneStarted = 0, ghindeDoneStarted = 0, miereDoneStarted = 0;
 
     AudioSource inceputAudio;
     AudioSource finalAudio;
@@ -37,16 +37,14 @@ public class Script_Numara : MonoBehaviour
         ghind = GameObject.Find("ghinde");
         iarb = GameObject.Find("iarba");
         carne = GameObject.Find("carnuri");
-        pic = GameObject.Find("picnic");
 
         nr_1.transform.position = new Vector3(-1000f, -1000f, -1000f);
         nr_2.transform.position = new Vector3(-1000f, -1000f, -1000f);
         nr_3.transform.position = new Vector3(-1000f, -1000f, -1000f);
-        pic.transform.position = new Vector3(-1000f, -1000f, -1000f);
 
         inceputAudio = GameObject.Find("inceput_2").GetComponent<AudioSource>();
         inceputAudio.Play(0);
-        finalAudio = GameObject.Find("final_joc (1)").GetComponent<AudioSource>();
+        finalAudio = GameObject.Find("final_parte1").GetComponent<AudioSource>();
 
         startCerinte = GameObject.Find("iarba (1)").GetComponent<AudioSource>();
         miereDone = GameObject.Find("miere_bravo").GetComponent<AudioSource>();
@@ -68,7 +66,7 @@ public class Script_Numara : MonoBehaviour
             ok = 0;
         }
 
-        else if (!inceputAudio.isPlaying &&  !warningAudio.isPlaying && !successAudio.isPlaying&& Input.GetMouseButtonDown(0))
+        else if (!inceputAudio.isPlaying && !warningAudio.isPlaying && !successAudio.isPlaying && Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -88,7 +86,7 @@ public class Script_Numara : MonoBehaviour
                         iarbaDoneStarted = 1;
                         iarbaDone.Play(0);
                     }
-                    else if (count!=1 && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying)
+                    else if (count != 1 && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying)
                     {
                         warningAudio.Play(0);
                     }
@@ -193,7 +191,6 @@ public class Script_Numara : MonoBehaviour
                 carneDoneStarted = 0;
                 finalAudioStarted = 1;
                 finalAudio.Play(0);
-                pic.transform.position = new Vector3(0.62f, -0.1f, -2f);
             }
             if (pesteDoneStarted == 1 && !pesteDone.isPlaying)
             {
@@ -208,7 +205,7 @@ public class Script_Numara : MonoBehaviour
 
             if (finalAudioStarted == 1 && !finalAudio.isPlaying)
             {
-                SceneManager.LoadScene("Mancare");
+                SceneManager.LoadScene("Numarat2");
             }
         }
     }

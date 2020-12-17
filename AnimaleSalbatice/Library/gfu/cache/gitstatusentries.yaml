@@ -13,42 +13,232 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-12-16T20:46:56.419+02:00
-  initializedAtString: 2020-12-16T19:46:48.280+02:00
+  lastUpdatedAtString: 2020-12-17T21:48:28.833+02:00
+  initializedAtString: 2020-12-17T20:25:28.412+02:00
   entries:
-  - path: AnimaleSalbatice\Assets\finalCode.cs
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\finalCode.cs
-    projectPath: Assets\finalCode.cs
+  - path: AnimaleSalbatice\Assets\numarat2.cs
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\numarat2.cs
+    projectPath: Assets\numarat2.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\numarat2.cs.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\numarat2.cs.meta
+    projectPath: Assets\numarat2.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2.meta
+    projectPath: Assets\Replici\parte_2.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\carne.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\carne.mp3
+    projectPath: Assets\Replici\parte_2\carne.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\carne.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\carne.mp3.meta
+    projectPath: Assets\Replici\parte_2\carne.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\click_nr care arata.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\click_nr
+      care arata.mp3
+    projectPath: Assets\Replici\parte_2\click_nr care arata.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\click_nr care arata.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\click_nr
+      care arata.mp3.meta
+    projectPath: Assets\Replici\parte_2\click_nr care arata.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\click_pe mancare.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\click_pe
+      mancare.mp3
+    projectPath: Assets\Replici\parte_2\click_pe mancare.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\click_pe mancare.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\click_pe
+      mancare.mp3.meta
+    projectPath: Assets\Replici\parte_2\click_pe mancare.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\final_parte1.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\final_parte1.mp3
+    projectPath: Assets\Replici\parte_2\final_parte1.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\final_parte1.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\final_parte1.mp3.meta
+    projectPath: Assets\Replici\parte_2\final_parte1.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\ghinde.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\ghinde.mp3
+    projectPath: Assets\Replici\parte_2\ghinde.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\ghinde.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\ghinde.mp3.meta
+    projectPath: Assets\Replici\parte_2\ghinde.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\help.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\help.mp3
+    projectPath: Assets\Replici\parte_2\help.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\help.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\help.mp3.meta
+    projectPath: Assets\Replici\parte_2\help.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\iarba_2.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\iarba_2.mp3
+    projectPath: Assets\Replici\parte_2\iarba_2.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\iarba_2.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\iarba_2.mp3.meta
+    projectPath: Assets\Replici\parte_2\iarba_2.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\inceput_parte2.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\inceput_parte2.mp3
+    projectPath: Assets\Replici\parte_2\inceput_parte2.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\inceput_parte2.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\inceput_parte2.mp3.meta
+    projectPath: Assets\Replici\parte_2\inceput_parte2.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\instructiune_1.wav
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\instructiune_1.wav
+    projectPath: Assets\Replici\parte_2\instructiune_1.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\instructiune_1.wav.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\instructiune_1.wav.meta
+    projectPath: Assets\Replici\parte_2\instructiune_1.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\instructiune_2.wav
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\instructiune_2.wav
+    projectPath: Assets\Replici\parte_2\instructiune_2.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\instructiune_2.wav.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\instructiune_2.wav.meta
+    projectPath: Assets\Replici\parte_2\instructiune_2.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\instructiune_3.wav
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\instructiune_3.wav
+    projectPath: Assets\Replici\parte_2\instructiune_3.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\instructiune_3.wav.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\instructiune_3.wav.meta
+    projectPath: Assets\Replici\parte_2\instructiune_3.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\instructiune_4.wav
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\instructiune_4.wav
+    projectPath: Assets\Replici\parte_2\instructiune_4.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\instructiune_4.wav.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\instructiune_4.wav.meta
+    projectPath: Assets\Replici\parte_2\instructiune_4.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\instructiune_5.wav
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\instructiune_5.wav
+    projectPath: Assets\Replici\parte_2\instructiune_5.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\instructiune_5.wav.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\instructiune_5.wav.meta
+    projectPath: Assets\Replici\parte_2\instructiune_5.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\miere_2.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\miere_2.mp3
+    projectPath: Assets\Replici\parte_2\miere_2.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\miere_2.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\miere_2.mp3.meta
+    projectPath: Assets\Replici\parte_2\miere_2.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\pesti_2.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\pesti_2.mp3
+    projectPath: Assets\Replici\parte_2\pesti_2.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\parte_2\pesti_2.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\parte_2\pesti_2.mp3.meta
+    projectPath: Assets\Replici\parte_2\pesti_2.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Scenes\Numara_Activity.unity
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\Numara_Activity.unity
+    projectPath: Assets\Scenes\Numara_Activity.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: AnimaleSalbatice\Assets\MamePuiCode.cs
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\MamePuiCode.cs
-    projectPath: Assets\MamePuiCode.cs
+  - path: AnimaleSalbatice\Assets\Scenes\Numarat2.unity
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\Numarat2.unity
+    projectPath: Assets\Scenes\Numarat2.unity
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: AnimaleSalbatice\Assets\MancareCode.cs
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\MancareCode.cs
-    projectPath: Assets\MancareCode.cs
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Scenes\Numarat2.unity.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\Numarat2.unity.meta
+    projectPath: Assets\Scenes\Numarat2.unity.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: AnimaleSalbatice\Assets\Scenes\Puzzle.unity
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\Puzzle.unity
-    projectPath: Assets\Scenes\Puzzle.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: AnimaleSalbatice\Assets\Script_Numara.cs
     fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Script_Numara.cs
     projectPath: Assets\Script_Numara.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: AnimaleSalbatice\Assets\scriptLocuinta.cs
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\scriptLocuinta.cs
-    projectPath: Assets\scriptLocuinta.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -64,9 +254,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: AnimaleSalbatice\Library\expandedItems
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\expandedItems
-    projectPath: Library\expandedItems
+  - path: AnimaleSalbatice\Library\EditorUserBuildSettings.asset
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -100,15 +290,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: AnimaleSalbatice\Library\LastSceneManagerSetup.txt
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: AnimaleSalbatice\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+  - path: AnimaleSalbatice\Library\SceneVisibilityState.asset
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -121,6 +305,12 @@ MonoBehaviour:
   - path: AnimaleSalbatice\Library\StateCache\Hierarchy\6a784e-mainStage.json
     fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\StateCache\Hierarchy\6a784e-mainStage.json
     projectPath: Library\StateCache\Hierarchy\6a784e-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\ProjectSettings\EditorBuildSettings.asset
+    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
