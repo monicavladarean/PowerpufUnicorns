@@ -24,6 +24,9 @@ public class MancareCode : MonoBehaviour
     private AudioSource warningAudio;
     private AudioSource successAudio;
 
+    GameObject helpButton;
+    AudioSource helpAudio;
+
     void Start()
     {
         finalAudioStarted = 0;
@@ -64,6 +67,9 @@ public class MancareCode : MonoBehaviour
         helpVulpeAudio = GameObject.Find("peste (1)").GetComponent<AudioSource>();
         helpVeveritaAudio = GameObject.Find("ghinde (1)").GetComponent<AudioSource>();
         helpCaprioaraAudio = GameObject.Find("iarba (1)").GetComponent<AudioSource>();
+
+        helpButton = GameObject.Find("semn (2)");
+        helpAudio = GameObject.Find("instructiune_3").GetComponent<AudioSource>();
 
     }
 
@@ -158,181 +164,188 @@ public class MancareCode : MonoBehaviour
             Debug.Log("ray");
             if (Physics.Raycast(ray, out hit))
             {
-                Debug.Log(hit.collider.tag);
-                if (hit.collider.tag == "peste")
+                if (hit.collider.name == "semn (2)" && !helpLupAudio.isPlaying && !helpUrsAudio.isPlaying && !helpVeveritaAudio.isPlaying && !helpCaprioaraAudio.isPlaying && !helpVulpeAudio.isPlaying && !finalAudio.isPlaying)
                 {
-
-                    lastTagClicked = "peste";
-                    Debug.Log("peste clicked ");
-
+                    helpAudio.Play(0);
                 }
-                else if (hit.collider.tag == "farfurie-vulpe")
+                if (!helpAudio.isPlaying)
                 {
-                    if (lastTagClicked == "peste")
+                    Debug.Log(hit.collider.tag);
+                    if (hit.collider.tag == "peste")
                     {
-                        Debug.Log("farfurie-vulpe clicked");
-                        mancareaMergeSinguraLaFarfurie();
-                        if (count != 5)
-                            successAudio.Play(0);    
-                        lastTagClicked = "";
+
+                        lastTagClicked = "peste";
+                        Debug.Log("peste clicked ");
+
                     }
-                    else
+                    else if (hit.collider.tag == "farfurie-vulpe")
                     {
-                        //amintire sa apese pe mancare si apoi pe farfurie
-                        if (lastTagClicked == "")
+                        if (lastTagClicked == "peste")
                         {
-                            warningAudio.Play(0);
-                            Debug.Log("sunet pt amintire sa apese pe mancare si apoi pe farfurie");
+                            Debug.Log("farfurie-vulpe clicked");
+                            mancareaMergeSinguraLaFarfurie();
+                            if (count != 5)
+                                successAudio.Play(0);
+                            lastTagClicked = "";
                         }
                         else
                         {
-                            Debug.Log("a gresit farfuria aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
-                            if (this.errorCount[lastTagClicked] == 0)
+                            //amintire sa apese pe mancare si apoi pe farfurie
+                            if (lastTagClicked == "")
+                            {
                                 warningAudio.Play(0);
-                            this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
-                            verificareEroriCaSaFacemJocul();
+                                Debug.Log("sunet pt amintire sa apese pe mancare si apoi pe farfurie");
+                            }
+                            else
+                            {
+                                Debug.Log("a gresit farfuria aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
+                                if (this.errorCount[lastTagClicked] == 0)
+                                    warningAudio.Play(0);
+                                this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
+                                verificareEroriCaSaFacemJocul();
 
+                            }
                         }
                     }
-                }
 
 
 
 
-                else if (hit.collider.tag == "ghinde")
-                {
-                    Debug.Log("ghinde clicked");
-                    lastTagClicked = "ghinde";
-                }
-                else if (hit.collider.tag == "farfurie-veverita")
-                {
-                    if (lastTagClicked == "ghinde")
+                    else if (hit.collider.tag == "ghinde")
                     {
-                        Debug.Log("farfurie-veverita clicked");
-                        mancareaMergeSinguraLaFarfurie();
-                        if (count != 5)
-                            successAudio.Play(0);
-                        lastTagClicked = "";
+                        Debug.Log("ghinde clicked");
+                        lastTagClicked = "ghinde";
                     }
-                    else
+                    else if (hit.collider.tag == "farfurie-veverita")
                     {
-                        //amintire sa apese pe mancare si apoi farfuria
-                        if (lastTagClicked == "")
+                        if (lastTagClicked == "ghinde")
                         {
-                            warningAudio.Play(0);
-                            Debug.Log("sunet pt amintire sa apese pe mancare si apoi pe farfurie");
+                            Debug.Log("farfurie-veverita clicked");
+                            mancareaMergeSinguraLaFarfurie();
+                            if (count != 5)
+                                successAudio.Play(0);
+                            lastTagClicked = "";
                         }
                         else
                         {
-                            Debug.Log("a gresit farfuria aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
-                            if (this.errorCount[lastTagClicked] == 0)
+                            //amintire sa apese pe mancare si apoi farfuria
+                            if (lastTagClicked == "")
+                            {
                                 warningAudio.Play(0);
-                            this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
-                            verificareEroriCaSaFacemJocul();
+                                Debug.Log("sunet pt amintire sa apese pe mancare si apoi pe farfurie");
+                            }
+                            else
+                            {
+                                Debug.Log("a gresit farfuria aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
+                                if (this.errorCount[lastTagClicked] == 0)
+                                    warningAudio.Play(0);
+                                this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
+                                verificareEroriCaSaFacemJocul();
+                            }
                         }
                     }
-                }
 
-                else if (hit.collider.tag == "iarba")
-                {
-                    Debug.Log("iarba clicked");
-                    lastTagClicked = "iarba";
-
-                }
-                else if (hit.collider.tag == "farfurie-caprioara")
-                {
-                    if (lastTagClicked == "iarba")
+                    else if (hit.collider.tag == "iarba")
                     {
-                        Debug.Log("farfurie-caprioara clicked");
-                        mancareaMergeSinguraLaFarfurie();
-                        if (count != 5)
-                            successAudio.Play(0);
-                        lastTagClicked = "";
+                        Debug.Log("iarba clicked");
+                        lastTagClicked = "iarba";
+
                     }
-                    else
+                    else if (hit.collider.tag == "farfurie-caprioara")
                     {
-                        //amintire sa apese pe macare si apoi pe farfurie
-                        if (lastTagClicked == "")
+                        if (lastTagClicked == "iarba")
                         {
-                            warningAudio.Play(0);
-                            Debug.Log("sunet pt amintire sa apese pe mancare si apoi pe farfurie");
+                            Debug.Log("farfurie-caprioara clicked");
+                            mancareaMergeSinguraLaFarfurie();
+                            if (count != 5)
+                                successAudio.Play(0);
+                            lastTagClicked = "";
                         }
                         else
                         {
-                            Debug.Log("a gresit farfuria aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
-                            if (this.errorCount[lastTagClicked] == 0)
+                            //amintire sa apese pe macare si apoi pe farfurie
+                            if (lastTagClicked == "")
+                            {
                                 warningAudio.Play(0);
-                            this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
-                            verificareEroriCaSaFacemJocul();
+                                Debug.Log("sunet pt amintire sa apese pe mancare si apoi pe farfurie");
+                            }
+                            else
+                            {
+                                Debug.Log("a gresit farfuria aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
+                                if (this.errorCount[lastTagClicked] == 0)
+                                    warningAudio.Play(0);
+                                this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
+                                verificareEroriCaSaFacemJocul();
+                            }
                         }
                     }
-                }
 
-                else if (hit.collider.tag == "miere")
-                {
-                    Debug.Log("miere clicked");
-                    lastTagClicked = "miere";
-                }
-                else if (hit.collider.tag == "farfurie-urs")
-                {
-                    if (lastTagClicked == "miere")
+                    else if (hit.collider.tag == "miere")
                     {
-                        Debug.Log("farfurie-urs clicked");
-                        mancareaMergeSinguraLaFarfurie();
-                        if (count != 5)
-                            successAudio.Play(0);
-                        lastTagClicked = "";
+                        Debug.Log("miere clicked");
+                        lastTagClicked = "miere";
                     }
-                    else
+                    else if (hit.collider.tag == "farfurie-urs")
                     {
-                        //amintire sa apese pe mancare si apoi pe farfurie
-                        if (lastTagClicked == "")
+                        if (lastTagClicked == "miere")
                         {
-                            warningAudio.Play(0);
-                            Debug.Log("sunet pt amintire sa apese pe mancate si apoi pe farfurie");
+                            Debug.Log("farfurie-urs clicked");
+                            mancareaMergeSinguraLaFarfurie();
+                            if (count != 5)
+                                successAudio.Play(0);
+                            lastTagClicked = "";
                         }
                         else
                         {
-                            Debug.Log("a gresit farfuria aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
-                            if (this.errorCount[lastTagClicked] == 0)
+                            //amintire sa apese pe mancare si apoi pe farfurie
+                            if (lastTagClicked == "")
+                            {
                                 warningAudio.Play(0);
-                            this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
-                            verificareEroriCaSaFacemJocul();
+                                Debug.Log("sunet pt amintire sa apese pe mancate si apoi pe farfurie");
+                            }
+                            else
+                            {
+                                Debug.Log("a gresit farfuria aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
+                                if (this.errorCount[lastTagClicked] == 0)
+                                    warningAudio.Play(0);
+                                this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
+                                verificareEroriCaSaFacemJocul();
+                            }
                         }
                     }
-                }
 
-                else if (hit.collider.tag == "carne")
-                {
-                    Debug.Log("carne clicked");
-                    lastTagClicked = "carne";
-
-                }
-                else if (hit.collider.tag == "farfurie-lup")
-                {
-                    if (lastTagClicked == "carne")
+                    else if (hit.collider.tag == "carne")
                     {
-                        Debug.Log("farfurie-lup clicked");
-                        mancareaMergeSinguraLaFarfurie();
-                        if (count!=5)
-                            successAudio.Play(0);
-                        lastTagClicked = "";
+                        Debug.Log("carne clicked");
+                        lastTagClicked = "carne";
+
                     }
-                    else
+                    else if (hit.collider.tag == "farfurie-lup")
                     {
-                        //amintire sa apese pe mancare si apoi pe farfurie
-                        if (lastTagClicked == "")
+                        if (lastTagClicked == "carne")
                         {
-                            warningAudio.Play(0);
-                            Debug.Log("sunet pt amintire sa apese pe mancare si apoi pe farfurie");
+                            Debug.Log("farfurie-lup clicked");
+                            mancareaMergeSinguraLaFarfurie();
+                            if (count != 5)
+                                successAudio.Play(0);
+                            lastTagClicked = "";
                         }
                         else
                         {
-                            Debug.Log("a gresit farfuria aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
-                            if (this.errorCount[lastTagClicked] == 0)
+                            //amintire sa apese pe mancare si apoi pe farfurie
+                            if (lastTagClicked == "")
+                            {
                                 warningAudio.Play(0);
-                            this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
-                            verificareEroriCaSaFacemJocul();
+                                Debug.Log("sunet pt amintire sa apese pe mancare si apoi pe farfurie");
+                            }
+                            else
+                            {
+                                Debug.Log("a gresit farfuria aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
+                                if (this.errorCount[lastTagClicked] == 0)
+                                    warningAudio.Play(0);
+                                this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
+                                verificareEroriCaSaFacemJocul();
+                            }
                         }
                     }
                 }

@@ -25,6 +25,9 @@ public class scriptLocuinta : MonoBehaviour
     AudioSource inceputAudio;
     AudioSource finalAudio;
 
+    GameObject helpButton;
+    AudioSource helpAudio;
+
     private Dictionary<string, int> errorCount;
 
     void Start()
@@ -75,6 +78,9 @@ public class scriptLocuinta : MonoBehaviour
         helpVulpeAudio = GameObject.Find("vulpe").GetComponent<AudioSource>();
         helpVeveritaAudio = GameObject.Find("veverita").GetComponent<AudioSource>();
         helpCaprioaraAudio = GameObject.Find("caprioara").GetComponent<AudioSource>();
+
+        helpButton = GameObject.Find("semn (2)");
+        helpAudio = GameObject.Find("instructiune_4").GetComponent<AudioSource>();
     }
 
 
@@ -180,197 +186,203 @@ public class scriptLocuinta : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hit))
             {
-
-                if (hit.collider.tag == "bebeVeverita" || hit.collider.tag == "parinteVeverita")
+                if (hit.collider.name == "semn (2)" && !helpLupAudio.isPlaying && !helpUrsAudio.isPlaying && !helpVeveritaAudio.isPlaying && !helpCaprioaraAudio.isPlaying && !helpVulpeAudio.isPlaying && !warningAudio.isPlaying && !finalAudio.isPlaying)
                 {
-                    lastTagClicked = "bebeVeverita";
-                    Debug.Log("bebeVeverita clicked ");
-                    border.GetComponent<Renderer>().enabled = true;
-                    border.transform.position = new Vector3(4.57f, -3.34f, 0f);
-                    border.transform.localScale = new Vector3(0.2176717f, 0.2309851f, 1f);
-
+                    helpAudio.Play(0);
                 }
-                else if (hit.collider.tag == "casaVeveritaH")
+                if (!helpAudio.isPlaying)
                 {
-                    if (lastTagClicked == "bebeVeverita")
+                    if (hit.collider.tag == "bebeVeverita" || hit.collider.tag == "parinteVeverita")
                     {
-                        Debug.Log("casaVeverita clicked");
-                        faceJoculParteaPtAnimalulDat();
-                        if (count != 5)
-                            successAudio.Play(0);
-                        lastTagClicked = "";
-                        border.GetComponent<Renderer>().enabled = false;
+                        lastTagClicked = "bebeVeverita";
+                        Debug.Log("bebeVeverita clicked ");
+                        border.GetComponent<Renderer>().enabled = true;
+                        border.transform.position = new Vector3(4.57f, -3.34f, 0f);
+                        border.transform.localScale = new Vector3(0.2176717f, 0.2309851f, 1f);
+
                     }
-                    else
+                    else if (hit.collider.tag == "casaVeveritaH")
                     {
-                        //amintire sa apese pe animal si apoi pe casa
-                        if (lastTagClicked == "" )
+                        if (lastTagClicked == "bebeVeverita")
                         {
-                            warningAudio.Play(0);
-                            Debug.Log("sunet pt amintire sa apese pe animal si apoi pe casa");
+                            Debug.Log("casaVeverita clicked");
+                            faceJoculParteaPtAnimalulDat();
+                            if (count != 5)
+                                successAudio.Play(0);
+                            lastTagClicked = "";
+                            border.GetComponent<Renderer>().enabled = false;
                         }
                         else
                         {
-                            Debug.Log("a gresit casa aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
-                            if(this.errorCount[lastTagClicked]==0)
+                            //amintire sa apese pe animal si apoi pe casa
+                            if (lastTagClicked == "")
+                            {
                                 warningAudio.Play(0);
-                            this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
-                            verificareEroriCaSaFacemJocul();
+                                Debug.Log("sunet pt amintire sa apese pe animal si apoi pe casa");
+                            }
+                            else
+                            {
+                                Debug.Log("a gresit casa aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
+                                if (this.errorCount[lastTagClicked] == 0)
+                                    warningAudio.Play(0);
+                                this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
+                                verificareEroriCaSaFacemJocul();
 
+                            }
                         }
                     }
-                }
 
 
-                else if (hit.collider.tag == "bebeCaprioara" || hit.collider.tag == "parinteCaprioara")
-                {
-                    Debug.Log("bebeCaprioara clicked");
-                    lastTagClicked = "bebeCaprioara";
-                    border.GetComponent<Renderer>().enabled = true;
-                    border.transform.position = new Vector3(-0.52f, -1.398f, 0f);
-                    border.transform.localScale = new Vector3(0.5362512f, 0.6111318f, 1f);
-                }
-                else if (hit.collider.tag == "casaCaprioaraH")
-                {
-                    if (lastTagClicked == "bebeCaprioara")
+                    else if (hit.collider.tag == "bebeCaprioara" || hit.collider.tag == "parinteCaprioara")
                     {
-                        Debug.Log("casaCaprioara clicked");
-                        faceJoculParteaPtAnimalulDat();
-                        if (count != 5)
-                            successAudio.Play(0);
-                        border.GetComponent<Renderer>().enabled = false;
-                        lastTagClicked = "";
+                        Debug.Log("bebeCaprioara clicked");
+                        lastTagClicked = "bebeCaprioara";
+                        border.GetComponent<Renderer>().enabled = true;
+                        border.transform.position = new Vector3(-0.52f, -1.398f, 0f);
+                        border.transform.localScale = new Vector3(0.5362512f, 0.6111318f, 1f);
                     }
-                    else
+                    else if (hit.collider.tag == "casaCaprioaraH")
                     {
-                        //amintire sa apese pe animal si apoi pe casa
-                        if (lastTagClicked == "")
+                        if (lastTagClicked == "bebeCaprioara")
                         {
-                            warningAudio.Play(0);
-                            Debug.Log("sunet pt amintire sa apese pe animal si apoi pe casa");
+                            Debug.Log("casaCaprioara clicked");
+                            faceJoculParteaPtAnimalulDat();
+                            if (count != 5)
+                                successAudio.Play(0);
+                            border.GetComponent<Renderer>().enabled = false;
+                            lastTagClicked = "";
                         }
                         else
                         {
-                            Debug.Log("a gresit casa aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
-                            if (this.errorCount[lastTagClicked] == 0)
+                            //amintire sa apese pe animal si apoi pe casa
+                            if (lastTagClicked == "")
+                            {
                                 warningAudio.Play(0);
+                                Debug.Log("sunet pt amintire sa apese pe animal si apoi pe casa");
+                            }
+                            else
+                            {
+                                Debug.Log("a gresit casa aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
+                                if (this.errorCount[lastTagClicked] == 0)
+                                    warningAudio.Play(0);
 
-                            this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
-                            verificareEroriCaSaFacemJocul();
+                                this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
+                                verificareEroriCaSaFacemJocul();
+                            }
                         }
                     }
-                }
 
-                else if (hit.collider.tag == "bebeLup" || hit.collider.tag == "parinteLup")
-                {
-                    Debug.Log("bebeLup clicked");
-                    lastTagClicked = "bebeLup";
-                    border.GetComponent<Renderer>().enabled = true;
-                    border.transform.position = new Vector3(-3.6136f, -1.7674f, 0f);
-                    border.transform.localScale = new Vector3(0.5362512f, 0.4330884f, 1f);
-                }
-                else if (hit.collider.tag == "casaLupH")
-                {
-                    if (lastTagClicked == "bebeLup")
+                    else if (hit.collider.tag == "bebeLup" || hit.collider.tag == "parinteLup")
                     {
-                        Debug.Log("casaLup clicked");
-                        faceJoculParteaPtAnimalulDat();
-                        if (count != 5)
-                            successAudio.Play(0);
-                        border.GetComponent<Renderer>().enabled = false;
-                        lastTagClicked = "";
+                        Debug.Log("bebeLup clicked");
+                        lastTagClicked = "bebeLup";
+                        border.GetComponent<Renderer>().enabled = true;
+                        border.transform.position = new Vector3(-3.6136f, -1.7674f, 0f);
+                        border.transform.localScale = new Vector3(0.5362512f, 0.4330884f, 1f);
                     }
-                    else
+                    else if (hit.collider.tag == "casaLupH")
                     {
-                        //amintire sa apese pe animal si apoi pe casa
-                        if (lastTagClicked == "")
+                        if (lastTagClicked == "bebeLup")
                         {
-                            warningAudio.Play(0);
-                            Debug.Log("sunet pt amintire sa apese pe animal si apoi pe casa");
+                            Debug.Log("casaLup clicked");
+                            faceJoculParteaPtAnimalulDat();
+                            if (count != 5)
+                                successAudio.Play(0);
+                            border.GetComponent<Renderer>().enabled = false;
+                            lastTagClicked = "";
                         }
                         else
                         {
-                            Debug.Log("a gresit casa aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
-                            if (this.errorCount[lastTagClicked] == 0)
+                            //amintire sa apese pe animal si apoi pe casa
+                            if (lastTagClicked == "")
+                            {
                                 warningAudio.Play(0);
-                            this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
-                            verificareEroriCaSaFacemJocul();
+                                Debug.Log("sunet pt amintire sa apese pe animal si apoi pe casa");
+                            }
+                            else
+                            {
+                                Debug.Log("a gresit casa aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
+                                if (this.errorCount[lastTagClicked] == 0)
+                                    warningAudio.Play(0);
+                                this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
+                                verificareEroriCaSaFacemJocul();
+                            }
                         }
                     }
-                }
 
-                else if (hit.collider.tag == "bebeVulpe")
-                {
-                    Debug.Log("bebeVulpe clicked");
-                    lastTagClicked = "bebeVulpe";
-                    border.GetComponent<Renderer>().enabled = true;
-                    border.transform.position = new Vector3(-1.89f, -3.866f, 0f);
-                    border.transform.localScale = new Vector3(0.2436024f, 0.3224128f, 1f);
-                }
-                else if (hit.collider.tag == "casaVulpeH")
-                {
-                    if (lastTagClicked == "bebeVulpe")
+                    else if (hit.collider.tag == "bebeVulpe")
                     {
-                        Debug.Log("casaVulpe clicked");
-                        faceJoculParteaPtAnimalulDat();
-                        if (count != 5)
-                            successAudio.Play(0);
-                        border.GetComponent<Renderer>().enabled = false;
-                        lastTagClicked = "";
+                        Debug.Log("bebeVulpe clicked");
+                        lastTagClicked = "bebeVulpe";
+                        border.GetComponent<Renderer>().enabled = true;
+                        border.transform.position = new Vector3(-1.89f, -3.866f, 0f);
+                        border.transform.localScale = new Vector3(0.2436024f, 0.3224128f, 1f);
                     }
-                    else
+                    else if (hit.collider.tag == "casaVulpeH")
                     {
-                        //amintire sa apese pe animal si apoi pe casa
-                        if (lastTagClicked == "")
+                        if (lastTagClicked == "bebeVulpe")
                         {
-                            warningAudio.Play(0);
-                            Debug.Log("sunet pt amintire sa apese pe animal si apoi pe casa");
+                            Debug.Log("casaVulpe clicked");
+                            faceJoculParteaPtAnimalulDat();
+                            if (count != 5)
+                                successAudio.Play(0);
+                            border.GetComponent<Renderer>().enabled = false;
+                            lastTagClicked = "";
                         }
                         else
                         {
-                            Debug.Log("a gresit casa aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
-                            if (this.errorCount[lastTagClicked] == 0)
+                            //amintire sa apese pe animal si apoi pe casa
+                            if (lastTagClicked == "")
+                            {
                                 warningAudio.Play(0);
-                            this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
-                            verificareEroriCaSaFacemJocul();
+                                Debug.Log("sunet pt amintire sa apese pe animal si apoi pe casa");
+                            }
+                            else
+                            {
+                                Debug.Log("a gresit casa aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
+                                if (this.errorCount[lastTagClicked] == 0)
+                                    warningAudio.Play(0);
+                                this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
+                                verificareEroriCaSaFacemJocul();
+                            }
                         }
                     }
-                }
 
-                else if (hit.collider.tag == "bebeUrs")
-                {
-                    Debug.Log("bebeUrs clicked");
-                    lastTagClicked = "bebeUrs";
-                    border.GetComponent<Renderer>().enabled = true;
-                    border.transform.position = new Vector3(2.24f, -3.58f, 0f);
-                    border.transform.localScale = new Vector3(0.6881319f, 0.6688757f, 1f);
-                }
-                else if (hit.collider.tag == "casaUrsH")
-                {
-                    if (lastTagClicked == "bebeUrs")
+                    else if (hit.collider.tag == "bebeUrs")
                     {
-                        Debug.Log("casaUrs clicked");
-                        faceJoculParteaPtAnimalulDat();
-                        if (count != 5)
-                            successAudio.Play(0);
-                        border.GetComponent<Renderer>().enabled = false;
-                        lastTagClicked = "";
+                        Debug.Log("bebeUrs clicked");
+                        lastTagClicked = "bebeUrs";
+                        border.GetComponent<Renderer>().enabled = true;
+                        border.transform.position = new Vector3(2.24f, -3.58f, 0f);
+                        border.transform.localScale = new Vector3(0.6881319f, 0.6688757f, 1f);
                     }
-                    else
+                    else if (hit.collider.tag == "casaUrsH")
                     {
-                        //amintire sa apese pe animal si apoi pe casa
-                        if (lastTagClicked == "")
+                        if (lastTagClicked == "bebeUrs")
                         {
-                            warningAudio.Play(0);
-                            Debug.Log("sunet pt amintire sa apese pe animal si apoi pe casa");
+                            Debug.Log("casaUrs clicked");
+                            faceJoculParteaPtAnimalulDat();
+                            if (count != 5)
+                                successAudio.Play(0);
+                            border.GetComponent<Renderer>().enabled = false;
+                            lastTagClicked = "";
                         }
                         else
                         {
-                            Debug.Log("a gresit casa aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
-                            if (this.errorCount[lastTagClicked] == 0)
+                            //amintire sa apese pe animal si apoi pe casa
+                            if (lastTagClicked == "")
+                            {
                                 warningAudio.Play(0);
-                            this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
-                            verificareEroriCaSaFacemJocul();
+                                Debug.Log("sunet pt amintire sa apese pe animal si apoi pe casa");
+                            }
+                            else
+                            {
+                                Debug.Log("a gresit casa aleasa si atunci mai incearca odata si la 2 greseli ii rezolvam partea");
+                                if (this.errorCount[lastTagClicked] == 0)
+                                    warningAudio.Play(0);
+                                this.errorCount[lastTagClicked] = this.errorCount[lastTagClicked] + 1;
+                                verificareEroriCaSaFacemJocul();
+                            }
                         }
                     }
                 }

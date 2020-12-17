@@ -23,6 +23,9 @@ public class MamePuiCode : MonoBehaviour
     AudioSource veveritaAudio;
     AudioSource caprioaraAudio;
 
+    GameObject helpButton;
+    AudioSource helpAudio;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -59,6 +62,8 @@ public class MamePuiCode : MonoBehaviour
         warningAudio = GameObject.Find("mai incearca").GetComponent<AudioSource>();
         successAudio = GameObject.Find("bravo_scurt").GetComponent<AudioSource>();
 
+        helpButton = GameObject.Find("semn");
+        helpAudio = GameObject.Find("instructiune_1").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -78,89 +83,95 @@ public class MamePuiCode : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-
-                if (hit.collider.name == "Caprioara" && !caprioaraAudio.isPlaying)
+                if(hit.collider.name=="semn" && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying && !finalAudio.isPlaying)
                 {
-                    if (count == 1)
-                    {
-                        Debug.Log("Caprioara is clicked by mouse");
-                        successAudio.Play(0);
-                        caprioara.SetActive(false);
-                        count++;
-                        caprioaraBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        lupBebe.transform.position = new Vector3(0.41f, -3.09f, -2f);
-
-                    }
-                    else if (count != 1 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
-                    {
-                        warningAudio.Play(0);
-                    }
+                    helpAudio.Play(0);
                 }
-
-                else if (hit.collider.name == "Lup" && !lupAudio.isPlaying)
+                if (!helpAudio.isPlaying)
                 {
-                    if (count == 2)
+                    if (hit.collider.name == "Caprioara" && !caprioaraAudio.isPlaying)
                     {
-                        Debug.Log("Lup is clicked by mouse");
-                        successAudio.Play(0);
-                        lup.SetActive(false);
-                        count++;
-                        lupBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        ursBebe.transform.position = new Vector3(0.41f, -3.09f, -2f);
-                    }
-                    else if (count != 2 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
-                    {
-                        warningAudio.Play(0);
-                    }
-                }
+                        if (count == 1)
+                        {
+                            Debug.Log("Caprioara is clicked by mouse");
+                            successAudio.Play(0);
+                            caprioara.SetActive(false);
+                            count++;
+                            caprioaraBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            lupBebe.transform.position = new Vector3(0.41f, -3.09f, -2f);
 
-                else if (hit.collider.name == "Urs" && !ursAudio.isPlaying)
-                {
-                    if (count == 3)
-                    {
-                        Debug.Log("Urs is clicked by mouse");
-                        successAudio.Play(0);
-                        urs.SetActive(false);
-                        count++;
-                        ursBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        vulpeBebe.transform.position = new Vector3(0.41f, -3.09f, -2f);
+                        }
+                        else if (count != 1 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
+                        {
+                            warningAudio.Play(0);
+                        }
                     }
-                    else if (count != 3 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
-                    {
-                        warningAudio.Play(0);
-                    }
-                }
 
-                else if (hit.collider.name == "Vulpe" && !vulpeAudio.isPlaying)
-                {
-                    if (count == 4)
+                    else if (hit.collider.name == "Lup" && !lupAudio.isPlaying)
                     {
-                        Debug.Log("Vulpe is clicked by mouse");
-                        successAudio.Play(0);
-                        vulpe.SetActive(false);
-                        count++;
-                        vulpeBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        veveritaBebe.transform.position = new Vector3(0.41f, -3.09f, -2f);
+                        if (count == 2)
+                        {
+                            Debug.Log("Lup is clicked by mouse");
+                            successAudio.Play(0);
+                            lup.SetActive(false);
+                            count++;
+                            lupBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            ursBebe.transform.position = new Vector3(0.41f, -3.09f, -2f);
+                        }
+                        else if (count != 2 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
+                        {
+                            warningAudio.Play(0);
+                        }
                     }
-                    else if (count != 4 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
-                    {
-                        warningAudio.Play(0);
-                    }
-                }
 
-                else if (hit.collider.name == "Veverita" && !veveritaAudio.isPlaying)
-                {
-                    if (count == 5)
+                    else if (hit.collider.name == "Urs" && !ursAudio.isPlaying)
                     {
-                        Debug.Log("Veverita is clicked by mouse");
-                        successAudio.Play(0);
-                        veverita.SetActive(false);
-                        count++;
-                        veveritaBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                        if (count == 3)
+                        {
+                            Debug.Log("Urs is clicked by mouse");
+                            successAudio.Play(0);
+                            urs.SetActive(false);
+                            count++;
+                            ursBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            vulpeBebe.transform.position = new Vector3(0.41f, -3.09f, -2f);
+                        }
+                        else if (count != 3 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
+                        {
+                            warningAudio.Play(0);
+                        }
                     }
-                    else if (count != 5 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
+
+                    else if (hit.collider.name == "Vulpe" && !vulpeAudio.isPlaying)
                     {
-                        warningAudio.Play(0);
+                        if (count == 4)
+                        {
+                            Debug.Log("Vulpe is clicked by mouse");
+                            successAudio.Play(0);
+                            vulpe.SetActive(false);
+                            count++;
+                            vulpeBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            veveritaBebe.transform.position = new Vector3(0.41f, -3.09f, -2f);
+                        }
+                        else if (count != 4 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
+                        {
+                            warningAudio.Play(0);
+                        }
+                    }
+
+                    else if (hit.collider.name == "Veverita" && !veveritaAudio.isPlaying)
+                    {
+                        if (count == 5)
+                        {
+                            Debug.Log("Veverita is clicked by mouse");
+                            successAudio.Play(0);
+                            veverita.SetActive(false);
+                            count++;
+                            veveritaBebe.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                        }
+                        else if (count != 5 && !caprioaraAudio.isPlaying && !ursAudio.isPlaying && !veveritaAudio.isPlaying && !vulpeAudio.isPlaying && !lupAudio.isPlaying)
+                        {
+                            warningAudio.Play(0);
+                        }
                     }
                 }
             }

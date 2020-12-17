@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-12-16T20:56:31.882+02:00
-  initializedAtString: 2020-12-16T20:56:31.807+02:00
+  lastUpdatedAtString: 2020-12-17T21:49:43.641+02:00
+  initializedAtString: 2020-12-17T21:49:43.098+02:00
   localBranches:
   - name: Prototip
     tracking: origin/Prototip
@@ -22,6 +22,8 @@ MonoBehaviour:
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/main
+    tracking: '[None]'
+  - name: origin/numarat_2
     tracking: '[None]'
   - name: origin/Parte-Invatare
     tracking: '[None]'
@@ -51,6 +53,7 @@ MonoBehaviour:
     - Values:
       - HEAD
       - main
+      - numarat_2
       - Parte-Invatare
       - Prototip
     subKeyValues:
@@ -61,6 +64,11 @@ MonoBehaviour:
           url: https://github.com/monicavladarean/PowerpufUnicorns.git
         trackingBranch: 
       - name: main
+        remote:
+          name: origin
+          url: https://github.com/monicavladarean/PowerpufUnicorns.git
+        trackingBranch: 
+      - name: numarat_2
         remote:
           name: origin
           url: https://github.com/monicavladarean/PowerpufUnicorns.git

@@ -22,6 +22,9 @@ public class numarat2 : MonoBehaviour
     private AudioSource warningAudio;
     private AudioSource successAudio;
 
+    GameObject helpButton;
+    AudioSource helpAudio;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -56,6 +59,10 @@ public class numarat2 : MonoBehaviour
 
         warningAudio = GameObject.Find("mai incearca").GetComponent<AudioSource>();
         successAudio = GameObject.Find("bravo_scurt").GetComponent<AudioSource>();
+
+
+        helpButton = GameObject.Find("semn (1)");
+        helpAudio = GameObject.Find("click_nr care arata").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -74,72 +81,79 @@ public class numarat2 : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.collider.name == "unu (1)")
+                if (hit.collider.name == "semn (1)" && !iarbaAudio.isPlaying && !pesteAudio.isPlaying && !miereAudio.isPlaying && !ghindeAudio.isPlaying && !carneAudio.isPlaying && !finalAudio.isPlaying)
                 {
-                    if (count == 1)
-                    {
-                        Debug.Log("vreau ca iarba sa dispara");
-                        successAudio.Play(0);
-                        count++;
-                        iarb.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        peste.transform.position = new Vector3(-0.7f, -2.27f, -1f);
-                        Debug.Log("pestii au aparut");
-                    }
-                    else if (count == 4)
-                    {
-                        Debug.Log("vreau ca mierea sa dispara");
-                        successAudio.Play(0);
-                        mie.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        count++;
-                        carne.transform.position = new Vector3(-0.7f, -2.27f, -1f);
-                        Debug.Log("carnea a aparut");
-                    }
-                    else if (!iarbaAudio.isPlaying && !pesteAudio.isPlaying && !miereAudio.isPlaying && !ghindeAudio.isPlaying && !carneAudio.isPlaying)
-                    {
-                        warningAudio.Play(0);
-                    }
+                    helpAudio.Play(0);
                 }
-                else if (hit.collider.name == "trei (1)")
+                if (!helpAudio.isPlaying && !iarbaAudio.isPlaying && !pesteAudio.isPlaying && !miereAudio.isPlaying && !ghindeAudio.isPlaying && !carneAudio.isPlaying && !finalAudio.isPlaying)
                 {
-                    if (count == 2)
+                    if (hit.collider.name == "unu (1)")
                     {
-                        Debug.Log("vreau ca pestii sa dispara");
-                        successAudio.Play(0);
-                        count++;
-                        peste.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        ghind.transform.position = new Vector3(-0.7f, -2.27f, -1f);
-                        Debug.Log("ghindele au aparut");
+                        if (count == 1)
+                        {
+                            Debug.Log("vreau ca iarba sa dispara");
+                            successAudio.Play(0);
+                            count++;
+                            iarb.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            peste.transform.position = new Vector3(-0.7f, -2.27f, -1f);
+                            Debug.Log("pestii au aparut");
+                        }
+                        else if (count == 4)
+                        {
+                            Debug.Log("vreau ca mierea sa dispara");
+                            successAudio.Play(0);
+                            mie.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            count++;
+                            carne.transform.position = new Vector3(-0.7f, -2.27f, -1f);
+                            Debug.Log("carnea a aparut");
+                        }
+                        else if (!iarbaAudio.isPlaying && !pesteAudio.isPlaying && !miereAudio.isPlaying && !ghindeAudio.isPlaying && !carneAudio.isPlaying)
+                        {
+                            warningAudio.Play(0);
+                        }
                     }
-                    else if (!iarbaAudio.isPlaying && !pesteAudio.isPlaying && !miereAudio.isPlaying && !ghindeAudio.isPlaying && !carneAudio.isPlaying)
+                    else if (hit.collider.name == "trei (1)")
                     {
-                        warningAudio.Play(0);
+                        if (count == 2)
+                        {
+                            Debug.Log("vreau ca pestii sa dispara");
+                            successAudio.Play(0);
+                            count++;
+                            peste.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            ghind.transform.position = new Vector3(-0.7f, -2.27f, -1f);
+                            Debug.Log("ghindele au aparut");
+                        }
+                        else if (!iarbaAudio.isPlaying && !pesteAudio.isPlaying && !miereAudio.isPlaying && !ghindeAudio.isPlaying && !carneAudio.isPlaying)
+                        {
+                            warningAudio.Play(0);
+                        }
                     }
-                }
-                else if (hit.collider.name == "doi (1)")
-                {
-                    if (count == 3)
+                    else if (hit.collider.name == "doi (1)")
                     {
-                        Debug.Log("vreau ca ghindele sa dispara");
-                        successAudio.Play(0);
-                        ghind.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        count++;
-                        mie.transform.position = new Vector3(-0.7f, -2.27f, -1f);
-                        Debug.Log("mierea a aparut");
-                    }
-                    else if (count == 5)
-                    {
-                        Debug.Log("vreau ca carnea sa dispara");
-                        successAudio.Play(0);
-                        carne.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        count++;
-                        pic.transform.position = new Vector3(0.62f, -0.1f, -2f);
-                        nr_1.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        nr_2.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        nr_3.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                    }
-                    else if (!iarbaAudio.isPlaying && !pesteAudio.isPlaying && !miereAudio.isPlaying && !ghindeAudio.isPlaying && !carneAudio.isPlaying)
-                    {
-                        warningAudio.Play(0);
+                        if (count == 3)
+                        {
+                            Debug.Log("vreau ca ghindele sa dispara");
+                            successAudio.Play(0);
+                            ghind.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            count++;
+                            mie.transform.position = new Vector3(-0.7f, -2.27f, -1f);
+                            Debug.Log("mierea a aparut");
+                        }
+                        else if (count == 5)
+                        {
+                            Debug.Log("vreau ca carnea sa dispara");
+                            successAudio.Play(0);
+                            carne.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            count++;
+                            pic.transform.position = new Vector3(0.62f, -0.1f, -2f);
+                            nr_1.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            nr_2.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            nr_3.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                        }
+                        else if (!iarbaAudio.isPlaying && !pesteAudio.isPlaying && !miereAudio.isPlaying && !ghindeAudio.isPlaying && !carneAudio.isPlaying)
+                        {
+                            warningAudio.Play(0);
+                        }
                     }
                 }
             }

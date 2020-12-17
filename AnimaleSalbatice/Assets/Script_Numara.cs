@@ -23,6 +23,9 @@ public class Script_Numara : MonoBehaviour
     private AudioSource warningAudio;
     private AudioSource successAudio;
 
+    GameObject helpButton;
+    AudioSource helpAudio;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -55,6 +58,10 @@ public class Script_Numara : MonoBehaviour
 
         warningAudio = GameObject.Find("mai incearca").GetComponent<AudioSource>();
         successAudio = GameObject.Find("bravo_scurt").GetComponent<AudioSource>();
+
+
+        helpButton = GameObject.Find("semn (1)");
+        helpAudio = GameObject.Find("click_pe mancare").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -73,102 +80,110 @@ public class Script_Numara : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.collider.name == "iarba" && !startCerinte.isPlaying)
+                if (hit.collider.name == "semn (1)" && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying && !finalAudio.isPlaying)
                 {
-                    if (count == 1)
-                    {
-                        Debug.Log("vreau ca 1 sa apara");
-                        count++;
-                        nr_1.transform.position = new Vector3(-0.10139f, -0.16f, -2f);
-                        Debug.Log("1 a aparut");
-                        iarb.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        Debug.Log("iarba a disparut");
-                        iarbaDoneStarted = 1;
-                        iarbaDone.Play(0);
-                    }
-                    else if (count != 1 && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying)
-                    {
-                        warningAudio.Play(0);
-                    }
+                    Debug.Log("dsadsa");
+                    helpAudio.Play(0);
                 }
-                else if (hit.collider.name == "pesti" && !iarbaDone.isPlaying)
+                if (!helpAudio.isPlaying)
                 {
-                    if (count == 2)
+                    if (hit.collider.name == "iarba" && !startCerinte.isPlaying)
                     {
-                        Debug.Log("vreau ca 1 sa dispara");
-                        nr_1.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        count++;
-                        nr_3.transform.position = new Vector3(-0.10139f, -0.16f, -2f);
-                        Debug.Log("3 a aparut");
-                        peste.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        pesteDoneStarted = 1;
-                        pesteDone.Play(0);
+                        if (count == 1)
+                        {
+                            Debug.Log("vreau ca 1 sa apara");
+                            count++;
+                            nr_1.transform.position = new Vector3(-0.10139f, -0.16f, -2f);
+                            Debug.Log("1 a aparut");
+                            iarb.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            Debug.Log("iarba a disparut");
+                            iarbaDoneStarted = 1;
+                            iarbaDone.Play(0);
+                        }
+                        else if (count != 1 && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying)
+                        {
+                            warningAudio.Play(0);
+                        }
                     }
-                    else if (count != 2 && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying)
+                    else if (hit.collider.name == "pesti" && !iarbaDone.isPlaying)
                     {
-                        warningAudio.Play(0);
+                        if (count == 2)
+                        {
+                            Debug.Log("vreau ca 1 sa dispara");
+                            nr_1.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            count++;
+                            nr_3.transform.position = new Vector3(-0.10139f, -0.16f, -2f);
+                            Debug.Log("3 a aparut");
+                            peste.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            pesteDoneStarted = 1;
+                            pesteDone.Play(0);
+                        }
+                        else if (count != 2 && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying)
+                        {
+                            warningAudio.Play(0);
+                        }
                     }
-                }
-                else if (hit.collider.name == "ghinde" && !pesteDone.isPlaying)
-                {
-                    if (count == 3)
+                    else if (hit.collider.name == "ghinde" && !pesteDone.isPlaying)
                     {
-                        Debug.Log("vreau ca 3 sa dispara");
-                        nr_3.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        count++;
-                        nr_2.transform.position = new Vector3(-0.10139f, -0.16f, -2f);
-                        Debug.Log("2 a aparut");
-                        ghind.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        ghindeDoneStarted = 1;
-                        ghindeDone.Play(0);
+                        if (count == 3)
+                        {
+                            Debug.Log("vreau ca 3 sa dispara");
+                            nr_3.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            count++;
+                            nr_2.transform.position = new Vector3(-0.10139f, -0.16f, -2f);
+                            Debug.Log("2 a aparut");
+                            ghind.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            ghindeDoneStarted = 1;
+                            ghindeDone.Play(0);
+                        }
+                        else if (count != 3 && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying)
+                        {
+                            warningAudio.Play(0);
+                        }
                     }
-                    else if (count != 3 && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying)
+                    else if (hit.collider.name == "miere" && !ghindeDone.isPlaying)
                     {
-                        warningAudio.Play(0);
+                        if (count == 4)
+                        {
+                            Debug.Log("vreau ca 2 sa dispara");
+                            nr_2.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            count++;
+                            nr_1.transform.position = new Vector3(-0.10139f, -0.16f, -2f);
+                            Debug.Log("1 a aparut");
+                            mie.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            miereDoneStarted = 1;
+                            miereDone.Play(0);
+                        }
+                        else if (count != 4 && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying)
+                        {
+                            warningAudio.Play(0);
+                        }
                     }
-                }
-                else if (hit.collider.name == "miere" && !ghindeDone.isPlaying)
-                {
-                    if (count == 4)
+                    else if (hit.collider.name == "carnuri" && !miereDone.isPlaying)
+                    {
+                        if (count == 5)
+                        {
+                            Debug.Log("vreau ca 1 sa dispara");
+                            nr_1.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            count++;
+                            nr_2.transform.position = new Vector3(-0.10139f, -0.16f, -2f);
+                            Debug.Log("2 a aparut");
+                            carne.transform.position = new Vector3(-1000f, -1000f, -1000f);
+                            carneDoneStarted = 1;
+                            carneDone.Play(0);
+                        }
+                        else if (count != 5 && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying)
+                        {
+                            warningAudio.Play(0);
+                        }
+                    }
+                    else if (count == 6 && !carneDone.isPlaying)
                     {
                         Debug.Log("vreau ca 2 sa dispara");
                         nr_2.transform.position = new Vector3(-1000f, -1000f, -1000f);
                         count++;
-                        nr_1.transform.position = new Vector3(-0.10139f, -0.16f, -2f);
-                        Debug.Log("1 a aparut");
-                        mie.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        miereDoneStarted = 1;
-                        miereDone.Play(0);
+                        Debug.Log("Picnicul e gata!!!");
                     }
-                    else if (count != 4 && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying)
-                    {
-                        warningAudio.Play(0);
-                    }
-                }
-                else if (hit.collider.name == "carnuri" && !miereDone.isPlaying)
-                {
-                    if (count == 5)
-                    {
-                        Debug.Log("vreau ca 1 sa dispara");
-                        nr_1.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        count++;
-                        nr_2.transform.position = new Vector3(-0.10139f, -0.16f, -2f);
-                        Debug.Log("2 a aparut");
-                        carne.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                        carneDoneStarted = 1;
-                        carneDone.Play(0);
-                    }
-                    else if (count != 5 && !iarbaDone.isPlaying && !miereDone.isPlaying && !ghindeDone.isPlaying && !pesteDone.isPlaying && !carneDone.isPlaying && !startCerinte.isPlaying)
-                    {
-                        warningAudio.Play(0);
-                    }
-                }
-                else if (count == 6 && !carneDone.isPlaying)
-                {
-                    Debug.Log("vreau ca 2 sa dispara");
-                    nr_2.transform.position = new Vector3(-1000f, -1000f, -1000f);
-                    count++;
-                    Debug.Log("Picnicul e gata!!!");
                 }
             }
         }

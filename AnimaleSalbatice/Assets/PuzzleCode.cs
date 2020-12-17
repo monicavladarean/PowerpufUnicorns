@@ -12,6 +12,9 @@ public class PuzzleCode : MonoBehaviour
     AudioSource inceputAudio;
     AudioSource finalAudio;
 
+    GameObject helpButton;
+    AudioSource helpAudio;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +34,9 @@ public class PuzzleCode : MonoBehaviour
         finalAudio = GameObject.Find("final_5").GetComponent<AudioSource>();
 
         finalAudioStarted=0;
+
+        helpButton = GameObject.Find("semn (1)");
+        helpAudio = GameObject.Find("instructiune_5").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -43,37 +49,43 @@ public class PuzzleCode : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-
-                if (hit.collider.name == "img1")
+                if (hit.collider.name == "semn (1)" && !finalAudio.isPlaying)
                 {
-                    img1.transform.Rotate(0, 0, 180);
-                    countRotationsImg1++;
+                    helpAudio.Play(0);
                 }
-
-                if (hit.collider.name == "img2")
+                if (!helpAudio.isPlaying)
                 {
-                    img2.transform.Rotate(0, 0, 180);
-                    countRotationsImg2++;
-                }
+                    if (hit.collider.name == "img1")
+                    {
+                        img1.transform.Rotate(0, 0, 180);
+                        countRotationsImg1++;
+                    }
 
-                if (hit.collider.name == "img3")
-                {
-                    img3.transform.Rotate(0, 0, 180);
-                    countRotationsImg3++;
-                }
+                    if (hit.collider.name == "img2")
+                    {
+                        img2.transform.Rotate(0, 0, 180);
+                        countRotationsImg2++;
+                    }
 
-                if (hit.collider.name == "img4")
-                {
-                    img4.transform.Rotate(0, 0, 180);
-                    countRotationsImg4++;
-                }
+                    if (hit.collider.name == "img3")
+                    {
+                        img3.transform.Rotate(0, 0, 180);
+                        countRotationsImg3++;
+                    }
 
-                if (countRotationsImg1 % 2 != 0 && countRotationsImg2 % 2 == 0 && countRotationsImg3 % 2 == 0 && countRotationsImg4 % 2 != 0)
-                {
-                    Debug.Log("game done");
-                    imgDone.transform.position = new Vector3(0.16f, -0.028f, -2);
-                    finalAudioStarted = 1;
-                    finalAudio.Play(0);
+                    if (hit.collider.name == "img4")
+                    {
+                        img4.transform.Rotate(0, 0, 180);
+                        countRotationsImg4++;
+                    }
+
+                    if (countRotationsImg1 % 2 != 0 && countRotationsImg2 % 2 == 0 && countRotationsImg3 % 2 == 0 && countRotationsImg4 % 2 != 0)
+                    {
+                        Debug.Log("game done");
+                        imgDone.transform.position = new Vector3(0.16f, -0.028f, -2);
+                        finalAudioStarted = 1;
+                        finalAudio.Play(0);
+                    }
                 }
             }
         }
