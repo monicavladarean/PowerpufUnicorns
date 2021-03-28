@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Puzzle.unity
     guid: 35103f0e95863f1418ebafcdd8c30dec
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Final.unity
     guid: bbd0681f68596be439a1a86b2ff1b3f4
   - enabled: 1
@@ -50,4 +50,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Numarat2.unity
     guid: a5c55303b44675b459196a75ff0fbed0
+  - enabled: 1
+    path: Assets/Scenes/inceputExtensie.unity
+    guid: 7f1d1ec5b76088248bf62f492e4d1a64
+  - enabled: 1
+    path: Assets/Scenes/ursExtensie.unity
+    guid: 67c34a4ecdea578439dc51414ade144f
+  - enabled: 1
+    path: Assets/Scenes/lupExtensie.unity
+    guid: 3ac1702c3819502409464a0cf02ce4e4
+  - enabled: 1
+    path: Assets/Scenes/vulpeExtensie.unity
+    guid: acf2b889be933b042819065b31584fd3
+  - enabled: 1
+    path: Assets/Scenes/veveritaExtensie.unity
+    guid: ed7322ee68852f0468c1c32754947403
+  - enabled: 1
+    path: Assets/Scenes/caprioaraExtensie.unity
+    guid: 7374303b90a99bf4eb636ea56c546e90
   m_configObjects: {}

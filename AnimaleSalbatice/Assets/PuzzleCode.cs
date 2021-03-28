@@ -91,7 +91,7 @@ public class PuzzleCode : MonoBehaviour
         }
         if (finalAudioStarted == 1 && !finalAudio.isPlaying)
         {
-            SceneManager.LoadScene("Final");
+            SceneManager.LoadScene("inceputExtensie");
         }
     }
 }
