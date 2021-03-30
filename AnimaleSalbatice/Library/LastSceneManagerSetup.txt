@@ -1,7 +1,7 @@
 sceneSetups:
 - path: Assets/Scenes/StartScene.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/caprioaraInvatare.unity
   isLoaded: 0
@@ -44,6 +44,30 @@ sceneSetups:
   isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/Puzzle.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/inceputExtensie.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+- path: Assets/Scenes/lupExtensie.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/ursExtensie.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/vulpeExtensie.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/veveritaExtensie.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/caprioaraExtensie.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
