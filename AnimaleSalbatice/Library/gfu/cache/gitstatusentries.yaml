@@ -13,204 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-03-30T15:48:16.967+03:00
-  initializedAtString: 2021-03-30T14:51:31.524+03:00
+  lastUpdatedAtString: 2021-03-31T21:19:50.594+03:00
+  initializedAtString: 2021-03-31T21:18:01.185+03:00
   entries:
-  - path: AnimaleSalbatice\Assets\extensieCaprioara.cs
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\extensieCaprioara.cs
-    projectPath: Assets\extensieCaprioara.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\extensieCaprioara.cs.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\extensieCaprioara.cs.meta
-    projectPath: Assets\extensieCaprioara.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\inceputExtensie.cs
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\inceputExtensie.cs
-    projectPath: Assets\inceputExtensie.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara.meta
-    projectPath: Assets\Poze\extensie\caprioara.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\caprioara (1).png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\caprioara
-      (1).png
-    projectPath: Assets\Poze\extensie\caprioara\caprioara (1).png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\caprioara (1).png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\caprioara
-      (1).png.meta
-    projectPath: Assets\Poze\extensie\caprioara\caprioara (1).png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\caprioara.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\caprioara.png
-    projectPath: Assets\Poze\extensie\caprioara\caprioara.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\caprioara.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\caprioara.png.meta
-    projectPath: Assets\Poze\extensie\caprioara\caprioara.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\corn1.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\corn1.png
-    projectPath: Assets\Poze\extensie\caprioara\corn1.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\corn1.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\corn1.png.meta
-    projectPath: Assets\Poze\extensie\caprioara\corn1.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\corn2.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\corn2.png
-    projectPath: Assets\Poze\extensie\caprioara\corn2.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\corn2.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\corn2.png.meta
-    projectPath: Assets\Poze\extensie\caprioara\corn2.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\iarba1.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\iarba1.png
-    projectPath: Assets\Poze\extensie\caprioara\iarba1.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\iarba1.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\iarba1.png.meta
-    projectPath: Assets\Poze\extensie\caprioara\iarba1.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\iarba2.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\iarba2.png
-    projectPath: Assets\Poze\extensie\caprioara\iarba2.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\iarba2.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\iarba2.png.meta
-    projectPath: Assets\Poze\extensie\caprioara\iarba2.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\nor1.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\nor1.png
-    projectPath: Assets\Poze\extensie\caprioara\nor1.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\nor1.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\nor1.png.meta
-    projectPath: Assets\Poze\extensie\caprioara\nor1.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\nor2.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\nor2.png
-    projectPath: Assets\Poze\extensie\caprioara\nor2.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\nor2.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\nor2.png.meta
-    projectPath: Assets\Poze\extensie\caprioara\nor2.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\semn.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\semn.png
-    projectPath: Assets\Poze\extensie\caprioara\semn.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\semn.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\semn.png.meta
-    projectPath: Assets\Poze\extensie\caprioara\semn.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\WhatsApp Image 2021-03-29
-      at 14.35.01.jpeg
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\WhatsApp
-      Image 2021-03-29 at 14.35.01.jpeg
-    projectPath: Assets\Poze\extensie\caprioara\WhatsApp Image 2021-03-29 at 14.35.01.jpeg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\caprioara\WhatsApp Image 2021-03-29
-      at 14.35.01.jpeg.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\caprioara\WhatsApp
-      Image 2021-03-29 at 14.35.01.jpeg.meta
-    projectPath: Assets\Poze\extensie\caprioara\WhatsApp Image 2021-03-29 at 14.35.01.jpeg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\extensie\caprioara.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\caprioara.meta
-    projectPath: Assets\Replici\extensie\caprioara.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\extensie\caprioara\bravo.mp3
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\caprioara\bravo.mp3
-    projectPath: Assets\Replici\extensie\caprioara\bravo.mp3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\extensie\caprioara\bravo.mp3.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\caprioara\bravo.mp3.meta
-    projectPath: Assets\Replici\extensie\caprioara\bravo.mp3.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\extensie\caprioara\instr.mp3
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\caprioara\instr.mp3
-    projectPath: Assets\Replici\extensie\caprioara\instr.mp3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\extensie\caprioara\instr.mp3.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\caprioara\instr.mp3.meta
-    projectPath: Assets\Replici\extensie\caprioara\instr.mp3.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\extensie\caprioara\instrHelp.mp3
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\caprioara\instrHelp.mp3
-    projectPath: Assets\Replici\extensie\caprioara\instrHelp.mp3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\extensie\caprioara\instrHelp.mp3.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\caprioara\instrHelp.mp3.meta
-    projectPath: Assets\Replici\extensie\caprioara\instrHelp.mp3.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Scenes\caprioaraExtensie.unity
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\caprioaraExtensie.unity
-    projectPath: Assets\Scenes\caprioaraExtensie.unity
+  - path: AnimaleSalbatice\Assets\lupExtensie.cs
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\lupExtensie.cs
+    projectPath: Assets\lupExtensie.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -223,6 +31,12 @@ MonoBehaviour:
   - path: AnimaleSalbatice\Library\CurrentLayout-default.dwlt
     fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\CurrentLayout-default.dwlt
     projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\Library\EditorUserBuildSettings.asset
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -256,24 +70,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: AnimaleSalbatice\Library\LastSceneManagerSetup.txt
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: AnimaleSalbatice\Library\SceneVisibilityState.asset
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: AnimaleSalbatice\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: AnimaleSalbatice\Library\SourceAssetDB
     fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
@@ -283,12 +79,6 @@ MonoBehaviour:
   - path: AnimaleSalbatice\Library\StateCache\Hierarchy\6a784e-mainStage.json
     fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\StateCache\Hierarchy\6a784e-mainStage.json
     projectPath: Library\StateCache\Hierarchy\6a784e-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: AnimaleSalbatice\Library\StateCache\SceneView\dacffb-mainStage.json
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\StateCache\SceneView\dacffb-mainStage.json
-    projectPath: Library\StateCache\SceneView\dacffb-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

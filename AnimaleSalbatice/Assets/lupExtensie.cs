@@ -88,22 +88,22 @@ public class lupExtensie : MonoBehaviour
         puiMicLup1.GetComponent<Renderer>().sortingOrder = 3;
 
         puiMicLup2 = GameObject.Find("puiMicLup2");
-        puiMicLup2.transform.position = new Vector3(-0.84f, -1f, 0f);
+        puiMicLup2.transform.position = new Vector3(-1.47f, -1.77f, 0f);
         puiMicLup2.transform.localScale = new Vector3(0.2809876f, 0.2691783f, 1f);
         puiMicLup2.GetComponent<Renderer>().sortingOrder = 2;
 
         puiMareLup1 = GameObject.Find("puiMareLup1");
-        puiMareLup1.transform.position = new Vector3(2.44f, -1.7f, 0f);
+        puiMareLup1.transform.position = new Vector3(0.92f, -0.99f, 0f);
         puiMareLup1.transform.localScale = new Vector3(0.3950831f, 0.353693f, 1f);
         puiMareLup1.GetComponent<Renderer>().sortingOrder = 2;
 
         puiMareLup2 = GameObject.Find("puiMareLup2");
-        puiMareLup2.transform.position = new Vector3(7.47f, -3.45f, 0f);
+        puiMareLup2.transform.position = new Vector3(3.6f, -3.36f, 0f);
         puiMareLup2.transform.localScale = new Vector3(0.3501563f, 0.2397565f, 1f);
         puiMareLup2.GetComponent<Renderer>().sortingOrder = 4;
 
         puiMareLup3 = GameObject.Find("puiMareLup3");
-        puiMareLup3.transform.position = new Vector3(-6.82f, -3.57f, 0f);
+        puiMareLup3.transform.position = new Vector3(0.96f, -3.55f, 0f);
         puiMareLup3.transform.localScale = new Vector3(0.5834504f, 0.4657425f, 1f);
         puiMareLup3.GetComponent<Renderer>().sortingOrder = 3;
 
@@ -217,7 +217,7 @@ public class lupExtensie : MonoBehaviour
         if (!gameStopped && !audioIntroFullLup.isPlaying && !gameStarted && !audioBravoLup.isPlaying && !audioInstructiuneLup.isPlaying && !audioMaiIncearcaLup.isPlaying && !audioOutLup.isPlaying)
         {
             gameStarted = true;
-            puiMicLup1.transform.position = new Vector3(-1.65f, -2.92f, 0f);
+            puiMicLup1.transform.position = new Vector3(-1.76f, -3.52f, 0f);
             nor.GetComponent<Renderer>().enabled = false;
         }
 
