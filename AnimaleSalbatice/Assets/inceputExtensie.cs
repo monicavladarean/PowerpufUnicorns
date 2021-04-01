@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GlobalVariable
 {
-    public int lupCheck, caprioaraCheck, veveritaCheck;
+    public int lupCheck, caprioaraCheck, veveritaCheck, ursCheck, vulpeCheck;
 
     private static GlobalVariable instance;
 
@@ -25,7 +25,7 @@ public class GlobalVariable
 
 public class inceputExtensie : MonoBehaviour
 {
-    GameObject caprioara,vulpe,urs,veverita,lup;
+    GameObject caprioara, vulpe, urs, veverita, lup, trofeu;
     int count;
 
     int inceputAudioStarted = 0, ok = 1;
@@ -47,7 +47,7 @@ public class inceputExtensie : MonoBehaviour
 
         inceputAudio = GameObject.Find("inceputExtensie").GetComponent<AudioSource>();
 
-        if (GlobalVariable.Instance.lupCheck != 1 && GlobalVariable.Instance.caprioaraCheck != 1 && GlobalVariable.Instance.veveritaCheck != 1) 
+        if (GlobalVariable.Instance.lupCheck != 1 && GlobalVariable.Instance.caprioaraCheck != 1 && GlobalVariable.Instance.veveritaCheck != 1 && GlobalVariable.Instance.vulpeCheck != 1 && GlobalVariable.Instance.ursCheck != 1) 
         {
            inceputAudio.Play(0);
         }
@@ -56,6 +56,8 @@ public class inceputExtensie : MonoBehaviour
         helpAudio = GameObject.Find("sarcinaHelp").GetComponent<AudioSource>();
 
         exitButton = GameObject.Find("exit");
+        trofeu = GameObject.Find("trofeu");
+        trofeu.transform.position = new Vector3(6.96f, -3.75f, 0f);
     }
 
     // Update is called once per frame
@@ -87,7 +89,7 @@ public class inceputExtensie : MonoBehaviour
                     {
                         SceneManager.LoadScene("lupExtensie");
                     }
-                    else if (hit.collider.name == "urs")
+                    else if (hit.collider.name == "urs") 
                     {
                         SceneManager.LoadScene("ursExtensie");
                     }
@@ -103,7 +105,16 @@ public class inceputExtensie : MonoBehaviour
                     {
                         SceneManager.LoadScene("caprioaraExtensie");
                     }
+                    else if (hit.collider.name== "trofeu" && GlobalVariable.Instance.lupCheck ==1 && GlobalVariable.Instance.caprioaraCheck ==1 && GlobalVariable.Instance.veveritaCheck ==1 && GlobalVariable.Instance.ursCheck ==1 && GlobalVariable.Instance.vulpeCheck ==1)
+                    {
+                        SceneManager.LoadScene("diploma");
+                    }
                 }
+            }
+
+            if(GlobalVariable.Instance.lupCheck == 1 && GlobalVariable.Instance.caprioaraCheck == 1 && GlobalVariable.Instance.veveritaCheck == 1 && GlobalVariable.Instance.ursCheck == 1 && GlobalVariable.Instance.vulpeCheck == 1)
+            {
+                trofeu.transform.position = new Vector3(6.96f, -3.75f, -2f);
             }
         }
     }

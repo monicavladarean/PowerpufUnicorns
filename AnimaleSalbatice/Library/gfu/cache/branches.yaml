@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-04-01T15:02:04.121+03:00
+  lastUpdatedAtString: 2021-04-01T15:17:28.882+03:00
   initializedAtString: 2021-04-01T15:02:04.056+03:00
   localBranches:
   - name: Prototip
