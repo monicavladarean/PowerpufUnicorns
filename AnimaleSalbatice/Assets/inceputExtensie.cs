@@ -32,7 +32,7 @@ public class inceputExtensie : MonoBehaviour
 
     AudioSource inceputAudio;
 
-    GameObject helpButton;
+    GameObject helpButton, exitButton;
     AudioSource helpAudio;
 
     // Start is called before the first frame update
@@ -54,6 +54,8 @@ public class inceputExtensie : MonoBehaviour
 
         helpButton = GameObject.Find("semnIntrebare");
         helpAudio = GameObject.Find("sarcinaHelp").GetComponent<AudioSource>();
+
+        exitButton = GameObject.Find("exit");
     }
 
     // Update is called once per frame
@@ -74,7 +76,12 @@ public class inceputExtensie : MonoBehaviour
                 {
                     helpAudio.Play(0);
                 }
-                if (!helpAudio.isPlaying)
+                else if (hit.collider.name == "exit")
+                {
+                    Debug.Log("exit");
+                    Application.Quit();
+                }
+                else if (!helpAudio.isPlaying)
                 {
                     if (hit.collider.name == "lup")
                     {
