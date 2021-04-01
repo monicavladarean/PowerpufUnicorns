@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GlobalVariable
 {
-    public int lupCheck, caprioaraCheck;
+    public int lupCheck, caprioaraCheck, veveritaCheck;
 
     private static GlobalVariable instance;
 
@@ -47,7 +47,7 @@ public class inceputExtensie : MonoBehaviour
 
         inceputAudio = GameObject.Find("inceputExtensie").GetComponent<AudioSource>();
 
-        if (GlobalVariable.Instance.lupCheck != 1 && GlobalVariable.Instance.caprioaraCheck != 1) 
+        if (GlobalVariable.Instance.lupCheck != 1 && GlobalVariable.Instance.caprioaraCheck != 1 && GlobalVariable.Instance.veveritaCheck != 1) 
         {
            inceputAudio.Play(0);
         }

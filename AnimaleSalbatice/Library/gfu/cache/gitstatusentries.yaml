@@ -13,15 +13,395 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-03-31T21:19:50.594+03:00
-  initializedAtString: 2021-03-31T21:18:01.185+03:00
+  lastUpdatedAtString: 2021-04-01T14:56:35.392+03:00
+  initializedAtString: 2021-04-01T09:56:45.709+03:00
   entries:
-  - path: AnimaleSalbatice\Assets\lupExtensie.cs
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\lupExtensie.cs
-    projectPath: Assets\lupExtensie.cs
+  - path: AnimaleSalbatice\Assets\inceputExtensie.cs
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\inceputExtensie.cs
+    projectPath: Assets\inceputExtensie.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita.meta
+    projectPath: Assets\Poze\extensie\veverita.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\CaprioaraBebe 1.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\CaprioaraBebe
+      1.png
+    projectPath: Assets\Poze\extensie\veverita\CaprioaraBebe 1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\CaprioaraBebe 1.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\CaprioaraBebe
+      1.png.meta
+    projectPath: Assets\Poze\extensie\veverita\CaprioaraBebe 1.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\CaprioaraBebe.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\CaprioaraBebe.png
+    projectPath: Assets\Poze\extensie\veverita\CaprioaraBebe.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\CaprioaraBebe.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\CaprioaraBebe.png.meta
+    projectPath: Assets\Poze\extensie\veverita\CaprioaraBebe.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\card.jpg
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\card.jpg
+    projectPath: Assets\Poze\extensie\veverita\card.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\card.jpg.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\card.jpg.meta
+    projectPath: Assets\Poze\extensie\veverita\card.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\card1.jpg
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\card1.jpg
+    projectPath: Assets\Poze\extensie\veverita\card1.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\card1.jpg.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\card1.jpg.meta
+    projectPath: Assets\Poze\extensie\veverita\card1.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\card2.jpg
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\card2.jpg
+    projectPath: Assets\Poze\extensie\veverita\card2.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\card2.jpg.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\card2.jpg.meta
+    projectPath: Assets\Poze\extensie\veverita\card2.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\card3.jpg
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\card3.jpg
+    projectPath: Assets\Poze\extensie\veverita\card3.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\card3.jpg.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\card3.jpg.meta
+    projectPath: Assets\Poze\extensie\veverita\card3.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\card4.jpg
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\card4.jpg
+    projectPath: Assets\Poze\extensie\veverita\card4.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\card4.jpg.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\card4.jpg.meta
+    projectPath: Assets\Poze\extensie\veverita\card4.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\LupBebe 1.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\LupBebe
+      1.png
+    projectPath: Assets\Poze\extensie\veverita\LupBebe 1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\LupBebe 1.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\LupBebe
+      1.png.meta
+    projectPath: Assets\Poze\extensie\veverita\LupBebe 1.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\LupBebe.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\LupBebe.png
+    projectPath: Assets\Poze\extensie\veverita\LupBebe.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\LupBebe.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\LupBebe.png.meta
+    projectPath: Assets\Poze\extensie\veverita\LupBebe.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\UrsBebe 1.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\UrsBebe
+      1.png
+    projectPath: Assets\Poze\extensie\veverita\UrsBebe 1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\UrsBebe 1.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\UrsBebe
+      1.png.meta
+    projectPath: Assets\Poze\extensie\veverita\UrsBebe 1.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\UrsBebe.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\UrsBebe.png
+    projectPath: Assets\Poze\extensie\veverita\UrsBebe.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\UrsBebe.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\UrsBebe.png.meta
+    projectPath: Assets\Poze\extensie\veverita\UrsBebe.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\VeveritaBebe.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\VeveritaBebe.png
+    projectPath: Assets\Poze\extensie\veverita\VeveritaBebe.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\VeveritaBebe.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\VeveritaBebe.png.meta
+    projectPath: Assets\Poze\extensie\veverita\VeveritaBebe.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\veveritaEvaluareFundal.jpg
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\veveritaEvaluareFundal.jpg
+    projectPath: Assets\Poze\extensie\veverita\veveritaEvaluareFundal.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\veveritaEvaluareFundal.jpg.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\veveritaEvaluareFundal.jpg.meta
+    projectPath: Assets\Poze\extensie\veverita\veveritaEvaluareFundal.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\VulpeBebe 1.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\VulpeBebe
+      1.png
+    projectPath: Assets\Poze\extensie\veverita\VulpeBebe 1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\VulpeBebe 1.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\VulpeBebe
+      1.png.meta
+    projectPath: Assets\Poze\extensie\veverita\VulpeBebe 1.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\VulpeBebe.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\VulpeBebe.png
+    projectPath: Assets\Poze\extensie\veverita\VulpeBebe.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Poze\extensie\veverita\VulpeBebe.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\veverita\VulpeBebe.png.meta
+    projectPath: Assets\Poze\extensie\veverita\VulpeBebe.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\inceput.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\inceput.meta
+    projectPath: Assets\Replici\extensie\inceput.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\inceput\inceputExtensie.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\inceput\inceputExtensie.mp3
+    projectPath: Assets\Replici\extensie\inceput\inceputExtensie.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\inceput\inceputExtensie.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\inceput\inceputExtensie.mp3.meta
+    projectPath: Assets\Replici\extensie\inceput\inceputExtensie.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\inceput\sarcinaHelp.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\inceput\sarcinaHelp.mp3
+    projectPath: Assets\Replici\extensie\inceput\sarcinaHelp.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\inceput\sarcinaHelp.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\inceput\sarcinaHelp.mp3.meta
+    projectPath: Assets\Replici\extensie\inceput\sarcinaHelp.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\inceputExtensie.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\inceputExtensie.mp3
+    projectPath: Assets\Replici\extensie\inceputExtensie.mp3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\Replici\extensie\inceputExtensie.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\inceputExtensie.mp3.meta
+    projectPath: Assets\Replici\extensie\inceputExtensie.mp3.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\Replici\extensie\sarcinaHelp.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\sarcinaHelp.mp3
+    projectPath: Assets\Replici\extensie\sarcinaHelp.mp3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\Replici\extensie\sarcinaHelp.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\sarcinaHelp.mp3.meta
+    projectPath: Assets\Replici\extensie\sarcinaHelp.mp3.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veverita.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veverita.meta
+    projectPath: Assets\Replici\extensie\veverita.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaBravo.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaBravo.mp3
+    projectPath: Assets\Replici\extensie\veverita\veveritaBravo.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaBravo.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaBravo.mp3.meta
+    projectPath: Assets\Replici\extensie\veverita\veveritaBravo.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaFinalExtensie.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaFinalExtensie.mp3
+    projectPath: Assets\Replici\extensie\veverita\veveritaFinalExtensie.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaFinalExtensie.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaFinalExtensie.mp3.meta
+    projectPath: Assets\Replici\extensie\veverita\veveritaFinalExtensie.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaHelp.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaHelp.mp3
+    projectPath: Assets\Replici\extensie\veverita\veveritaHelp.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaHelp.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaHelp.mp3.meta
+    projectPath: Assets\Replici\extensie\veverita\veveritaHelp.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaInceputExtensie.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaInceputExtensie.mp3
+    projectPath: Assets\Replici\extensie\veverita\veveritaInceputExtensie.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaInceputExtensie.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaInceputExtensie.mp3.meta
+    projectPath: Assets\Replici\extensie\veverita\veveritaInceputExtensie.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaMaiIncearca.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaMaiIncearca.mp3
+    projectPath: Assets\Replici\extensie\veverita\veveritaMaiIncearca.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaMaiIncearca.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veverita\veveritaMaiIncearca.mp3.meta
+    projectPath: Assets\Replici\extensie\veverita\veveritaMaiIncearca.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veveritaBravo.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veveritaBravo.mp3
+    projectPath: Assets\Replici\extensie\veveritaBravo.mp3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veveritaBravo.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veveritaBravo.mp3.meta
+    projectPath: Assets\Replici\extensie\veveritaBravo.mp3.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veveritaFinalExtensie.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veveritaFinalExtensie.mp3
+    projectPath: Assets\Replici\extensie\veveritaFinalExtensie.mp3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veveritaFinalExtensie.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veveritaFinalExtensie.mp3.meta
+    projectPath: Assets\Replici\extensie\veveritaFinalExtensie.mp3.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veveritaInceputExtensie.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veveritaInceputExtensie.mp3
+    projectPath: Assets\Replici\extensie\veveritaInceputExtensie.mp3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veveritaInceputExtensie.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veveritaInceputExtensie.mp3.meta
+    projectPath: Assets\Replici\extensie\veveritaInceputExtensie.mp3.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veveritaMaiIncearca.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veveritaMaiIncearca.mp3
+    projectPath: Assets\Replici\extensie\veveritaMaiIncearca.mp3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\Replici\extensie\veveritaMaiIncearca.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\veveritaMaiIncearca.mp3.meta
+    projectPath: Assets\Replici\extensie\veveritaMaiIncearca.mp3.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: AnimaleSalbatice\Assets\Scenes\veveritaExtensie.unity
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\veveritaExtensie.unity
+    projectPath: Assets\Scenes\veveritaExtensie.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\Assets\veveritaExtensie.cs
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\veveritaExtensie.cs
+    projectPath: Assets\veveritaExtensie.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\veveritaExtensie.cs.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\veveritaExtensie.cs.meta
+    projectPath: Assets\veveritaExtensie.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: AnimaleSalbatice\Library\ArtifactDB
     fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\ArtifactDB
     projectPath: Library\ArtifactDB
@@ -31,12 +411,6 @@ MonoBehaviour:
   - path: AnimaleSalbatice\Library\CurrentLayout-default.dwlt
     fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\CurrentLayout-default.dwlt
     projectPath: Library\CurrentLayout-default.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: AnimaleSalbatice\Library\EditorUserBuildSettings.asset
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\EditorUserBuildSettings.asset
-    projectPath: Library\EditorUserBuildSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -52,12 +426,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: AnimaleSalbatice\Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: AnimaleSalbatice\Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
@@ -70,6 +438,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: AnimaleSalbatice\Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: AnimaleSalbatice\Library\SourceAssetDB
     fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
@@ -79,6 +453,12 @@ MonoBehaviour:
   - path: AnimaleSalbatice\Library\StateCache\Hierarchy\6a784e-mainStage.json
     fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\StateCache\Hierarchy\6a784e-mainStage.json
     projectPath: Library\StateCache\Hierarchy\6a784e-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\Library\StateCache\SceneView\dacffb-mainStage.json
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\StateCache\SceneView\dacffb-mainStage.json
+    projectPath: Library\StateCache\SceneView\dacffb-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

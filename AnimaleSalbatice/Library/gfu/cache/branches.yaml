@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-03-30T15:55:05.782+03:00
-  initializedAtString: 2021-03-30T14:52:13.332+03:00
+  lastUpdatedAtString: 2021-03-31T21:22:00.597+03:00
+  initializedAtString: 2021-03-31T21:22:00.503+03:00
   localBranches:
   - name: Prototip
     tracking: origin/Prototip
