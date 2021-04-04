@@ -13,240 +13,246 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-04-01T19:37:29.610+03:00
-  initializedAtString: 2021-04-01T09:56:45.709+03:00
+  lastUpdatedAtString: 2021-04-04T12:32:40.588+03:00
+  initializedAtString: 2021-04-04T12:13:43.565+03:00
   entries:
-  - path: AnimaleSalbatice\Assets\diplomaExtensie.cs
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\diplomaExtensie.cs
-    projectPath: Assets\diplomaExtensie.cs
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe.meta
+    projectPath: Assets\Poze\extensie\vulpe.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\diplomaExtensie.cs.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\diplomaExtensie.cs.meta
-    projectPath: Assets\diplomaExtensie.cs.meta
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\cosCerc.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\cosCerc.png
+    projectPath: Assets\Poze\extensie\vulpe\cosCerc.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\inceputExtensie.cs
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\inceputExtensie.cs
-    projectPath: Assets\inceputExtensie.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: AnimaleSalbatice\Assets\Poze\extensie\diploma.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\diploma.meta
-    projectPath: Assets\Poze\extensie\diploma.meta
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\cosCerc.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\cosCerc.png.meta
+    projectPath: Assets\Poze\extensie\vulpe\cosCerc.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\diploma\back.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\diploma\back.png
-    projectPath: Assets\Poze\extensie\diploma\back.png
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\cosPatrat.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\cosPatrat.png
+    projectPath: Assets\Poze\extensie\vulpe\cosPatrat.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\diploma\back.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\diploma\back.png.meta
-    projectPath: Assets\Poze\extensie\diploma\back.png.meta
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\cosPatrat.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\cosPatrat.png.meta
+    projectPath: Assets\Poze\extensie\vulpe\cosPatrat.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\diploma\CaprioaraBebe.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\diploma\CaprioaraBebe.png
-    projectPath: Assets\Poze\extensie\diploma\CaprioaraBebe.png
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\cosTriunghi.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\cosTriunghi.png
+    projectPath: Assets\Poze\extensie\vulpe\cosTriunghi.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\diploma\CaprioaraBebe.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\diploma\CaprioaraBebe.png.meta
-    projectPath: Assets\Poze\extensie\diploma\CaprioaraBebe.png.meta
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\cosTriunghi.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\cosTriunghi.png.meta
+    projectPath: Assets\Poze\extensie\vulpe\cosTriunghi.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\diploma\LupBebe.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\diploma\LupBebe.png
-    projectPath: Assets\Poze\extensie\diploma\LupBebe.png
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\cupa.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\cupa.png
+    projectPath: Assets\Poze\extensie\vulpe\cupa.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\diploma\LupBebe.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\diploma\LupBebe.png.meta
-    projectPath: Assets\Poze\extensie\diploma\LupBebe.png.meta
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\cupa.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\cupa.png.meta
+    projectPath: Assets\Poze\extensie\vulpe\cupa.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\diploma\sda.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\diploma\sda.png
-    projectPath: Assets\Poze\extensie\diploma\sda.png
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\fundalEvaluareVulpe.jpg
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\fundalEvaluareVulpe.jpg
+    projectPath: Assets\Poze\extensie\vulpe\fundalEvaluareVulpe.jpg
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\diploma\sda.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\diploma\sda.png.meta
-    projectPath: Assets\Poze\extensie\diploma\sda.png.meta
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\fundalEvaluareVulpe.jpg.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\fundalEvaluareVulpe.jpg.meta
+    projectPath: Assets\Poze\extensie\vulpe\fundalEvaluareVulpe.jpg.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\diploma\UrsBebe.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\diploma\UrsBebe.png
-    projectPath: Assets\Poze\extensie\diploma\UrsBebe.png
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteCerc1.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteCerc1.png
+    projectPath: Assets\Poze\extensie\vulpe\pesteCerc1.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\diploma\UrsBebe.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\diploma\UrsBebe.png.meta
-    projectPath: Assets\Poze\extensie\diploma\UrsBebe.png.meta
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteCerc1.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteCerc1.png.meta
+    projectPath: Assets\Poze\extensie\vulpe\pesteCerc1.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\diploma\VeveritaBebe.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\diploma\VeveritaBebe.png
-    projectPath: Assets\Poze\extensie\diploma\VeveritaBebe.png
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteCerc2.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteCerc2.png
+    projectPath: Assets\Poze\extensie\vulpe\pesteCerc2.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\diploma\VeveritaBebe.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\diploma\VeveritaBebe.png.meta
-    projectPath: Assets\Poze\extensie\diploma\VeveritaBebe.png.meta
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteCerc2.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteCerc2.png.meta
+    projectPath: Assets\Poze\extensie\vulpe\pesteCerc2.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\diploma\Vulpe.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\diploma\Vulpe.png
-    projectPath: Assets\Poze\extensie\diploma\Vulpe.png
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteCupa.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteCupa.png
+    projectPath: Assets\Poze\extensie\vulpe\pesteCupa.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\diploma\Vulpe.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\diploma\Vulpe.png.meta
-    projectPath: Assets\Poze\extensie\diploma\Vulpe.png.meta
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteCupa.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteCupa.png.meta
+    projectPath: Assets\Poze\extensie\vulpe\pesteCupa.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\inceput\trophee.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\inceput\trophee.png
-    projectPath: Assets\Poze\extensie\inceput\trophee.png
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\pestePatrat1.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\pestePatrat1.png
+    projectPath: Assets\Poze\extensie\vulpe\pestePatrat1.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\inceput\trophee.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\inceput\trophee.png.meta
-    projectPath: Assets\Poze\extensie\inceput\trophee.png.meta
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\pestePatrat1.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\pestePatrat1.png.meta
+    projectPath: Assets\Poze\extensie\vulpe\pestePatrat1.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final.meta
-    projectPath: Assets\Replici\replici_poveste\final.meta
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\pestePatrat2.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\pestePatrat2.png
+    projectPath: Assets\Poze\extensie\vulpe\pestePatrat2.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final\caprioaraExtensie.mp3
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final\caprioaraExtensie.mp3
-    projectPath: Assets\Replici\replici_poveste\final\caprioaraExtensie.mp3
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\pestePatrat2.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\pestePatrat2.png.meta
+    projectPath: Assets\Poze\extensie\vulpe\pestePatrat2.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final\caprioaraExtensie.mp3.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final\caprioaraExtensie.mp3.meta
-    projectPath: Assets\Replici\replici_poveste\final\caprioaraExtensie.mp3.meta
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteTriunghi1.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteTriunghi1.png
+    projectPath: Assets\Poze\extensie\vulpe\pesteTriunghi1.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final\finalDiploma.mp3
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final\finalDiploma.mp3
-    projectPath: Assets\Replici\replici_poveste\final\finalDiploma.mp3
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteTriunghi1.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteTriunghi1.png.meta
+    projectPath: Assets\Poze\extensie\vulpe\pesteTriunghi1.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final\finalDiploma.mp3.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final\finalDiploma.mp3.meta
-    projectPath: Assets\Replici\replici_poveste\final\finalDiploma.mp3.meta
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteTriunghi2.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteTriunghi2.png
+    projectPath: Assets\Poze\extensie\vulpe\pesteTriunghi2.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final\inceputDiploma.mp3
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final\inceputDiploma.mp3
-    projectPath: Assets\Replici\replici_poveste\final\inceputDiploma.mp3
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteTriunghi2.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\pesteTriunghi2.png.meta
+    projectPath: Assets\Poze\extensie\vulpe\pesteTriunghi2.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final\inceputDiploma.mp3.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final\inceputDiploma.mp3.meta
-    projectPath: Assets\Replici\replici_poveste\final\inceputDiploma.mp3.meta
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\semnIntrebare.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\semnIntrebare.png
+    projectPath: Assets\Poze\extensie\vulpe\semnIntrebare.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final\lupDiploma.mp3
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final\lupDiploma.mp3
-    projectPath: Assets\Replici\replici_poveste\final\lupDiploma.mp3
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\semnIntrebare.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\semnIntrebare.png.meta
+    projectPath: Assets\Poze\extensie\vulpe\semnIntrebare.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final\lupDiploma.mp3.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final\lupDiploma.mp3.meta
-    projectPath: Assets\Replici\replici_poveste\final\lupDiploma.mp3.meta
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\vulpe.png
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\vulpe.png
+    projectPath: Assets\Poze\extensie\vulpe\vulpe.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final\ursDiploma.mp3
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final\ursDiploma.mp3
-    projectPath: Assets\Replici\replici_poveste\final\ursDiploma.mp3
+  - path: AnimaleSalbatice\Assets\Poze\extensie\vulpe\vulpe.png.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\vulpe\vulpe.png.meta
+    projectPath: Assets\Poze\extensie\vulpe\vulpe.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final\ursDiploma.mp3.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final\ursDiploma.mp3.meta
-    projectPath: Assets\Replici\replici_poveste\final\ursDiploma.mp3.meta
+  - path: AnimaleSalbatice\Assets\Replici\extensie\vulpe.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\vulpe.meta
+    projectPath: Assets\Replici\extensie\vulpe.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final\veveritaDiploma.mp3
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final\veveritaDiploma.mp3
-    projectPath: Assets\Replici\replici_poveste\final\veveritaDiploma.mp3
+  - path: AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioBravoVulpe.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioBravoVulpe.mp3
+    projectPath: Assets\Replici\extensie\vulpe\audioBravoVulpe.mp3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final\veveritaDiploma.mp3.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final\veveritaDiploma.mp3.meta
-    projectPath: Assets\Replici\replici_poveste\final\veveritaDiploma.mp3.meta
+  - path: AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioBravoVulpe.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioBravoVulpe.mp3.meta
+    projectPath: Assets\Replici\extensie\vulpe\audioBravoVulpe.mp3.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final\vulpeDiploma.mp3
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final\vulpeDiploma.mp3
-    projectPath: Assets\Replici\replici_poveste\final\vulpeDiploma.mp3
+  - path: AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioInstructiuneVulpe.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioInstructiuneVulpe.mp3
+    projectPath: Assets\Replici\extensie\vulpe\audioInstructiuneVulpe.mp3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final\vulpeDiploma.mp3.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final\vulpeDiploma.mp3.meta
-    projectPath: Assets\Replici\replici_poveste\final\vulpeDiploma.mp3.meta
+  - path: AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioInstructiuneVulpe.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioInstructiuneVulpe.mp3.meta
+    projectPath: Assets\Replici\extensie\vulpe\audioInstructiuneVulpe.mp3.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final_poveste.mp3
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final_poveste.mp3
-    projectPath: Assets\Replici\replici_poveste\final_poveste.mp3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final_poveste.mp3.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final_poveste.mp3.meta
-    projectPath: Assets\Replici\replici_poveste\final_poveste.mp3.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: AnimaleSalbatice\Assets\Scenes\diploma.unity
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\diploma.unity
-    projectPath: Assets\Scenes\diploma.unity
+  - path: AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioIntroFullVulpe.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioIntroFullVulpe.mp3
+    projectPath: Assets\Replici\extensie\vulpe\audioIntroFullVulpe.mp3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Scenes\diploma.unity.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\diploma.unity.meta
-    projectPath: Assets\Scenes\diploma.unity.meta
+  - path: AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioIntroFullVulpe.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioIntroFullVulpe.mp3.meta
+    projectPath: Assets\Replici\extensie\vulpe\audioIntroFullVulpe.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioMaiIncearcaVulpe.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioMaiIncearcaVulpe.mp3
+    projectPath: Assets\Replici\extensie\vulpe\audioMaiIncearcaVulpe.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioMaiIncearcaVulpe.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioMaiIncearcaVulpe.mp3.meta
+    projectPath: Assets\Replici\extensie\vulpe\audioMaiIncearcaVulpe.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioOutVulpe.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioOutVulpe.mp3
+    projectPath: Assets\Replici\extensie\vulpe\audioOutVulpe.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioOutVulpe.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\vulpe\audioOutVulpe.mp3.meta
+    projectPath: Assets\Replici\extensie\vulpe\audioOutVulpe.mp3.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -256,9 +262,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: AnimaleSalbatice\Assets\Scenes\vulpeExtensie.unity
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\vulpeExtensie.unity
+    projectPath: Assets\Scenes\vulpeExtensie.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\Assets\vulpeExtensie.cs
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\vulpeExtensie.cs
+    projectPath: Assets\vulpeExtensie.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\vulpeExtensie.cs.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\vulpeExtensie.cs.meta
+    projectPath: Assets\vulpeExtensie.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: AnimaleSalbatice\Library\ArtifactDB
     fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\ArtifactDB
     projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -286,9 +316,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: AnimaleSalbatice\Library\SceneVisibilityState.asset
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
+  - path: AnimaleSalbatice\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\Library\LastSceneManagerSetup.txt
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
