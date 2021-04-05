@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Puzzle.unity
     guid: 35103f0e95863f1418ebafcdd8c30dec
   - enabled: 0
-    path: Assets/Scenes/Final.unity
+    path: 
     guid: bbd0681f68596be439a1a86b2ff1b3f4
   - enabled: 1
     path: Assets/Scenes/Mancare.unity
@@ -68,4 +68,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/caprioaraExtensie.unity
     guid: 7374303b90a99bf4eb636ea56c546e90
+  - enabled: 1
+    path: Assets/Scenes/diploma.unity
+    guid: 351aeffcd69442a41805c04191b297da
   m_configObjects: {}

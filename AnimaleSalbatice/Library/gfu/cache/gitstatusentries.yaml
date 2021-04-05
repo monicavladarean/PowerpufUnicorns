@@ -13,267 +13,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-04-05T15:33:36.809+03:00
-  initializedAtString: 2021-04-05T14:49:10.351+03:00
+  lastUpdatedAtString: 2021-04-05T19:55:38.557+03:00
+  initializedAtString: 2021-04-05T19:50:58.554+03:00
   entries:
-  - path: AnimaleSalbatice\Assets\inceputExtensie.cs
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\inceputExtensie.cs
-    projectPath: Assets\inceputExtensie.cs
+  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final_poveste.wav
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final_poveste.wav
+    projectPath: Assets\Replici\replici_poveste\final_poveste.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\replici_poveste\final_poveste.wav.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\replici_poveste\final_poveste.wav.meta
+    projectPath: Assets\Replici\replici_poveste\final_poveste.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Scenes\finalInvatare.unity
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\finalInvatare.unity
+    projectPath: Assets\Scenes\finalInvatare.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs.meta
-    projectPath: Assets\Poze\extensie\urs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\final.jpeg
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\final.jpeg
-    projectPath: Assets\Poze\extensie\urs\final.jpeg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\final.jpeg.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\final.jpeg.meta
-    projectPath: Assets\Poze\extensie\urs\final.jpeg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\fundal1.jpeg
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\fundal1.jpeg
-    projectPath: Assets\Poze\extensie\urs\fundal1.jpeg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\fundal1.jpeg.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\fundal1.jpeg.meta
-    projectPath: Assets\Poze\extensie\urs\fundal1.jpeg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\fundal2.jpeg
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\fundal2.jpeg
-    projectPath: Assets\Poze\extensie\urs\fundal2.jpeg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\fundal2.jpeg.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\fundal2.jpeg.meta
-    projectPath: Assets\Poze\extensie\urs\fundal2.jpeg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\fundal3.jpeg
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\fundal3.jpeg
-    projectPath: Assets\Poze\extensie\urs\fundal3.jpeg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\fundal3.jpeg.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\fundal3.jpeg.meta
-    projectPath: Assets\Poze\extensie\urs\fundal3.jpeg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\fundal4.jpeg
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\fundal4.jpeg
-    projectPath: Assets\Poze\extensie\urs\fundal4.jpeg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\fundal4.jpeg.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\fundal4.jpeg.meta
-    projectPath: Assets\Poze\extensie\urs\fundal4.jpeg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\fundal5.jpeg
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\fundal5.jpeg
-    projectPath: Assets\Poze\extensie\urs\fundal5.jpeg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\fundal5.jpeg.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\fundal5.jpeg.meta
-    projectPath: Assets\Poze\extensie\urs\fundal5.jpeg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\fundal6.jpeg
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\fundal6.jpeg
-    projectPath: Assets\Poze\extensie\urs\fundal6.jpeg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\fundal6.jpeg.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\fundal6.jpeg.meta
-    projectPath: Assets\Poze\extensie\urs\fundal6.jpeg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle1.jpeg
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle1.jpeg
-    projectPath: Assets\Poze\extensie\urs\puzzle1.jpeg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle1.jpeg.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle1.jpeg.meta
-    projectPath: Assets\Poze\extensie\urs\puzzle1.jpeg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle2.jpeg
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle2.jpeg
-    projectPath: Assets\Poze\extensie\urs\puzzle2.jpeg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle2.jpeg.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle2.jpeg.meta
-    projectPath: Assets\Poze\extensie\urs\puzzle2.jpeg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle3.jpeg
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle3.jpeg
-    projectPath: Assets\Poze\extensie\urs\puzzle3.jpeg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle3.jpeg.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle3.jpeg.meta
-    projectPath: Assets\Poze\extensie\urs\puzzle3.jpeg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle4.jpeg
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle4.jpeg
-    projectPath: Assets\Poze\extensie\urs\puzzle4.jpeg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle4.jpeg.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle4.jpeg.meta
-    projectPath: Assets\Poze\extensie\urs\puzzle4.jpeg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle5.jpeg
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle5.jpeg
-    projectPath: Assets\Poze\extensie\urs\puzzle5.jpeg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle5.jpeg.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle5.jpeg.meta
-    projectPath: Assets\Poze\extensie\urs\puzzle5.jpeg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle6.jpeg
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle6.jpeg
-    projectPath: Assets\Poze\extensie\urs\puzzle6.jpeg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle6.jpeg.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\puzzle6.jpeg.meta
-    projectPath: Assets\Poze\extensie\urs\puzzle6.jpeg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\scenap.jpeg
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\scenap.jpeg
-    projectPath: Assets\Poze\extensie\urs\scenap.jpeg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\scenap.jpeg.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\scenap.jpeg.meta
-    projectPath: Assets\Poze\extensie\urs\scenap.jpeg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\semn.png
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\semn.png
-    projectPath: Assets\Poze\extensie\urs\semn.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Poze\extensie\urs\semn.png.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Poze\extensie\urs\semn.png.meta
-    projectPath: Assets\Poze\extensie\urs\semn.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\extensie\urs.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\urs.meta
-    projectPath: Assets\Replici\extensie\urs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\extensie\urs\bv.wav
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\urs\bv.wav
-    projectPath: Assets\Replici\extensie\urs\bv.wav
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\extensie\urs\bv.wav.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\urs\bv.wav.meta
-    projectPath: Assets\Replici\extensie\urs\bv.wav.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\extensie\urs\clickSemn.wav
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\urs\clickSemn.wav
-    projectPath: Assets\Replici\extensie\urs\clickSemn.wav
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\extensie\urs\clickSemn.wav.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\urs\clickSemn.wav.meta
-    projectPath: Assets\Replici\extensie\urs\clickSemn.wav.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\extensie\urs\inceput.wav
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\urs\inceput.wav
-    projectPath: Assets\Replici\extensie\urs\inceput.wav
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Replici\extensie\urs\inceput.wav.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\urs\inceput.wav.meta
-    projectPath: Assets\Replici\extensie\urs\inceput.wav.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\Scenes\inceputExtensie.unity
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\inceputExtensie.unity
-    projectPath: Assets\Scenes\inceputExtensie.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: AnimaleSalbatice\Assets\Scenes\ursExtensie.unity
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\ursExtensie.unity
-    projectPath: Assets\Scenes\ursExtensie.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: AnimaleSalbatice\Assets\ursExtensie.cs
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\ursExtensie.cs
-    projectPath: Assets\ursExtensie.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: AnimaleSalbatice\Assets\ursExtensie.cs.meta
-    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\ursExtensie.cs.meta
-    projectPath: Assets\ursExtensie.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: AnimaleSalbatice\Library\ArtifactDB
     fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\ArtifactDB
     projectPath: Library\ArtifactDB
@@ -283,6 +43,12 @@ MonoBehaviour:
   - path: AnimaleSalbatice\Library\CurrentLayout-default.dwlt
     fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\CurrentLayout-default.dwlt
     projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\Library\EditorUserBuildSettings.asset
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -316,6 +82,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: AnimaleSalbatice\Library\SceneVisibilityState.asset
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: AnimaleSalbatice\Library\SourceAssetDB
     fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
@@ -325,6 +97,12 @@ MonoBehaviour:
   - path: AnimaleSalbatice\Library\StateCache\Hierarchy\6a784e-mainStage.json
     fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\StateCache\Hierarchy\6a784e-mainStage.json
     projectPath: Library\StateCache\Hierarchy\6a784e-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\ProjectSettings\EditorBuildSettings.asset
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
