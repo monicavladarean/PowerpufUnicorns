@@ -38,6 +38,11 @@ public class inceputExtensie : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log(GlobalVariable.Instance.lupCheck);
+        Debug.Log(GlobalVariable.Instance.caprioaraCheck);
+        Debug.Log(GlobalVariable.Instance.veveritaCheck);
+        Debug.Log(GlobalVariable.Instance.vulpeCheck);
+        Debug.Log(GlobalVariable.Instance.ursCheck);
 
         caprioara = GameObject.Find("caprioara");
         urs = GameObject.Find("urs");
@@ -111,11 +116,11 @@ public class inceputExtensie : MonoBehaviour
                     }
                 }
             }
+        }
 
-            if(GlobalVariable.Instance.lupCheck == 1 && GlobalVariable.Instance.caprioaraCheck == 1 && GlobalVariable.Instance.veveritaCheck == 1 && GlobalVariable.Instance.ursCheck == 1 && GlobalVariable.Instance.vulpeCheck == 1)
-            {
-                trofeu.transform.position = new Vector3(6.96f, -3.75f, -2f);
-            }
+        else if (GlobalVariable.Instance.lupCheck == 1 && GlobalVariable.Instance.caprioaraCheck == 1 && GlobalVariable.Instance.veveritaCheck == 1 && GlobalVariable.Instance.ursCheck == 1 && GlobalVariable.Instance.vulpeCheck == 1)
+        {
+            trofeu.transform.position = new Vector3(6.96f, -3.75f, -2f);
         }
     }
 }
