@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GlobalVariable
 {
-    public int lupCheck, caprioaraCheck, veveritaCheck, ursCheck, vulpeCheck;
+    public int lupCheck, caprioaraCheck, veveritaCheck, ursCheck, vulpeCheck, cupaCheck;
 
     private static GlobalVariable instance;
 
@@ -35,6 +35,9 @@ public class inceputExtensie : MonoBehaviour
     GameObject helpButton, exitButton;
     AudioSource helpAudio;
 
+    AudioSource cupaAudio;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -60,9 +63,17 @@ public class inceputExtensie : MonoBehaviour
         helpButton = GameObject.Find("semnIntrebare");
         helpAudio = GameObject.Find("sarcinaHelp").GetComponent<AudioSource>();
 
+        cupaAudio = GameObject.Find("cupaAudio").GetComponent<AudioSource>();
+
         exitButton = GameObject.Find("exit");
         trofeu = GameObject.Find("trofeu");
         trofeu.transform.position = new Vector3(6.96f, -3.75f, 0f);
+    }
+
+    private IEnumerator DelayLoadLevel()
+    {
+        yield return new WaitForSeconds(1f);
+        trofeu.GetComponent<Renderer>().enabled = true;
     }
 
     // Update is called once per frame
@@ -72,7 +83,7 @@ public class inceputExtensie : MonoBehaviour
         {
             ok = 0;
         }
-        else if (!inceputAudio.isPlaying && Input.GetMouseButtonDown(0))
+        else if (!inceputAudio.isPlaying && !cupaAudio.isPlaying && Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -121,6 +132,13 @@ public class inceputExtensie : MonoBehaviour
         else if (GlobalVariable.Instance.lupCheck == 1 && GlobalVariable.Instance.caprioaraCheck == 1 && GlobalVariable.Instance.veveritaCheck == 1 && GlobalVariable.Instance.ursCheck == 1 && GlobalVariable.Instance.vulpeCheck == 1)
         {
             trofeu.transform.position = new Vector3(6.96f, -3.75f, -2f);
+            if (GlobalVariable.Instance.cupaCheck != 1)
+            {
+                GlobalVariable.Instance.cupaCheck = 1;
+                cupaAudio.Play(0);
+                trofeu.GetComponent<Renderer>().enabled = false;
+                StartCoroutine(DelayLoadLevel());
+            }        
         }
     }
 }
