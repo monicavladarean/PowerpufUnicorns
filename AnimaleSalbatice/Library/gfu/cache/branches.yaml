@@ -13,21 +13,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-12-01T20:02:44.313+02:00
-  initializedAtString: 2020-12-01T19:57:10.766+02:00
+  lastUpdatedAtString: 2021-04-05T20:21:20.670+03:00
+  initializedAtString: 2021-04-05T20:21:20.613+03:00
   localBranches:
-  - name: activity-mameSiPui
-    tracking: origin/activity-mameSiPui
-  - name: main
-    tracking: origin/main
+  - name: Prototip
+    tracking: origin/Prototip
   remoteBranches:
-  - name: origin/activity-mameSiPui
-    tracking: '[None]'
-  - name: origin/activity-undeDorm
-    tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
+  - name: origin/jocEvaluareLup
+    tracking: '[None]'
+  - name: origin/jocEvaluareVulpe
+    tracking: '[None]'
   - name: origin/main
+    tracking: '[None]'
+  - name: origin/Mancare
+    tracking: '[None]'
+  - name: origin/Parte-Invatare
+    tracking: '[None]'
+  - name: origin/Prototip
     tracking: '[None]'
   remotes:
   - name: origin
@@ -39,46 +43,58 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - activity-mameSiPui
-    - main
+    - Prototip
     values:
-    - name: activity-mameSiPui
+    - name: Prototip
       remote:
         name: origin
         url: https://github.com/monicavladarean/PowerpufUnicorns.git
-      trackingBranch: activity-mameSiPui
-    - name: main
-      remote:
-        name: origin
-        url: https://github.com/monicavladarean/PowerpufUnicorns.git
-      trackingBranch: main
+      trackingBranch: Prototip
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - activity-mameSiPui
-      - activity-undeDorm
       - HEAD
+      - jocEvaluareLup
+      - jocEvaluareVulpe
       - main
+      - Mancare
+      - Parte-Invatare
+      - Prototip
     subKeyValues:
     - Values:
-      - name: activity-mameSiPui
-        remote:
-          name: origin
-          url: https://github.com/monicavladarean/PowerpufUnicorns.git
-        trackingBranch: 
-      - name: activity-undeDorm
-        remote:
-          name: origin
-          url: https://github.com/monicavladarean/PowerpufUnicorns.git
-        trackingBranch: 
       - name: HEAD
         remote:
           name: origin
           url: https://github.com/monicavladarean/PowerpufUnicorns.git
         trackingBranch: 
+      - name: jocEvaluareLup
+        remote:
+          name: origin
+          url: https://github.com/monicavladarean/PowerpufUnicorns.git
+        trackingBranch: 
+      - name: jocEvaluareVulpe
+        remote:
+          name: origin
+          url: https://github.com/monicavladarean/PowerpufUnicorns.git
+        trackingBranch: 
       - name: main
+        remote:
+          name: origin
+          url: https://github.com/monicavladarean/PowerpufUnicorns.git
+        trackingBranch: 
+      - name: Mancare
+        remote:
+          name: origin
+          url: https://github.com/monicavladarean/PowerpufUnicorns.git
+        trackingBranch: 
+      - name: Parte-Invatare
+        remote:
+          name: origin
+          url: https://github.com/monicavladarean/PowerpufUnicorns.git
+        trackingBranch: 
+      - name: Prototip
         remote:
           name: origin
           url: https://github.com/monicavladarean/PowerpufUnicorns.git

@@ -13,30 +13,90 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-12-01T20:04:32.641+02:00
-  initializedAtString: 2020-12-01T11:17:00.905+02:00
+  lastUpdatedAtString: 2021-04-07T21:16:49.253+03:00
+  initializedAtString: 2021-04-07T20:58:38.671+03:00
   entries:
+  - path: AnimaleSalbatice\Assets\inceputExtensie.cs
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\inceputExtensie.cs
+    projectPath: Assets\inceputExtensie.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\Assets\Replici\extensie\cupaAudio.mp3
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\cupaAudio.mp3
+    projectPath: Assets\Replici\extensie\cupaAudio.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Replici\extensie\cupaAudio.mp3.meta
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Replici\extensie\cupaAudio.mp3.meta
+    projectPath: Assets\Replici\extensie\cupaAudio.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: AnimaleSalbatice\Assets\Scenes\inceputExtensie.unity
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Assets\Scenes\inceputExtensie.unity
+    projectPath: Assets\Scenes\inceputExtensie.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\Library\ArtifactDB
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: AnimaleSalbatice\Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: AnimaleSalbatice\Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\gitlog.yaml
     projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: AnimaleSalbatice\Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: AnimaleSalbatice\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\Library\SceneVisibilityState.asset
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: AnimaleSalbatice\Library\SourceAssetDB
-    fullPath: C:\Users\Monica\OneDrive\Desktop\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\SourceAssetDB
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: AnimaleSalbatice\Library\StateCache\Hierarchy\6a784e-mainStage.json
+    fullPath: C:\Users\Monica\OneDrive\Desktop\facultate\an3_sem1\HCI\PowerpufUnicorns\AnimaleSalbatice\Library\StateCache\Hierarchy\6a784e-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\6a784e-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
